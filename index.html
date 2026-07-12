@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>GPT App</title>
+  <meta name="description" content="GPT — 可安裝的漸進式網頁應用（PWA）">
+
+  <!-- Open Graph：分享到 LINE / Facebook / Twitter 時的卡片顯示 -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="GPT App">
+  <meta property="og:description" content="GPT — 可安裝的漸進式網頁應用，開啟後可加入主畫面離線使用。">
+  <meta property="og:url" content="https://chobittso-ai.github.io/GPT/">
+  <meta property="og:image" content="https://chobittso-ai.github.io/GPT/icons/og-image.png">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <!-- PWA -->
+  <link rel="manifest" href="manifest.webmanifest">
+  <meta name="theme-color" content="#312e81">
+  <link rel="icon" type="image/png" sizes="192x192" href="icons/icon-192.png">
+  <link rel="apple-touch-icon" href="icons/apple-touch-icon.png">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="GPT">
+
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    :root {
+      --bg-top: #312e81;
+      --bg-bottom: #7c3aed;
+      --card: rgba(255, 255, 255, 0.10);
+      --text: #f5f3ff;
+      --text-dim: #ddd6fe;
+    }
+    body {
+      min-height: 100vh;
+      min-height: 100dvh;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        "PingFang TC", "Microsoft JhengHei", "Noto Sans TC", sans-serif;
+      background: linear-gradient(180deg, var(--bg-top), var(--bg-bottom));
+      color: var(--text);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      padding: 2rem 1.25rem calc(2rem + env(safe-area-inset-bottom));
+    }
+    .logo {
+      width: 96px;
+      height: 96px;
+      border-radius: 22px;
+      box-shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
+      margin-bottom: 1.5rem;
+    }
+    h1 { font-size: 2.5rem; letter-spacing: 0.05em; }
+    p.tagline {
+      margin-top: 0.75rem;
+      font-size: 1.05rem;
+      color: var(--text-dim);
+      max-width: 28rem;
+      line-height: 1.7;
+    }
+    .status {
+      margin-top: 1.25rem;
+      font-size: 0.85rem;
+      color: var(--text-dim);
+      background: var(--card);
+      border: 1px solid rgba(255, 255, 255, 0.15);
+      border-radius: 999px;
+      padding: 0.35rem 1rem;
+    }
+    #installBtn {
+      display: none;
+      margin-top: 2rem;
+      font-size: 1rem;
+      font-weight: 700;
+      color: #312e81;
+      background: #fff;
+      border: none;
+      border-radius: 12px;
+      padding: 0.9rem 2.25rem;
+      cursor: pointer;
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.3);
+      transition: transform 0.15s ease;
+    }
+    #installBtn:active { transform: scale(0.97); }
+    .hint {
+      margin-top: 1rem;
+      font-size: 0.8rem;
+      color: var(--text-dim);
+      opacity: 0.8;
+      max-width: 24rem;
+      line-height: 1.6;
+    }
+    footer {
+      margin-top: 3rem;
+      font-size: 0.75rem;
+      color: var(--text-dim);
+      opacity: 0.6;
+    }
+    footer a { color: inherit; }
+  </style>
+</head>
+<body>
+  <img class="logo" src="icons/icon-192.png" alt="GPT App 圖示">
+  <h1>GPT</h1>
+  <p class="tagline">這是一個漸進式網頁應用（PWA）。<br>可以直接在瀏覽器使用，也可以安裝到手機或電腦的主畫面，像原生 APP 一樣開啟。</p>
+
+  <div class="status" id="status">連線中…</div>
+
+  <button id="installBtn">📲 安裝到裝置</button>
+  <p class="hint">iPhone / iPad：用 Safari 開啟後，點「分享」→「加入主畫面」。<br>Android / 電腦 Chrome：點上方的安裝按鈕，或網址列右側的安裝圖示。</p>
+
+  <footer>
+    <a href="https://github.com/ChobitTso-ai/GPT" rel="noopener">GitHub 原始碼</a>
+  </footer>
+
+  <script>
+    // 顯示線上 / 離線狀態
+    const statusEl = document.getElementById('status');
+    function updateStatus() {
+      statusEl.textContent = navigator.onLine ? '🟢 線上' : '🔴 離線（快取模式）';
+    }
+    window.addEventListener('online', updateStatus);
+    window.addEventListener('offline', updateStatus);
+    updateStatus();
+
+    // 註冊 Service Worker（提供離線快取，也是可安裝的必要條件）
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('sw.js');
+    }
+
+    // Android / 桌面 Chrome 的安裝按鈕
+    let deferredPrompt = null;
+    const installBtn = document.getElementById('installBtn');
+    window.addEventListener('beforeinstallprompt', (e) => {
+      e.preventDefault();
+      deferredPrompt = e;
+      installBtn.style.display = 'inline-block';
+    });
+    installBtn.addEventListener('click', async () => {
+      if (!deferredPrompt) return;
+      deferredPrompt.prompt();
+      await deferredPrompt.userChoice;
+      deferredPrompt = null;
+      installBtn.style.display = 'none';
+    });
+    window.addEventListener('appinstalled', () => {
+      installBtn.style.display = 'none';
+    });
+  </script>
+</body>
+</html>
