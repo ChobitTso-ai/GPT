@@ -1,0 +1,20 @@
+{
+  "version": "2.1",
+  "date": "2026-11-12",
+  "tool": "內建imagegen局部編輯；Sharp只作WebP格式轉換",
+  "source": "public/opening-c-preview-v1/book-base.png",
+  "original": "public/opening-c-preview-v2/book-base-ivory.png",
+  "web": "public/opening-c-preview-v2/book-base-ivory.webp",
+  "size": [
+    1536,
+    1024
+  ],
+  "bytes": 2232173,
+  "webBytes": 233788,
+  "sha256": "D1DCCAD915062DB93EAEA338729C9780B06D428FD1F0BB17B034B9F044A8A3F9",
+  "webSha256": "98951B0AAF906C3F5ED690E1F18987CB83E7294E5C4C797D7102AA179FA2DD76",
+  "prompt": "Edit the attached book background plate. Make exactly ONE localized material/color change: replace ALL of the teal/green cloth book cover, including the thin outer rim, exposed spine/gutter cloth at top and bottom, and every teal edge around the book, with elegant WARM IVORY / LIGHT NATURAL FLAX linen. It must contain NO green, teal, turquoise or blue tint in the cover or binding. Use a subtly darker light-beige stitching/cloth weave so the ivory cover remains distinguishable from the cream paper and peach-ivory background. Preserve the precise original book shape, dimensions, all page edges, centered gutter, page positions, overhead orthographic camera, blank paper fibres, rounded corners, subtle shadows, lighting, background, full framing and resolution. Keep the existing warm cream paper exactly the same. Do not add or remove any book, page, stitch, trim or object. No text, pattern, drawing, symbol, gold ornament, hands, cropping, rotation or new scene. The only edited region is the currently green/teal cloth cover and binding; all surrounding areas stay unchanged. This plate must remain geometrically registered for the already-approved page-turn animation.",
+  "change": "綠色／青綠色書皮與書脊改暖米白亞麻布；未全圖濾色，保留內頁水彩綠色。",
+  "review": "已實看原圖，全圈外皮與書脊為米白／淺亞麻色，無青綠殘邊；開本、中央書脊、紙頁邊緣及背景構圖保持同尺度，可沿用既有紙頁定位。",
+  "mechanicsUnchanged": true
+}

@@ -1,0 +1,90 @@
+{
+  "version": "1.1",
+  "date": "2026-11-12",
+  "copyright": "© 2026 Tso KY - All Rights Reserved",
+  "protection": "Protected against reverse engineering and unauthorized modification",
+  "writer": "01a0411b-6348-7802-a849-5512704ce577",
+  "status": "2026-11-12使用者已退回：翻頁方式完全錯誤，並指出只見直接切換；本版保留歷史，不再視為可採用方案。",
+  "selectedReference": "封面候選/2026-11-12_三款新提案/C_明亮水彩冒險.png",
+  "tool": "內建imagegen依C款風格另製書本底材、透明山景及透明城門橋梁3張；未用計費API。",
+  "rights": "原創生成概念圖，未描摹第三方圖版。城門山河為裝飾想像，不指認真實城池、疆界或特定朝代；秦頁人物取用專案既有hero-qin-v3.png。",
+  "layers": [
+    {
+      "key": "Base",
+      "original": "book-base.png",
+      "web": "book-base.webp",
+      "width": 1536,
+      "height": 1024,
+      "alpha": false,
+      "bytes": 2248614,
+      "webBytes": 240798,
+      "sha256": "6FA5796151D4C20BB671DBA9F2736EA9EC3ED8BF3C879BE7DB61D2806853DFBF",
+      "webSha256": "61F6AC77069D43D1BCCFA48917C083B5EFD715FA911B80374CD763E09EDDBA2E",
+      "prompt": "Create a new animation background plate matching the attached C concept's tactile ivory paper, teal cloth binding, delicate watercolor storybook art direction. Use the attached image as STYLE REFERENCE, not a composition to preserve. ONE landscape 3:2 image: a beautiful Chinese cloth-bound picture book lying fully OPEN and FLAT, viewed EXACTLY from directly overhead, orthographic, zero camera tilt or rotation. Full book edges inside the frame, central straight gutter at precisely 50% image width. The two facing paper leaves are rectangular with softly rounded corners; left page x=10% to50%, right page x=50% to90%, page top y=13%, bottom y=87%. Both pages completely blank, warm pale ivory with subtle handmade fibres and a few fine irregularities, evenly lit. Thin page stack, understated teal cloth cover visible around the edges, clean pale ivory surrounding surface. This is the blank book plate for an actual paper-mesh animation, so NO text, symbols, title, map, illustration, mountains, bridge, city, trees, clouds, pop-up elements, hands, props, hard cast shadows, curled sheets or lifted page. Match the bright refined contemporary children's watercolor-book material, not an aged brown antique. Realistic matte paper and cloth, gentle diffuse daylight, no watermark or interface."
+    },
+    {
+      "key": "Mountains",
+      "original": "mountains.png",
+      "web": "mountains.webp",
+      "width": 1774,
+      "height": 887,
+      "alpha": true,
+      "bytes": 1974666,
+      "webBytes": 290560,
+      "sha256": "4598C2524DDF64710CF42D801568B68676C67A4599BBBEB2097C1C731464F216",
+      "webSha256": "E7D0A3BFE729829E5BD42321EB7066EAFC776506CAA3BF1BE2C752F9CA880AFF",
+      "prompt": "Create ONE isolated paper-theatre illustration asset for the attached C-style Chinese history storybook animation. The attached picture is STYLE REFERENCE. On a TRUE TRANSPARENT background: one coherent layered silhouette of three jade and turquoise Chinese shan-shui mountains with cream paper-cut edges and delicately painted watercolor texture, a tiny pale-blue winding river visible in the lower foothills. The mountain group is a single continuous folded-paper scenic insert viewed from straight in front, NOT an angled book or a whole scene. Gently uneven peaks, middle peak tallest, smaller hills either side, complete all peaks, generous transparent margins. The entire lower edge of the insert is a roughly horizontal paper base so it can hinge flat onto a page. Richly detailed fine ink and watercolor/gouache, matte handmade paper, same warm cream and luminous greens as the reference, sophisticated children's pop-up atlas style. NO book, page, desk, sky, rectangular background, people, city gate, buildings, bridges, clouds, stand, sticks, typography, letters, labels, watermark or drop shadow. Only the cutout mountain-and-foothill paper silhouette, completely isolated with real alpha transparency."
+    },
+    {
+      "key": "Gate",
+      "original": "gate-bridge.png",
+      "web": "gate-bridge.webp",
+      "width": 2172,
+      "height": 724,
+      "alpha": true,
+      "bytes": 1646943,
+      "webBytes": 194160,
+      "sha256": "25307D0FFEFDAD09EFEE6EE65A909B47134BB81490C6CB5EF3E07105385E8D20",
+      "webSha256": "26E1C65BEC4AB4E3C07C9C93618B2521C5834B9C7A821EDAFD8C6BAA7326B50C",
+      "prompt": "Create ONE isolated watercolor paper-theatre foreground insert for the attached Chinese history C-style storybook. STYLE REFERENCE only. TRUE TRANSPARENT background. Front-facing single coherent paper-cut silhouette: a small refined warm-ochre Chinese city gate with tiled orange roof on the RIGHT, a graceful low stone arch bridge over a little painted blue river at the LOWER LEFT, and a small pink flowering tree joining the two, a continuous shallow strip of pale green grass as the bottom edge. The group is wide and low, with generous transparent margins and its entire top and bottom visible. The gate and bridge are delicately painted matte cream-edged folded paper, fine ink outlines and soft watercolor/gouache, believable and exquisite contemporary children's pop-up book craftsmanship. The imagined architecture is decorative, not a claim about a particular dynasty or excavated city. One gate, one bridge, a single low tree; no extra buildings or mountains. NO book, pages, desk, rectangular background, sky, clouds, stands, sticks, text, labels, characters, people, weapons, modern objects, glowing effects, cast shadow or watermark. Only the complete isolated paper silhouette with real alpha transparency."
+    }
+  ],
+  "implementation": "固定底書與鏡頭；兩個透明紙景各自繞下緣折回，之後72條紙頁網格沿書脊彎曲翻過，分開正反面、折痕陰影，最後停在秦卷。不是整張照片翻轉或淡出。Canvas排入繁體文字。",
+  "animationDurationMs": 4300,
+  "video": {
+    "path": "封面候選/2026-11-12_C翻頁預覽/C_翻頁動畫.mp4",
+    "source": "真實瀏覽器Canvas錄製，非生圖影片",
+    "codec": "H264",
+    "width": 1440,
+    "height": 960,
+    "fps": 30,
+    "durationSeconds": 5.033333,
+    "bytes": 406893,
+    "sha256": "A7B6DBFA38409518C8C97ABA0BAC7FA5A468C460F301778C0BCF2B1EF058A9B2",
+    "processing": "Canvas captureStream→WebM；FFmpeg只作格式、尺寸及影格率轉換。"
+  },
+  "validation": {
+    "results": [
+      {
+        "viewport": "desktop",
+        "frames": 5,
+        "replayKeyboard": true,
+        "completed": true
+      },
+      {
+        "viewport": "mobile",
+        "frames": 5,
+        "replayKeyboard": true,
+        "completed": true
+      }
+    ],
+    "reducedMotion": true,
+    "pageErrors": [],
+    "syntax": "node --check preview.js通過",
+    "visual": "已目視桌機及手機的起始、中段與末段；修正第一版細碎漏影、底圖矩形邊與標題接近紙頁後重驗。",
+    "mainWebsiteUnchanged": 6,
+    "typeAndBuild": "未修改App/TS/CSS主程式，獨立靜態預覽沒有新的TS或打包入口，未重跑已通過主站建置；本輪不宣稱全測試通過。",
+    "starterDebt": 2
+  },
+  "previewPath": "/opening-c-preview-v1/index.html"
+}

@@ -1,0 +1,1753 @@
+{
+  "version": "1.0",
+  "snapshotDate": "2026-11-25",
+  "applicationVersion": "v1.8",
+  "sourceKind": "現行工作樹，含未提交變更",
+  "sourceHead": "7c96e5c1a0d50ae70693d55b5280012fddf575d5",
+  "sourceFileCount": 282,
+  "sourceTotalBytes": 428323362,
+  "targetDirectory": "chinese-history/",
+  "addedDeliveryFiles": [
+    "README.md",
+    "upload-manifest.json"
+  ],
+  "excludedDirectories": [
+    "node_modules",
+    ".git",
+    ".wrangler",
+    "dist",
+    ".vinext",
+    ".next"
+  ],
+  "excludedSourceFiles": [
+    "AGENTS.md",
+    "HANDOFF.md",
+    "public/encyclopedia-v18/qin-atlas.png",
+    "public/encyclopedia-v18/秦朝候選自檢.md",
+    "public/opening-c-preview-v1/book-base.png",
+    "public/opening-c-preview-v1/book-base.webp",
+    "public/opening-c-preview-v1/index.html",
+    "public/opening-c-preview-v1/preview.css",
+    "public/opening-c-preview-v1/preview.js",
+    "public/opening-c-preview-v2/index.html",
+    "public/opening-c-preview-v2/preview.css",
+    "public/opening-c-preview-v2/preview.js",
+    "public/opening-v18/book-spread-master.png",
+    "public/opening-v18/book-spread.webp",
+    "public/opening-v18/製作紀錄.md",
+    "地圖精緻化續作方案.md",
+    "封面候選/2026-11-12_C翻頁預覽/C_米白書皮_連續翻頁.gif",
+    "封面候選/2026-11-12_C翻頁預覽/C_米白書皮_連續翻頁.mp4",
+    "封面候選/2026-11-12_C翻頁預覽/C_翻頁動畫.mp4",
+    "封面候選/2026-11-12_C翻頁預覽/C_連續翻頁_v2.gif",
+    "封面候選/2026-11-12_C翻頁預覽/C_連續翻頁_v2.mp4",
+    "封面候選/2026-11-12_C翻頁預覽/動畫與提示詞.json",
+    "封面候選/2026-11-12_C翻頁預覽/米白書皮與提示詞_v2.1.json",
+    "封面候選/2026-11-12_C翻頁預覽/翻頁修正紀錄_v2.json",
+    "封面候選/2026-11-12_C翻頁預覽/首頁整合紀錄_v2.2.json",
+    "封面候選/2026-11-12_三款新提案/A_青綠山河典藏.png",
+    "封面候選/2026-11-12_三款新提案/A_青綠山河典藏.webp",
+    "封面候選/2026-11-12_三款新提案/B_朱砂燙金古籍.png",
+    "封面候選/2026-11-12_三款新提案/B_朱砂燙金古籍.webp",
+    "封面候選/2026-11-12_三款新提案/C_明亮水彩冒險.png",
+    "封面候選/2026-11-12_三款新提案/C_明亮水彩冒險.webp",
+    "封面候選/2026-11-12_三款新提案/候選與提示詞.json",
+    "封面候選/2026-11-12_三款新提案/挑選說明.md",
+    "百科重繪續作方案.md"
+  ],
+  "note": "build/sites-vite-plugin.ts 為必要原始碼，已包含。來源檔案不變；本清單及README為本次新增交付說明。未部署。",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 573,
+      "sha256": "e7b3aa92a8b48dfc98511521b9ed56600bc310e45c3d5272621d63890b90177b",
+      "gitBlobSha1": "230df6b1c87456139f41bf71313eaf5bf21fec98"
+    },
+    {
+      "path": ".openai/hosting.json",
+      "bytes": 91,
+      "sha256": "38da98d8c816675958e682303ed033fa068b7fa89282826d752c2d18f8c9b991",
+      "gitBlobSha1": "28556e76f43f831d57f60d5c6f0b462039a75065"
+    },
+    {
+      "path": "app/atlasCoast.json",
+      "bytes": 81003,
+      "sha256": "99ed695feb63cabf969f5f9cd63163982e5efc3dde9c2410024c994833bfef15",
+      "gitBlobSha1": "afb0d6bedc331a0d211f4b94038235a17a04b7f7"
+    },
+    {
+      "path": "app/atlasProjection.ts",
+      "bytes": 2639,
+      "sha256": "e183e6d943142067599a711a58ebeef10069f468b8c83e16a3893adefcad95dd",
+      "gitBlobSha1": "ebe86534816db72c542c29ae171ca42a0027c1d6"
+    },
+    {
+      "path": "app/atlasReferenceRivers.json",
+      "bytes": 17474,
+      "sha256": "51bf35ed544418e6e49e0c4f04328ce30e15f0b2c8ac87e88f1fde52cc81d839",
+      "gitBlobSha1": "482988f1efa7e889c2f17dcd6d9328402b9b878d"
+    },
+    {
+      "path": "app/chatgpt-auth.ts",
+      "bytes": 2490,
+      "sha256": "1407f614cc83d7049fdb08cd713d2516866ba58e24e820f7f4fd9d718b9d3007",
+      "gitBlobSha1": "96c00ff1c40c84222830513c69073d04655c3f21"
+    },
+    {
+      "path": "app/eastAsiaMap.ts",
+      "bytes": 58999,
+      "sha256": "eaee97df3712ec169d85b2efe9026625f3baf63b2f17454d6c39fe6259195979",
+      "gitBlobSha1": "e357678ab1b6c0e20632c01309b05fa58406c4d2"
+    },
+    {
+      "path": "app/equipmentRedraws.json",
+      "bytes": 17888,
+      "sha256": "1f831584530ebec9ecb7038d04849cd2bb2995cb8f4dc77d8a13e4f539fb65ea",
+      "gitBlobSha1": "8f8ea9b5b6e3d05eee0e1f05b9c143ceb5b63233"
+    },
+    {
+      "path": "app/globals.css",
+      "bytes": 90606,
+      "sha256": "d924417329147b9f0e1814e96cea894e03b01eb0f914b7f928fa22ac83eab1b2",
+      "gitBlobSha1": "edd314ed5499d771fa34e449da6b9cada52f3836"
+    },
+    {
+      "path": "app/historicalMapSites.ts",
+      "bytes": 1403,
+      "sha256": "86bc81a58419e010ba7582410f70e7ec6d4ba9c84b6e099f4418f27e9703466b",
+      "gitBlobSha1": "cb273b65e6daaf16a5ff2a8b13ca1a77860327a0"
+    },
+    {
+      "path": "app/layout.tsx",
+      "bytes": 1154,
+      "sha256": "f431a0ca685b0fa03a37541894079ac53b42cf3a0cd1847093a0111771e898cc",
+      "gitBlobSha1": "153514adb862bfc323827192f2a4c92e168e5dca"
+    },
+    {
+      "path": "app/mapLabels.ts",
+      "bytes": 1926,
+      "sha256": "3ccfaea57eb157bf06b0c859948f06ae847b77f372de1f38d4dd19d1de9a4f93",
+      "gitBlobSha1": "8bf1cb6ad063569bad0eb6cc5567051fca70727c"
+    },
+    {
+      "path": "app/mapSnapshots.json",
+      "bytes": 849894,
+      "sha256": "83141166bee85152356a75c17a456d1315d335b68fdcaf4de91c806d51ea09ef",
+      "gitBlobSha1": "81cabe458f47d2de6fd57fb6ef59d66fc1b131af"
+    },
+    {
+      "path": "app/militaryRedraws.json",
+      "bytes": 75216,
+      "sha256": "db79dcfa706ee8be87713eb7f88254ddc013644f2d58f36f3c175d3498204376",
+      "gitBlobSha1": "4b0cbe53014b4bcb23ab3a5d195908c0ae59acf8"
+    },
+    {
+      "path": "app/OpeningBook.tsx",
+      "bytes": 8468,
+      "sha256": "18ac7299a6d11491328de2d23ac6ccce5e40b766a1ac739b57ed71eb57935a81",
+      "gitBlobSha1": "d3ae1c55f53ded936c96051fa3b2e7e1b39261aa"
+    },
+    {
+      "path": "app/page.tsx",
+      "bytes": 87462,
+      "sha256": "bb8449c79387ab4e75655ffd820b483d0638d153403f68d5584b39e7716ae0f6",
+      "gitBlobSha1": "d2260c42c512aeefe281b89195e75fe1ffb509fd"
+    },
+    {
+      "path": "db/index.ts",
+      "bytes": 436,
+      "sha256": "effa59e46bcbb42dfb7b46911e809a1de0f2c37df1fd935e3dca89023eaf97e4",
+      "gitBlobSha1": "4511eb904ccac8be454d871b39a211f78cba8f07"
+    },
+    {
+      "path": "db/schema.ts",
+      "bytes": 173,
+      "sha256": "48b4f7fafee1f2720b8977ba31bc0cf03dedb7ea8826c4bcbc8dfd74f2d8744f",
+      "gitBlobSha1": "c88d0f33ecc94e1f18586e085e12110b6064e098"
+    },
+    {
+      "path": "drizzle/meta/_journal.json",
+      "bytes": 66,
+      "sha256": "5a5f57f8f48fcf1d065725c0f3dab19e590e96e7e1e5bf8ddff17339a0de8d9a",
+      "gitBlobSha1": "7d14c1d6cc26d9a29be80563aef90f6ba2bbbc3d"
+    },
+    {
+      "path": "drizzle.config.ts",
+      "bytes": 155,
+      "sha256": "73d0807c58e541dc3eaf175909fb5acc966faed61f74ff659d9d55027bf3e25b",
+      "gitBlobSha1": "5ce51eb1685ed60efa80a06e7ca5846ee9c02dcb"
+    },
+    {
+      "path": "eslint.config.mjs",
+      "bytes": 483,
+      "sha256": "275a07c13fc7c83a652efcfa9fb6a207c451a2f5088e6793415ce44281285720",
+      "gitBlobSha1": "88d5fc36c2baabf68ff6a90f6b49ab0fd92729ca"
+    },
+    {
+      "path": "examples/d1/app/api/notes/route.ts",
+      "bytes": 1758,
+      "sha256": "b0b134b9b0b4a9f5947abbd13fd4425b88b59c64f91db1aacb0cecbc16c38f45",
+      "gitBlobSha1": "f97297e0defd952d3d78141832bc5919e3f7fed2"
+    },
+    {
+      "path": "examples/d1/db/schema.ts",
+      "bytes": 379,
+      "sha256": "1acd70317bcaf22cb140436fb47754c2144e7c2adfc59a3f427ecb1d816fa0f3",
+      "gitBlobSha1": "1f93d5865c34704d05c1cc766db395c752d93870"
+    },
+    {
+      "path": "next.config.ts",
+      "bytes": 140,
+      "sha256": "a972c4f0ffa6dd714e7909b02d1ac19d2f2fe3d01f191efd2c5054bd6f142ec1",
+      "gitBlobSha1": "f20f687ea82d04267354d1b506d7af1bcdb1d3c3"
+    },
+    {
+      "path": "package-lock.json",
+      "bytes": 389420,
+      "sha256": "d70577da277c108b56dd6820233a7072b78adceae331f91633ac54a8f797e3d5",
+      "gitBlobSha1": "a03142cde6ca35ea4b2668487f11b93e376c68b8"
+    },
+    {
+      "path": "package.json",
+      "bytes": 1135,
+      "sha256": "ea1c6641963f27498418ad1c87fe37df2a7a095b29276d4d18f29a782a084f93",
+      "gitBlobSha1": "5c2b784632e83737439df15b26d233dcfe81089a"
+    },
+    {
+      "path": "postcss.config.mjs",
+      "bytes": 101,
+      "sha256": "7b299d3d3b16699ddda397c0b2373b3af4f25f8fc9ccc9b3d9e64ef083bc1c21",
+      "gitBlobSha1": "bc52b4a02b49adefd8cbb84b323fd0362236915a"
+    },
+    {
+      "path": "public/book-opening-v2.png",
+      "bytes": 2663350,
+      "sha256": "74218353b18dda4b11acef93e3170d04056f40399f84d215657e619b49fd0c5e",
+      "gitBlobSha1": "ccbb329cded76e8eb20af3957dba19e546a7669f"
+    },
+    {
+      "path": "public/cavalry-eras-v16.png",
+      "bytes": 3813181,
+      "sha256": "43d6b881299c0137a341cb093d1c34a192e50009d3e5c57c5c82c21027ba9b84",
+      "gitBlobSha1": "07d636476cf6b69f856949c19e4125f75bdb5bc4"
+    },
+    {
+      "path": "public/encyclopedia-v18/chu-han-archers-v1.png",
+      "bytes": 3431435,
+      "sha256": "bb3c9f10f540a92ab12766225f3eaeced0e9634494e06ff9b82a9555a1e55dde",
+      "gitBlobSha1": "a2a7c5938d9fd7b0576ff757f79c4037909776af"
+    },
+    {
+      "path": "public/encyclopedia-v18/chu-han-archers-v1.webp",
+      "bytes": 350352,
+      "sha256": "ba5d0b01e6577da7c1f0432abc7385a953aa308348c47171dff1e6f17591e3ea",
+      "gitBlobSha1": "e0dd765fdd93bf8d75eb12408a99182c84715cd4"
+    },
+    {
+      "path": "public/encyclopedia-v18/chu-han-cavalry-v1.png",
+      "bytes": 3438990,
+      "sha256": "0bb1fb0583e78de9726e3e636d5f654d527428324dac50487124131291edd8e3",
+      "gitBlobSha1": "18457eff64482d8990c7edee1e8ac9df02430202"
+    },
+    {
+      "path": "public/encyclopedia-v18/chu-han-cavalry-v1.webp",
+      "bytes": 353646,
+      "sha256": "5210c7553cef2018d892964017c287e91f8fb862d28e1cd51cc93eb76fb3b64e",
+      "gitBlobSha1": "80209dcfbb73f4cba67c32a82cc7e8f071d34e2c"
+    },
+    {
+      "path": "public/encyclopedia-v18/chu-han-siege-v1.png",
+      "bytes": 3838813,
+      "sha256": "7ba2b13a1083cca70f08c6776cc15cafee342fd6de6da2e45633c6cf47d8d90a",
+      "gitBlobSha1": "932a680e68faef7b16bf733179445621b07e81bc"
+    },
+    {
+      "path": "public/encyclopedia-v18/chu-han-siege-v1.webp",
+      "bytes": 426360,
+      "sha256": "413a5ce4656ba58cfc4de8863695483e9bdd0bb0d53482b6e2b658217adc754a",
+      "gitBlobSha1": "c8bbad501c9f3f66d95755a35eeedd1452310569"
+    },
+    {
+      "path": "public/encyclopedia-v18/chu-han-supply-v1.png",
+      "bytes": 3787109,
+      "sha256": "5c93619d6edcf3b0e5ca11947db955752fcf0c4c76d271f4e010a266f6d0f3c7",
+      "gitBlobSha1": "1d37052bea1d051dcc92ab5ff1e3b8741525cad6"
+    },
+    {
+      "path": "public/encyclopedia-v18/chu-han-supply-v1.webp",
+      "bytes": 411578,
+      "sha256": "190606245397b1c860164ce099788820287c2b6a77e4eb91e8fd0bee33c4f59a",
+      "gitBlobSha1": "9d489461b1812453ef79a56feb49fa26688f3bfc"
+    },
+    {
+      "path": "public/encyclopedia-v18/east-jin-armored-v1.png",
+      "bytes": 3481495,
+      "sha256": "e71abc35c64c59d7632c9ca97466ccf26cebeffa7bf7f416dfa0a85def78a65c",
+      "gitBlobSha1": "cde9a3baab21ea606edb670d6d5d16d57040328e"
+    },
+    {
+      "path": "public/encyclopedia-v18/east-jin-armored-v1.webp",
+      "bytes": 344964,
+      "sha256": "fb5c98219ebb3486f3c15bdc2dd6b250f3f73229a678b8a09fbf294ddeb73457",
+      "gitBlobSha1": "12fd420dfca1d0a3b21d68b89741c5e192ff7937"
+    },
+    {
+      "path": "public/encyclopedia-v18/east-jin-fei-coordination-v1.png",
+      "bytes": 3581693,
+      "sha256": "e1c68287a41f2a32ecdf181e99c4a647630cb6a5bb809ad978de679a6b502756",
+      "gitBlobSha1": "0af1e355d3514689012f73754b1cfe18fcbf56df"
+    },
+    {
+      "path": "public/encyclopedia-v18/east-jin-fei-coordination-v1.webp",
+      "bytes": 366374,
+      "sha256": "013f11282fd5ba334fe5ac83fa390f264e0c500d7d040d0e58c3bcd809a7bf76",
+      "gitBlobSha1": "88b6e2a6b78a14219dffbbfd24906128ee01c622"
+    },
+    {
+      "path": "public/encyclopedia-v18/east-jin-river-defense-v1.png",
+      "bytes": 3851639,
+      "sha256": "d47682ed4707bede45fde3bdf110f99e09006930aa1a1bfff03630eaba7b1721",
+      "gitBlobSha1": "ce37bb14cff3c79372d3118e8d7ab34cdd8a2a36"
+    },
+    {
+      "path": "public/encyclopedia-v18/east-jin-river-defense-v1.webp",
+      "bytes": 419458,
+      "sha256": "551e639665ec4af417c1e41647fbcf3abd03acb08d404a1cd40ecf5f63c846b3",
+      "gitBlobSha1": "4ea59773db4098fb09f98334a167336a0ee3dfda"
+    },
+    {
+      "path": "public/encyclopedia-v18/east-jin-xia-fort-v1.png",
+      "bytes": 3922798,
+      "sha256": "9198e7f4f589de9c5cc43d029e6010b188235bb027dcc5929a4bd8c345d7392b",
+      "gitBlobSha1": "a834b34439388154c1171630af2de972fa69ada2"
+    },
+    {
+      "path": "public/encyclopedia-v18/east-jin-xia-fort-v1.webp",
+      "bytes": 427756,
+      "sha256": "ee5ae3808d2755bb6a127f735f2bc5cf1aebc78277b394063a07fe0ac7959f4e",
+      "gitBlobSha1": "7206d588cc5ea060977fb8351d1dddd17115d482"
+    },
+    {
+      "path": "public/encyclopedia-v18/eastern-han-cavalry-v1.png",
+      "bytes": 3253696,
+      "sha256": "a8a3ca1164983b4ed42244027cd71b7ebb1c7037b61acf90fddfa075db3e40df",
+      "gitBlobSha1": "bd160c4bb1654f9f7eee9dfa905531ed7aaa9298"
+    },
+    {
+      "path": "public/encyclopedia-v18/eastern-han-cavalry-v1.webp",
+      "bytes": 298538,
+      "sha256": "e115bf64387873f4955e1a277ccc009de96a06c98e452409943984124f82b64e",
+      "gitBlobSha1": "f03823e70d4da1f028755c4d617699b5e28ff3c4"
+    },
+    {
+      "path": "public/encyclopedia-v18/eastern-han-fort-v1.png",
+      "bytes": 3595837,
+      "sha256": "2cf429f4589ae3e0d2b2679382dce47f667a356a0d54e9002d7ee412fa3303d2",
+      "gitBlobSha1": "27cfa4d8f8460bd62ae17f7a77b24b0802e197a9"
+    },
+    {
+      "path": "public/encyclopedia-v18/eastern-han-fort-v1.webp",
+      "bytes": 388316,
+      "sha256": "c3ecfdc95506ad924b2ec07e3293045aab08baae8aa13007fceef451a89c4dec",
+      "gitBlobSha1": "c99ce2c36d464937c4acece70b92d602f1a0e168"
+    },
+    {
+      "path": "public/encyclopedia-v18/eastern-han-infantry-v1.png",
+      "bytes": 3637357,
+      "sha256": "5f083c8a2ccd12fc31093e759f83dc6c7a5f9b2ce7383835028cf3e136cba262",
+      "gitBlobSha1": "1f924f95f50e2ef15e9e934a2192227a060749fd"
+    },
+    {
+      "path": "public/encyclopedia-v18/eastern-han-infantry-v1.webp",
+      "bytes": 373428,
+      "sha256": "e5c9e1f2335e2603b939ce78b5518e5f046375f2f50dc4de02f2e50594a84c6e",
+      "gitBlobSha1": "acbe34d07f1c54fddec9845007b524640996ef7d"
+    },
+    {
+      "path": "public/encyclopedia-v18/eastern-han-militia-v1.png",
+      "bytes": 3971134,
+      "sha256": "2a5d5165fa7b103efd9a775d4e92c0728bd30349aaf16f7a84351df0ab3336ee",
+      "gitBlobSha1": "1f7a6ac17272f9293f53cc89ff8b1ba17a5ad55b"
+    },
+    {
+      "path": "public/encyclopedia-v18/eastern-han-militia-v1.webp",
+      "bytes": 443096,
+      "sha256": "a13a5ff46add50beef6f1b71750064e420d97e192a889bf06171c3e2c4066577",
+      "gitBlobSha1": "462b717f2fd9f81813299471613fef9003708490"
+    },
+    {
+      "path": "public/encyclopedia-v18/equipment-han-beacon-duty-v2.png",
+      "bytes": 3331325,
+      "sha256": "ce9a6a4c0f43a0fdc5caaff522b75d0fa4e119f3fff1402d446ee3b176b762e5",
+      "gitBlobSha1": "7cd4cdb7025637ae0e4b49fde72a721c96a0a2d4"
+    },
+    {
+      "path": "public/encyclopedia-v18/equipment-han-beacon-duty-v2.webp",
+      "bytes": 322414,
+      "sha256": "3ce1784180851ad616014e8f5fd9055ccab0529aea9a779a9ac4722e1217856e",
+      "gitBlobSha1": "e6ed9cfaa11d1f821fd7ecc1bba0099bddd0db18"
+    },
+    {
+      "path": "public/encyclopedia-v18/equipment-han-mounted-archery-v1.png",
+      "bytes": 3437650,
+      "sha256": "b07fa4fd6937c3fb5836a34ca470d752e3ba2afeed2ce5aef167a69bf7b16e37",
+      "gitBlobSha1": "45dc2bc028f0827567f8acb3307b9825c815a76c"
+    },
+    {
+      "path": "public/encyclopedia-v18/equipment-han-mounted-archery-v1.webp",
+      "bytes": 337190,
+      "sha256": "19c1978949abc0a5dec4a15972611de0abe57047a3e45d119e01e3799947595f",
+      "gitBlobSha1": "587be5cea55b56265861bb5014bf09a8a3d37584"
+    },
+    {
+      "path": "public/encyclopedia-v18/equipment-mark-i-tank-1916-v2.png",
+      "bytes": 3069220,
+      "sha256": "2f84fd1b8a05a7da1068ae618bb8177167f6afb84408febb6db83cd489440d4e",
+      "gitBlobSha1": "1bf5ebcd746a32da1d1a763869f10d2cb075baf5"
+    },
+    {
+      "path": "public/encyclopedia-v18/equipment-mark-i-tank-1916-v2.webp",
+      "bytes": 272876,
+      "sha256": "3fed79bc6a97184bcc8f7fe211e73f2b9c32496f2e20ba57fb3731e5d9f2ec4a",
+      "gitBlobSha1": "b864a15d06c27dd0f21e0153714fa8b1d6b15e2e"
+    },
+    {
+      "path": "public/encyclopedia-v18/equipment-ming-guangchuan-stern-v2.png",
+      "bytes": 3249852,
+      "sha256": "6e9cd17743f15a6e5b20bc8e4e2bdf046ac4cdb3c27060233b59b3a1838bd3cf",
+      "gitBlobSha1": "6df70d583cbe045e2bd7e512618abd56040b46e7"
+    },
+    {
+      "path": "public/encyclopedia-v18/equipment-ming-guangchuan-stern-v2.webp",
+      "bytes": 311030,
+      "sha256": "f5d9a9222ff9d2c10e6486c246c333ff0119073712d74d2d431b38e9c38d9667",
+      "gitBlobSha1": "7f3a82f4fd9ee2d2798ff6deea8a33aa6d837389"
+    },
+    {
+      "path": "public/encyclopedia-v18/equipment-ming-rattan-langxian-still-v1.png",
+      "bytes": 3427779,
+      "sha256": "dac2120d38770f8b53c6e46737d23de698e49daad43b0d8a6170ac6d09444a88",
+      "gitBlobSha1": "df5e146f929be01b9fc8855663b103673be64c95"
+    },
+    {
+      "path": "public/encyclopedia-v18/equipment-ming-rattan-langxian-still-v1.webp",
+      "bytes": 347892,
+      "sha256": "ad1584299e3cbf1419be1206978a2723b0779d4ebea4d33073810e5ac8c82b4e",
+      "gitBlobSha1": "e9286dc7b724e18bef75e472267b7669ac769fb4"
+    },
+    {
+      "path": "public/encyclopedia-v18/equipment-ming-yongle-handcannon-v1.png",
+      "bytes": 2701958,
+      "sha256": "e5c02f2b6524a17b552bf7a66d00b18a4e753b446b2e68866f8b991cfb12aff0",
+      "gitBlobSha1": "e8b62c5a9ee329345c3f00a284d79546bd75672e"
+    },
+    {
+      "path": "public/encyclopedia-v18/equipment-ming-yongle-handcannon-v1.webp",
+      "bytes": 173986,
+      "sha256": "9f398df6a7ccfc7b97366a1026265f0213e6a2ac42ac5dac61517e4748ff9cf3",
+      "gitBlobSha1": "f9e939e74bd7cab3739e1975d47aa9b33c42e11f"
+    },
+    {
+      "path": "public/encyclopedia-v18/equipment-muniuliuma-hypothesis-v1.png",
+      "bytes": 3305759,
+      "sha256": "4b8b99618d01bfc23925f82d49e3860ec945037bc648ed557c5738be98a30388",
+      "gitBlobSha1": "43b77aec44ce004822b4f1bc3921395cb4bbf531"
+    },
+    {
+      "path": "public/encyclopedia-v18/equipment-muniuliuma-hypothesis-v1.webp",
+      "bytes": 316676,
+      "sha256": "0d90ddef44f421c3afe522d1dd08d6042104c805ec555734ee25c8b8e4217640",
+      "gitBlobSha1": "f07d2f335d02c04f4f8d02edf714a46ec90a7faa"
+    },
+    {
+      "path": "public/encyclopedia-v18/equipment-northern-wei-armour-pair-v1.png",
+      "bytes": 3253228,
+      "sha256": "699d83a8ee965c46ec9779bb9052e3d64c914c40d9fd3aa2ea83aa18eaf3e23d",
+      "gitBlobSha1": "87c1f668afff28faf7df9cf04fbfaa3cbf5cd3dc"
+    },
+    {
+      "path": "public/encyclopedia-v18/equipment-northern-wei-armour-pair-v1.webp",
+      "bytes": 286706,
+      "sha256": "c9e4d8e2d59c8efd9140c9e1803d9e2b58d2f0aad6da83518e60703c528f730c",
+      "gitBlobSha1": "4041aca3025bf68ca564bfdd77796b3322c58f99"
+    },
+    {
+      "path": "public/encyclopedia-v18/equipment-qin-crossbow-bearer-v3.png",
+      "bytes": 3282119,
+      "sha256": "1cb25e41917793914dfaf9fe0e1fc6540db8b6cb73d8d314f840554ba09b2b5a",
+      "gitBlobSha1": "d8adc88b318562abcbf547b0afdef75ade893919"
+    },
+    {
+      "path": "public/encyclopedia-v18/equipment-qin-crossbow-bearer-v3.webp",
+      "bytes": 317530,
+      "sha256": "917234be06a970860d294ab2809c86aa356857328dd6896e53f96c9e209001bb",
+      "gitBlobSha1": "fb99c8ab8e08972381db7d1dee53c0dd3b5f91b8"
+    },
+    {
+      "path": "public/encyclopedia-v18/equipment-qin-fourhorse-harness-v1.png",
+      "bytes": 3550113,
+      "sha256": "4fd9284e57bc681f807729f3ce18501cdec3b0766149dd1816bf0387e5e7dd96",
+      "gitBlobSha1": "c9019932e7c3f718347a1049e926afdab0da0b74"
+    },
+    {
+      "path": "public/encyclopedia-v18/equipment-qin-fourhorse-harness-v1.webp",
+      "bytes": 361908,
+      "sha256": "ad3a1231524f2a10a591d9d39e4a4d16f3966daf8764c69245b62814c336cb6e",
+      "gitBlobSha1": "b2d1746ca340c6bd31ac70691ea6b465f49dec50"
+    },
+    {
+      "path": "public/encyclopedia-v18/equipment-qing-mauser1871-carbine-v1.png",
+      "bytes": 3260505,
+      "sha256": "cfd384ea69cab7a1eb42ce5ef203e1267b59fcf7fe4deab94ca602dfb2af88c9",
+      "gitBlobSha1": "120e806bbd628c0f9906698aaecacdda65112700"
+    },
+    {
+      "path": "public/encyclopedia-v18/equipment-qing-mauser1871-carbine-v1.webp",
+      "bytes": 281340,
+      "sha256": "cbe81b8cc139b17993f1660f8e811b8772df169634a0748312b5fe03581a2d1e",
+      "gitBlobSha1": "40a3fefe544e1af0ced02c079335edfd05ad26b3"
+    },
+    {
+      "path": "public/encyclopedia-v18/equipment-qing-pingyuan-coastdefence-v1.png",
+      "bytes": 3459029,
+      "sha256": "d30c343e7e0288c22ca27091380ab329330d0db7b10a866bc28cd36ef1d0efb3",
+      "gitBlobSha1": "57fd442ba49a03bec51a61b97ebd52c1bfaa562b"
+    },
+    {
+      "path": "public/encyclopedia-v18/equipment-qing-pingyuan-coastdefence-v1.webp",
+      "bytes": 337116,
+      "sha256": "7be8d826b507058e596b8f651ba1dad87b6ded79108b3a0d75dcc5dbe10d72b0",
+      "gitBlobSha1": "e6a2e216ab75d95ac8dede21c40abb64135d5441"
+    },
+    {
+      "path": "public/encyclopedia-v18/equipment-song-incendiary-arrows-v1.png",
+      "bytes": 3465068,
+      "sha256": "b5ef37d8592581bede3db139f5c82ccf3bfb40ba48b25bba444795aba0443afb",
+      "gitBlobSha1": "5aa41c342dacad0878958291841492bccc37c4be"
+    },
+    {
+      "path": "public/encyclopedia-v18/equipment-song-incendiary-arrows-v1.webp",
+      "bytes": 319948,
+      "sha256": "06273adec1fefe94898b111f8c2895991a87121b2ebe483b134a7e71aa49fcb6",
+      "gitBlobSha1": "1ce7bb12c84d46f3d75dc031fc35767838b299fc"
+    },
+    {
+      "path": "public/encyclopedia-v18/equipment-song-traction-store-v1.png",
+      "bytes": 3298994,
+      "sha256": "c6120cc904e69aef4305f7df4709c030cb4f68e94fd8770fbeb4d3e97506c3a1",
+      "gitBlobSha1": "1a4b876929244719f0077d2bd662176267d321e8"
+    },
+    {
+      "path": "public/encyclopedia-v18/equipment-song-traction-store-v1.webp",
+      "bytes": 302286,
+      "sha256": "84ea3ca939fe7b0024190119bc262e822cfce54063de54091cf4a6afc6d90ef3",
+      "gitBlobSha1": "f9916a1f8bd6798690fa45183f768b02c556ea7b"
+    },
+    {
+      "path": "public/encyclopedia-v18/equipment-south-asian-elephant-armour-v1.png",
+      "bytes": 3567205,
+      "sha256": "d34da73fd915a5f3d38d4b26c04b01cb41552cacdcb542666c7db4a595d4ed6f",
+      "gitBlobSha1": "86f9aa797ce60e49de4ab10b393c34961924ac8d"
+    },
+    {
+      "path": "public/encyclopedia-v18/equipment-south-asian-elephant-armour-v1.webp",
+      "bytes": 363458,
+      "sha256": "3d24685c9f4b437e1937780becbe8aceb1a5c50461fb2eed80f9b8e1e52d4d4b",
+      "gitBlobSha1": "20c786d7be104eedac51842319b7aa7f0dbae38e"
+    },
+    {
+      "path": "public/encyclopedia-v18/equipment-southern-song-paddle-bow-v1.png",
+      "bytes": 3471873,
+      "sha256": "aff6f5f150901c0b1ea761c520369e1946b48be782a6cac62a2ba0b22ba55dd9",
+      "gitBlobSha1": "b463db39069838547b80186d74c2570c3c3c4d16"
+    },
+    {
+      "path": "public/encyclopedia-v18/equipment-southern-song-paddle-bow-v1.webp",
+      "bytes": 345956,
+      "sha256": "4a2232c72dd6a3c34be7d3d8fcbc13ba4e309424a92d339fb80b2bb3ece36e49",
+      "gitBlobSha1": "17a62606cfb1284eba8e6a038a1f6ec33c6e92b4"
+    },
+    {
+      "path": "public/encyclopedia-v18/equipment-tang-cavalry-watering-v1.png",
+      "bytes": 3380783,
+      "sha256": "f8faf362494ba4236c1b5dd5b873cd1a2c6353db65ff3de04a11003d62b33602",
+      "gitBlobSha1": "ac6d976b1b91a645505a42436f122e0b5c211de3"
+    },
+    {
+      "path": "public/encyclopedia-v18/equipment-tang-cavalry-watering-v1.webp",
+      "bytes": 319884,
+      "sha256": "8b4bfdb626c0cfa7da24ade936af190c833ff5f6bbce678a8283c9882a785905",
+      "gitBlobSha1": "797db242370288fd5c24f74e1166afb889be6fa2"
+    },
+    {
+      "path": "public/encyclopedia-v18/equipment-yuan-counterweight-front-v3.png",
+      "bytes": 2707562,
+      "sha256": "707c02c0bd5471a7bae3128b65210c32e1a7e77c87001440d7c497a9764dd4fb",
+      "gitBlobSha1": "44753473f6ebb37f45559244669b944f472ae638"
+    },
+    {
+      "path": "public/encyclopedia-v18/equipment-yuan-counterweight-front-v3.webp",
+      "bytes": 189276,
+      "sha256": "cf1bec8ba83dcd703554145b4e0c1f1d44f6de8a81e6ca5a954fd7b1226c514d",
+      "gitBlobSha1": "87a6d1397913976e9c4e908f9928b842b1fc6cea"
+    },
+    {
+      "path": "public/encyclopedia-v18/five-ten-former-shu-city-v1.png",
+      "bytes": 3685222,
+      "sha256": "464be236b8b528c18edb1c80618e51e95e7b49a5222481f6adc369bf5a6df036",
+      "gitBlobSha1": "ee7454cae2a247c50a7f1bf22758e04534a266d7"
+    },
+    {
+      "path": "public/encyclopedia-v18/five-ten-former-shu-city-v1.webp",
+      "bytes": 398196,
+      "sha256": "094880a592b23cad3df26fb829968e50a1a142828fd1689cd0020c3c61d8dd8a",
+      "gitBlobSha1": "5654c551b43e9ce6cd50e6bab350467576d46126"
+    },
+    {
+      "path": "public/encyclopedia-v18/five-ten-southern-tang-archer-v1.png",
+      "bytes": 3519414,
+      "sha256": "aea745238edc805fb80fe3722485bb4b587fadb391ced7b4287f1eafc7ed9736",
+      "gitBlobSha1": "0f05dea4a561046a799342aead6ca8447e1aee8c"
+    },
+    {
+      "path": "public/encyclopedia-v18/five-ten-southern-tang-archer-v1.webp",
+      "bytes": 348364,
+      "sha256": "2205175b36ce6ab6bd8e2ff73889e9090354cf32c4f4937ac6150e5e7d76d434",
+      "gitBlobSha1": "7e1916e5b076af3f3933de90f5afad423414d55f"
+    },
+    {
+      "path": "public/encyclopedia-v18/five-ten-wuyue-scout-boat-v1.png",
+      "bytes": 3691904,
+      "sha256": "39a02ba8442a328f3533f93009a30bb820b1bd12500aea50c42015b4916bd8ee",
+      "gitBlobSha1": "aaf1d6a28ada01b619439549721a0712a37cf971"
+    },
+    {
+      "path": "public/encyclopedia-v18/five-ten-wuyue-scout-boat-v1.webp",
+      "bytes": 388322,
+      "sha256": "c11c947644ebea86d0c5f6668b33c2c5c8bb9ee081ff54b49443102d5a19772b",
+      "gitBlobSha1": "f560708736a56268470b2484464eadf6467ac24e"
+    },
+    {
+      "path": "public/encyclopedia-v18/five-ten-zhou-cavalry-v1.png",
+      "bytes": 3538210,
+      "sha256": "cf6fc54372997001985a742a385bc6fcf02ebcafc2e674f4d39eb508722ee64c",
+      "gitBlobSha1": "3b29b18666e6d0bfee2b5ed262b10f7399c5454a"
+    },
+    {
+      "path": "public/encyclopedia-v18/five-ten-zhou-cavalry-v1.webp",
+      "bytes": 368808,
+      "sha256": "9feece9a9974804c8b65dba4754531018ffdc99a30f294d4b2442ab19317c8bf",
+      "gitBlobSha1": "1094180c5f452c8594ffb5db689dd0861731a36e"
+    },
+    {
+      "path": "public/encyclopedia-v18/jin-armored-guard-care-v2.png",
+      "bytes": 3228067,
+      "sha256": "0c161a79f5c62ee7b65b01e52050698aa104873df2ed7102772df9290a3abb5c",
+      "gitBlobSha1": "5db00e5c1c30a134481ddc4f578dde7708f3b62f"
+    },
+    {
+      "path": "public/encyclopedia-v18/jin-armored-guard-care-v2.webp",
+      "bytes": 334324,
+      "sha256": "f363ed4fd764d66bb418d59868bede96a77c16261ef314fc075dac4468f2dc37",
+      "gitBlobSha1": "79951ba2dbf23461638f66351e23038d7061e31b"
+    },
+    {
+      "path": "public/encyclopedia-v18/jin-bow-spear-roles-v1.png",
+      "bytes": 3190819,
+      "sha256": "b9fac263bf9b317f1b0a87df2f7c0735c1fcb7334d11635b22419c47c3475695",
+      "gitBlobSha1": "d49d87f7f8eddb962db852826c5499b3e78721b1"
+    },
+    {
+      "path": "public/encyclopedia-v18/jin-bow-spear-roles-v1.webp",
+      "bytes": 283414,
+      "sha256": "15b59c96bd91c9d7b483d03ae6df8648bfaaa486dba78a8b1af530a35290cf08",
+      "gitBlobSha1": "d4f8f82b7c72ebf73b3480f70bb2a065809c39d4"
+    },
+    {
+      "path": "public/encyclopedia-v18/jin-iron-fire-pot-v1.png",
+      "bytes": 3313331,
+      "sha256": "f6479fd84ca5e366f49df26f6ef7e0d3ad44dceed6907f74ba09fecdd8d86a58",
+      "gitBlobSha1": "99171982a68e1186fbce35f0cf4c1fa42374b205"
+    },
+    {
+      "path": "public/encyclopedia-v18/jin-iron-fire-pot-v1.webp",
+      "bytes": 314186,
+      "sha256": "04647795f0b70d3aa0486c85523173946fa8a00b5e8996800205591782faaf0d",
+      "gitBlobSha1": "0986eb727e6bc321b8ed423dddd65e853de10015"
+    },
+    {
+      "path": "public/encyclopedia-v18/jin-woodland-scouts-v1.png",
+      "bytes": 4019011,
+      "sha256": "2a757e45dfb2e251665569a72b52fe4524555cf21bcf02cbc87864a5b3733f60",
+      "gitBlobSha1": "133bf1ead312de7e5329c892aab92b45cc0c8e25"
+    },
+    {
+      "path": "public/encyclopedia-v18/jin-woodland-scouts-v1.webp",
+      "bytes": 441620,
+      "sha256": "572e643c8624c997b70503dc2f2d31bca236cf6681bfd84aa627a3033d16a021",
+      "gitBlobSha1": "0f174b12d15b78eb300be017904d26accf838adb"
+    },
+    {
+      "path": "public/encyclopedia-v18/liao-military-offices-v1.png",
+      "bytes": 3621982,
+      "sha256": "cafc9041767aebc902c9b63fb69c2c4f5a5d6d0b51c09d3de7da736e3bcdb5d3",
+      "gitBlobSha1": "0096c43cef385aee3db669fe610d9b3f4c0ed1fe"
+    },
+    {
+      "path": "public/encyclopedia-v18/liao-military-offices-v1.webp",
+      "bytes": 372758,
+      "sha256": "419dbbf297fcef2e3404148d22d7059f4b10881c0b114f21560224afb17b4494",
+      "gitBlobSha1": "c84ee347ed50cb6ff6f17000cfc82333597b4d01"
+    },
+    {
+      "path": "public/encyclopedia-v18/liao-remount-herd-v1.png",
+      "bytes": 3619497,
+      "sha256": "815f56a0e62431a1b129ae5dc198e4b46076c44bc78e1a02bbc8feed331cb1ea",
+      "gitBlobSha1": "0e937a837f38d92bc2665b123eee1d353ca49c55"
+    },
+    {
+      "path": "public/encyclopedia-v18/liao-remount-herd-v1.webp",
+      "bytes": 372872,
+      "sha256": "cfe4907e70d21b899118ae8b3e92818ad9bc73f02cbdbc04554335a9ad25299c",
+      "gitBlobSha1": "51491defb5c04ebe2726aeb4fda2cd894a4c9978"
+    },
+    {
+      "path": "public/encyclopedia-v18/liao-scout-cavalry-v1.png",
+      "bytes": 3477035,
+      "sha256": "5b37ef9c677092e890791cf4af4fb825a67852351b1d1da76e69e0d1c8153786",
+      "gitBlobSha1": "76e69e0f948c78a5ada3720299726bc44092ba1d"
+    },
+    {
+      "path": "public/encyclopedia-v18/liao-scout-cavalry-v1.webp",
+      "bytes": 353682,
+      "sha256": "3c4e219061dcb0ea8d9e3e17b5d22c456f13618d44c736abb219fc83a0869e23",
+      "gitBlobSha1": "4784d8cd41152a84881405d2e49f2d86cb0c15e3"
+    },
+    {
+      "path": "public/encyclopedia-v18/liao-unstrung-bow-tent-v2.png",
+      "bytes": 3261553,
+      "sha256": "6b335bdf32acbce3b6c241cc7570a7fe361192cd517311623d110675626e8137",
+      "gitBlobSha1": "b1eb626932780c3073db1708179a2699abf50c41"
+    },
+    {
+      "path": "public/encyclopedia-v18/liao-unstrung-bow-tent-v2.webp",
+      "bytes": 298992,
+      "sha256": "3c47bf39b59c55949cea4b667da12a39913c01affae455bdd291c8ecb6a50ac1",
+      "gitBlobSha1": "d273d04a1db8d6deafec6f8c442300fed9bc6189"
+    },
+    {
+      "path": "public/encyclopedia-v18/ming-frankish-cannon-stilllife-v1.png",
+      "bytes": 3586205,
+      "sha256": "57483b2683a892045611328b99474888364641779842e1f945afd6070e29e2f0",
+      "gitBlobSha1": "325d1b71ae92e6eb65cbcdf321b717f86054bbc9"
+    },
+    {
+      "path": "public/encyclopedia-v18/ming-frankish-cannon-stilllife-v1.webp",
+      "bytes": 374830,
+      "sha256": "a31587168cf8a3b9707c19bd9815618dc37096a222616d47f1fa219014253f7a",
+      "gitBlobSha1": "73f99f6b7e7e7b1ce9448169fc40f3d728da074b"
+    },
+    {
+      "path": "public/encyclopedia-v18/ming-fuchuan-coastal-patrol-v1.png",
+      "bytes": 3314592,
+      "sha256": "2f21278b6636b408e9184b612cb357b0caa3e4b3b848d7150dc5c69849bf68b1",
+      "gitBlobSha1": "79b1a02d009d1aefea758a3a422f7ce89a6dad0f"
+    },
+    {
+      "path": "public/encyclopedia-v18/ming-fuchuan-coastal-patrol-v1.webp",
+      "bytes": 307172,
+      "sha256": "2d59a1a756a9454c699b9516e672af7f58ef2ed90875de714ec340b564ca4d20",
+      "gitBlobSha1": "ea74474c941e6021e768be8bc7d41b607c242768"
+    },
+    {
+      "path": "public/encyclopedia-v18/ming-rattan-shield-langxian-v1.png",
+      "bytes": 3643564,
+      "sha256": "154735b923844c4498f09d309e895a7b256a4567d638f3b23f66434f6acd343b",
+      "gitBlobSha1": "3b7e740a342c171b988376c324dd294a6fb7abe4"
+    },
+    {
+      "path": "public/encyclopedia-v18/ming-rattan-shield-langxian-v1.webp",
+      "bytes": 393478,
+      "sha256": "8c4ad0c9d1c2224585fa998101516c314b710fbb5e5a1261ed213dc23eb444f4",
+      "gitBlobSha1": "3ee80f6f72069cfebc438b838a9fe6897257cda8"
+    },
+    {
+      "path": "public/encyclopedia-v18/ming-wall-garrison-landscape-v2.png",
+      "bytes": 3326343,
+      "sha256": "dccbc835b49b5c9b9fa1c5d50a865525f167fa8175c8bd3a31725e98fc8d5eba",
+      "gitBlobSha1": "df4cda2051fccb8b3898098900aebed4e7ff718e"
+    },
+    {
+      "path": "public/encyclopedia-v18/ming-wall-garrison-landscape-v2.webp",
+      "bytes": 358956,
+      "sha256": "7067e80dae251e09de6c45ea1455286cd69badb580e8aab156cac6b48ff27c34",
+      "gitBlobSha1": "0afa9c4b9e54c9d182735d9c30d43ada54c1c275"
+    },
+    {
+      "path": "public/encyclopedia-v18/mongol-mounted-practice-v1.png",
+      "bytes": 3350045,
+      "sha256": "4687c2f89209eda9ee898c31ce533be4064d271edafc0a4fd65dbd4f887545e7",
+      "gitBlobSha1": "266c5e780175dd048e0cfa297dda77d57c5a726f"
+    },
+    {
+      "path": "public/encyclopedia-v18/mongol-mounted-practice-v1.webp",
+      "bytes": 310194,
+      "sha256": "64e20babb38a6ba82d3594fda5898a408f0c9ab4a6b317e25ba46e21a3d565db",
+      "gitBlobSha1": "c4a6f6ccb232c29cf1acd7d7f1ceaaf990229fb4"
+    },
+    {
+      "path": "public/encyclopedia-v18/mongol-remount-saddle-transfer-v1.png",
+      "bytes": 3455694,
+      "sha256": "6daa9d8fdd8d59e90452f3a530e37b61a19b14005bef16eb9561f6516b6f2dd1",
+      "gitBlobSha1": "f15b55436497ede22dffb6a457ebcd3f6790d765"
+    },
+    {
+      "path": "public/encyclopedia-v18/mongol-remount-saddle-transfer-v1.webp",
+      "bytes": 347596,
+      "sha256": "7945d78429cc26a271c9d0f34bf57fc26723bf0ce85eab67df3f8393129f5b71",
+      "gitBlobSha1": "49864cb2134bab7b0b429da8f2c9a5621da758aa"
+    },
+    {
+      "path": "public/encyclopedia-v18/mongol-siege-protection-workshop-v1.png",
+      "bytes": 3787140,
+      "sha256": "d98778c9bd3b780d6ffaa68be745ada9cde3c025daebb7eac8bc32397c71f40f",
+      "gitBlobSha1": "fa4a61b963ccb2da727371c924d646f1b5374116"
+    },
+    {
+      "path": "public/encyclopedia-v18/mongol-siege-protection-workshop-v1.webp",
+      "bytes": 413538,
+      "sha256": "6c5b4a403154d6f94b21df4044479e6f4db2cf7ad46e48fc868f61b8189af766",
+      "gitBlobSha1": "dc92d3a571badc487c4e97fb17d1179fdb71cb55"
+    },
+    {
+      "path": "public/encyclopedia-v18/mongol-unstrung-composite-bow-v1.png",
+      "bytes": 3474515,
+      "sha256": "c7e83b84c4fca4b5baf8589b53bd98863f4bcca72558dd791bdb729777a18339",
+      "gitBlobSha1": "37860114a7705edc114572b4d62c028e654b352a"
+    },
+    {
+      "path": "public/encyclopedia-v18/mongol-unstrung-composite-bow-v1.webp",
+      "bytes": 328012,
+      "sha256": "75c40adb032963dddecb707283950e360d5ec054ed8b776da20ff4a0cdabd932",
+      "gitBlobSha1": "16f1b84879fd144013ab757d6a40d1ce437a1dd9"
+    },
+    {
+      "path": "public/encyclopedia-v18/north-south-cavalry-v1.png",
+      "bytes": 3510931,
+      "sha256": "58ed2a055931116976c06f32f83173fe03858098870a9402118806569214f9d8",
+      "gitBlobSha1": "aefffcf0d18d70f1ed4f2b9502174f097b017bdd"
+    },
+    {
+      "path": "public/encyclopedia-v18/north-south-cavalry-v1.webp",
+      "bytes": 351080,
+      "sha256": "769ff4eeb4abefdeabd2a271c4d4003cf6887f7758b60243b437afb26de8ea90",
+      "gitBlobSha1": "83c0b7418b99ece269d2f661fb6cbd0b6808af9a"
+    },
+    {
+      "path": "public/encyclopedia-v18/north-south-liang-boats-v1.png",
+      "bytes": 3974242,
+      "sha256": "7823aa121e3739edcfeceacd96012f404373657ab70397227c4f0f9e63ac2774",
+      "gitBlobSha1": "ecbd81f2f9ce4b5c32e7e0344fc16b31b18ec6f8"
+    },
+    {
+      "path": "public/encyclopedia-v18/north-south-liang-boats-v1.webp",
+      "bytes": 437750,
+      "sha256": "e9bf3cf281a2b0e87612a53593b89fa8bac62c5e74d2eeb592634d0305a33170",
+      "gitBlobSha1": "4f1846fd009504d3ca40d15219dabd3e809d9854"
+    },
+    {
+      "path": "public/encyclopedia-v18/north-south-river-fort-v1.png",
+      "bytes": 3617057,
+      "sha256": "9923d0ec504dadc98041d7a428a0d0e701be1a750d166f342b544183328bc964",
+      "gitBlobSha1": "c45bc8eee02a2bd9d072552db0927be8863a2ba7"
+    },
+    {
+      "path": "public/encyclopedia-v18/north-south-river-fort-v1.webp",
+      "bytes": 387418,
+      "sha256": "33278a08634dfaa10b731cdd35f0c7e11a1152e5b41c4c0e9858108cfc045823",
+      "gitBlobSha1": "0c5a5e16775f139de4da1b7471f6f4c246adfa1a"
+    },
+    {
+      "path": "public/encyclopedia-v18/north-south-tack-v1.png",
+      "bytes": 3782512,
+      "sha256": "f176e67d270b81c6b2474fc39157104c9c1f4b5efdc8abed1406af48fab43c16",
+      "gitBlobSha1": "2f8dbde120e4b2e64903fad4b5dd27d16982aed3"
+    },
+    {
+      "path": "public/encyclopedia-v18/north-south-tack-v1.webp",
+      "bytes": 388400,
+      "sha256": "5bcac33dbffc8101516a0b8c53e4a47969937c3b92339f0f1fe61f48ef279bcd",
+      "gitBlobSha1": "85d5ed2d300e2e3e1c1bf1fde8eb0c1113702126"
+    },
+    {
+      "path": "public/encyclopedia-v18/northern-song-crossbow-inspection-v1.png",
+      "bytes": 3456319,
+      "sha256": "2c98a10a3ad5336a9b340a4596d08cc935ef9a023e1eb98e0f2f2364f6821742",
+      "gitBlobSha1": "94137e070eece03564043d8cafd782499845f5a0"
+    },
+    {
+      "path": "public/encyclopedia-v18/northern-song-crossbow-inspection-v1.webp",
+      "bytes": 328662,
+      "sha256": "dfb911928f1bd066eb94cf7447449d0b86adea2329e9e61934adee75fa63be2b",
+      "gitBlobSha1": "bdf832ac06a3f969d24ea07ddf875490fb4fd9b6"
+    },
+    {
+      "path": "public/encyclopedia-v18/northern-song-garrison-supplies-v1.png",
+      "bytes": 3936580,
+      "sha256": "da432e1b380cf5c69d2a844f4421ce37a35c4241d3753ad6fac357ec89fd4e88",
+      "gitBlobSha1": "3fd3e40a84e099fba1a2ee7d9dcfbf28111f8b50"
+    },
+    {
+      "path": "public/encyclopedia-v18/northern-song-garrison-supplies-v1.webp",
+      "bytes": 421210,
+      "sha256": "a96dba505aa4a65f5dd1ab62d5b1c785ae11e9b9e02d9e2916477c2e8b062de7",
+      "gitBlobSha1": "9cd1603dbd0e2d8e539162afdaa52857eb903e8d"
+    },
+    {
+      "path": "public/encyclopedia-v18/northern-song-incendiary-arrows-v1.png",
+      "bytes": 3048291,
+      "sha256": "79964cb78068cc44b1f135c861e58e662c984e9c9fae2afbe478699615c52cdb",
+      "gitBlobSha1": "7d03c24139ca2c0e60c370dc089f89111e68c780"
+    },
+    {
+      "path": "public/encyclopedia-v18/northern-song-incendiary-arrows-v1.webp",
+      "bytes": 247132,
+      "sha256": "a606dc77699ffdb01fd5d62dd53d91d7330787eb1bb8a71794c0d6e135ff64d6",
+      "gitBlobSha1": "d84eb408d272018453014277e0f221e4632d141a"
+    },
+    {
+      "path": "public/encyclopedia-v18/northern-song-traction-trebuchet-v2.png",
+      "bytes": 2918315,
+      "sha256": "4d44c15852cd622eb3ed3562e494d7c6e5a9daf2c9d25a0a6277a6967721bc18",
+      "gitBlobSha1": "1555ae0729e91ea58b88387a4ff95dd663e755ab"
+    },
+    {
+      "path": "public/encyclopedia-v18/northern-song-traction-trebuchet-v2.webp",
+      "bytes": 261816,
+      "sha256": "23c713a305e9a646ae5702dcd2027b14534688def460c8a75928e07ae1ea71bf",
+      "gitBlobSha1": "73f7730f16e6c0bde2f5401d8ec7bef600f91d6d"
+    },
+    {
+      "path": "public/encyclopedia-v18/qin-chariot-v4.png",
+      "bytes": 3533537,
+      "sha256": "d03db5245bec6938a4a747d124e1daa7c17b22574d42c476f70448f0c3b3c99d",
+      "gitBlobSha1": "279e73d01f73dea30c97d2eef6ca351bb0ed82e3"
+    },
+    {
+      "path": "public/encyclopedia-v18/qin-chariot-v4.webp",
+      "bytes": 371002,
+      "sha256": "77a923ea26d4c8ccf8fd2f7089185cd7cde6f55d5fc5844039471a18529fdfb8",
+      "gitBlobSha1": "b5cabdc75963024993ce976e6f7c5f2598f23f45"
+    },
+    {
+      "path": "public/encyclopedia-v18/qin-crossbow-v2.png",
+      "bytes": 3148502,
+      "sha256": "5c4db005b7fc8f863e03e9e6454f025c8a40e6f1b8090942c480925a7555e6d1",
+      "gitBlobSha1": "d8ef5b96fb9eec838f23f12b90b73a44899a6b32"
+    },
+    {
+      "path": "public/encyclopedia-v18/qin-crossbow-v2.webp",
+      "bytes": 281318,
+      "sha256": "5ad24e374b3204a4b0e37cff9327116215e1405d307568ac61f2ce99b3068e3c",
+      "gitBlobSha1": "437e424443ebeaa10b583ea976860e48dc631434"
+    },
+    {
+      "path": "public/encyclopedia-v18/qin-infantry-v1.png",
+      "bytes": 3468414,
+      "sha256": "209b5c3641faf7b88a07816c0dee92b7603d52de9192aff80443ee8922330951",
+      "gitBlobSha1": "d74bb4e29d8049d85f85c8cca5a0af14c9fb3a08"
+    },
+    {
+      "path": "public/encyclopedia-v18/qin-infantry-v1.webp",
+      "bytes": 356534,
+      "sha256": "641484c655b23e23f78efca2cce5831a60a4e29496159954665d3e75b3c269e4",
+      "gitBlobSha1": "05ba97e22dffec909c0dbcf6833a69446c5b8f69"
+    },
+    {
+      "path": "public/encyclopedia-v18/qin-road-beacon-v1.png",
+      "bytes": 3539172,
+      "sha256": "257ab04d8cde1c47b1431553a9bd9b4f58378f196427634b440b4180293d6781",
+      "gitBlobSha1": "8b8bf6c4f84d1d308ae715ff608365dfeb942167"
+    },
+    {
+      "path": "public/encyclopedia-v18/qin-road-beacon-v1.webp",
+      "bytes": 363268,
+      "sha256": "e37d74534306ecf6e6d23fe8cc6513ecd26e0c38a3782086fc842b6f07f324c0",
+      "gitBlobSha1": "3d2fbdff99469998905f4d24b35b9857e90b3823"
+    },
+    {
+      "path": "public/encyclopedia-v18/qing-banner-mounted-training-v1.png",
+      "bytes": 3435663,
+      "sha256": "81527d26fe3d509e96457380f9368cd078a8868d38f1f83f084305176021dab2",
+      "gitBlobSha1": "b38f307f6f99f0bf39464278a2b7648fa3042b32"
+    },
+    {
+      "path": "public/encyclopedia-v18/qing-banner-mounted-training-v1.webp",
+      "bytes": 338230,
+      "sha256": "23c6ea4a7314ba57bce78d9dafb326fa2b732fe3b0421b0a8e81a89a42e72dcb",
+      "gitBlobSha1": "db6d3a8033206432736a364d887e0dfdfcec7821"
+    },
+    {
+      "path": "public/encyclopedia-v18/qing-breechloader-gatling-display-v2.png",
+      "bytes": 2757189,
+      "sha256": "6ba1c685d18a338c6eccb4944c1eef2183d84af3b8036b688c4300dbcf152203",
+      "gitBlobSha1": "84e879a09b074fe8869b17001cf3de73292d7a6c"
+    },
+    {
+      "path": "public/encyclopedia-v18/qing-breechloader-gatling-display-v2.webp",
+      "bytes": 218478,
+      "sha256": "48a179a93830b448f7e342c68dca5ee0f21eb4d191838cd1ae96617b7fbf2ced",
+      "gitBlobSha1": "4c5f2e7fd621d3770633642ccfcec25616af7241"
+    },
+    {
+      "path": "public/encyclopedia-v18/qing-dingyuan-ironclad-v1.png",
+      "bytes": 3291371,
+      "sha256": "cc665ecd8d0757518812da8c8bd4bd6436dc55cdbe07c8717d18a9dfbe7e9835",
+      "gitBlobSha1": "8228bfa0752370c799d1e422d40dbb9fe1010dfe"
+    },
+    {
+      "path": "public/encyclopedia-v18/qing-dingyuan-ironclad-v1.webp",
+      "bytes": 308440,
+      "sha256": "fffe403b1ada267a3e41b3099658f7035ac6849d256f4dfac5dc4d9e90674bd8",
+      "gitBlobSha1": "4a844dba8888dd0f3fe6e1d102eb2dae7e056d7a"
+    },
+    {
+      "path": "public/encyclopedia-v18/qing-matchlock-cannon-store-v1.png",
+      "bytes": 3543005,
+      "sha256": "5f3ca54bf7e6a3c5b6323fc8dcbbc9668b5be2cd0e82a697aab9dad495f19a2e",
+      "gitBlobSha1": "2d5a257a24362fe13dbeaa957bc0095dcfb6e96f"
+    },
+    {
+      "path": "public/encyclopedia-v18/qing-matchlock-cannon-store-v1.webp",
+      "bytes": 357764,
+      "sha256": "aa2b9feca4f42dbc58f90be40962d15d75b13693370d87eafa8ac8e000158f84",
+      "gitBlobSha1": "9d485f36bb9e0328b31d7fe272d05f4f53219666"
+    },
+    {
+      "path": "public/encyclopedia-v18/southern-song-bamboo-firelance-v1.png",
+      "bytes": 3493126,
+      "sha256": "5ce616349b949d0f4017087b50c5b2ecf0cd8e02844e3aea7157e6aaf36c1e7a",
+      "gitBlobSha1": "40756b42c611c0d4de1c5e3dba4a229c1d3cf502"
+    },
+    {
+      "path": "public/encyclopedia-v18/southern-song-bamboo-firelance-v1.webp",
+      "bytes": 351146,
+      "sha256": "f54b2f05a5feafd274e576663f1b5438096b0fc0bc5bd8d38e88f6c0e9418570",
+      "gitBlobSha1": "65b513697a5550ffa7658a8007c26ba57bb5b80a"
+    },
+    {
+      "path": "public/encyclopedia-v18/southern-song-coastal-muster-v1.png",
+      "bytes": 3467681,
+      "sha256": "23d1d9a0d52f4e47d69aef6c8dc1fa3a5d525fc81362f4d38f84eff3023b7431",
+      "gitBlobSha1": "c5349f3675f825e4eeec4caa9479deac2f6c72ad"
+    },
+    {
+      "path": "public/encyclopedia-v18/southern-song-coastal-muster-v1.webp",
+      "bytes": 361214,
+      "sha256": "cfc9a8554ca7224acbf6055ee70b194f34b01c479fc5f01c7036748d83f2d94e",
+      "gitBlobSha1": "d3f33b821606a6abfdc42557a1cdf5ff4a0a2829"
+    },
+    {
+      "path": "public/encyclopedia-v18/southern-song-paddle-vessel-v1.png",
+      "bytes": 3604509,
+      "sha256": "792dbfc4928894d0af0c6f328828122490be7edc49925bd2c01c6001288d1304",
+      "gitBlobSha1": "bbad52471388b5ba3408c137998c75bf2cddf6be"
+    },
+    {
+      "path": "public/encyclopedia-v18/southern-song-paddle-vessel-v1.webp",
+      "bytes": 377976,
+      "sha256": "e31436fdf0fc643a445a647121ba31b5237ad609f53bdc6aaf5a75af3a52d0bb",
+      "gitBlobSha1": "00e03e78e3ac0413274ad11a843acc7890067212"
+    },
+    {
+      "path": "public/encyclopedia-v18/southern-song-xiangfan-river-defense-v1.png",
+      "bytes": 3915046,
+      "sha256": "2a287b42fc1116e8b8b1e743e7d7d1e671cb41f81ccda785c3fa893be1b5c3aa",
+      "gitBlobSha1": "c1a00040216222ba4b6f3cb340d2c6c53166a1da"
+    },
+    {
+      "path": "public/encyclopedia-v18/southern-song-xiangfan-river-defense-v1.webp",
+      "bytes": 431110,
+      "sha256": "02ad2bddf4f58f687dc41bff9144b7474953baade2f771b1fa006a1093365f02",
+      "gitBlobSha1": "15f09a19a9df45f454938d12a53e52200306f2f5"
+    },
+    {
+      "path": "public/encyclopedia-v18/sui-lance-v2.png",
+      "bytes": 2573938,
+      "sha256": "3198c997e984bcdc51eea6bc4cdc789216c0906210718b9494867c7f698cab73",
+      "gitBlobSha1": "d807c5e2722d8073cd9957d2481185fd38107c65"
+    },
+    {
+      "path": "public/encyclopedia-v18/sui-lance-v2.webp",
+      "bytes": 158952,
+      "sha256": "4ba7b54778a56cfa1ab252204355c3fd8e4e528332da6eb6cef0bb6047ec862e",
+      "gitBlobSha1": "497257c24a700a0d5ed2a01aa7bf9b1d5dd4b863"
+    },
+    {
+      "path": "public/encyclopedia-v18/sui-large-ship-v1.png",
+      "bytes": 3516655,
+      "sha256": "b2238362115c1df182e564687b398420676f78cfd5620f7cc60281914f85c18b",
+      "gitBlobSha1": "fc4ae62f0ae2c3c4c8d8cd1d86d1ac8cd1b4b086"
+    },
+    {
+      "path": "public/encyclopedia-v18/sui-large-ship-v1.webp",
+      "bytes": 381156,
+      "sha256": "5765802456f7b216b929706f88c04fd6879759d09b0488e65cd133a327d93127",
+      "gitBlobSha1": "1aafcf6758101afecaab44a9e94c13a274ea04fd"
+    },
+    {
+      "path": "public/encyclopedia-v18/sui-muster-v1.png",
+      "bytes": 3797351,
+      "sha256": "28722b6035287c9b13fa30f9d296dcdadd5263b316b8d98bc1fbeebac0981b8e",
+      "gitBlobSha1": "935ebc9e4f98b0a294a5e515b7cd9f8dd8cbe43e"
+    },
+    {
+      "path": "public/encyclopedia-v18/sui-muster-v1.webp",
+      "bytes": 408586,
+      "sha256": "302fdba2be8f02e8d3b095f70fbb32c446f72a2b258cebab5baf34428d8c7ce7",
+      "gitBlobSha1": "8472eb8f4cf4f48e0f86fdd9c752687a489868f2"
+    },
+    {
+      "path": "public/encyclopedia-v18/sui-scaling-ladder-v1.png",
+      "bytes": 3454142,
+      "sha256": "1a1088dfae213ea1cc0b844fc6fa5fb555bdd651fff028257c96d6d18a7b10eb",
+      "gitBlobSha1": "e691d5fe0d5b50653a84a33e0a78615e5fd15d49"
+    },
+    {
+      "path": "public/encyclopedia-v18/sui-scaling-ladder-v1.webp",
+      "bytes": 338024,
+      "sha256": "ed3ca8b07543b2cb1ed63166da1d870ab4d918c0eb79564f4b86b620b3407734",
+      "gitBlobSha1": "210a257add047a7719be7ea7d786847bab2c7f7c"
+    },
+    {
+      "path": "public/encyclopedia-v18/tang-infantry-spears-v1.png",
+      "bytes": 3452548,
+      "sha256": "74f8d1a5b0ddbe94184af0b5301a3292650c93bbe62dc2b9b8bf55d7297a0cf6",
+      "gitBlobSha1": "280576b87ef39a80113174df711558fbdae2f079"
+    },
+    {
+      "path": "public/encyclopedia-v18/tang-infantry-spears-v1.webp",
+      "bytes": 347608,
+      "sha256": "fa8e16882f7c964fa517bb2b4ebb802052c23af783c6724b970ad14ceb7cc94e",
+      "gitBlobSha1": "68f602b96eaf5387836f2daa653f98e05c322892"
+    },
+    {
+      "path": "public/encyclopedia-v18/tang-mounted-bow-v1.png",
+      "bytes": 3286474,
+      "sha256": "0bfc3e52019db7ffea5f0baf01648d74029d94649755a128aa2b060c7d385aae",
+      "gitBlobSha1": "2b0345a7e2212622bf683a4ef00c40c803e1b8ee"
+    },
+    {
+      "path": "public/encyclopedia-v18/tang-mounted-bow-v1.webp",
+      "bytes": 325408,
+      "sha256": "6b088b323f2587c9e06d39bd4ec8ef0799f6507d2fa31c85907ea11dc36f4d21",
+      "gitBlobSha1": "66c57f80cbc9893d843581ba493cc46997f1b437"
+    },
+    {
+      "path": "public/encyclopedia-v18/tang-patrol-v1.png",
+      "bytes": 3314461,
+      "sha256": "8efcc25bda7f168e75ffd76417c493c7c2d6f5c5653afb351ffb2589ff115b58",
+      "gitBlobSha1": "19c70fbf3b91bdb3410ffc68651e7a4e3767edeb"
+    },
+    {
+      "path": "public/encyclopedia-v18/tang-patrol-v1.webp",
+      "bytes": 319234,
+      "sha256": "538b7e4debf3aca5d1db5efa1a0e1425c2a2590b69cea1ed2cc5e6ea39dfbfeb",
+      "gitBlobSha1": "e46023467a3cf08dfc3b1406b4c2b03ee534e76f"
+    },
+    {
+      "path": "public/encyclopedia-v18/tang-relay-grain-v1.png",
+      "bytes": 3979207,
+      "sha256": "56c095731fd87e961ce31287f0fea1ce7d77fd40f346a3f778677d096d637fab",
+      "gitBlobSha1": "c20782d8413165d277527f53ab70e59f7e5f4be5"
+    },
+    {
+      "path": "public/encyclopedia-v18/tang-relay-grain-v1.webp",
+      "bytes": 444440,
+      "sha256": "fac3e725faa45ed2dd82981baa4810a998ee29be27e97213cf7154a13fff6a5f",
+      "gitBlobSha1": "2280f6d0099fbf48b758e77d584a432ff69fb914"
+    },
+    {
+      "path": "public/encyclopedia-v18/three-archery-v1.png",
+      "bytes": 3595849,
+      "sha256": "f836c115c239affe73e62fabd45936a5a73224b708b744b2ada9ff48bd7e2f18",
+      "gitBlobSha1": "2d45a106914fb77821f5f2b7a8bf041b05d4534c"
+    },
+    {
+      "path": "public/encyclopedia-v18/three-archery-v1.webp",
+      "bytes": 356118,
+      "sha256": "02fe05e94971b9c3cb3aefa6dff4b03e18bb3a6a6173a287fc4ec819081dd683",
+      "gitBlobSha1": "c3fd7cb65e2ccd094aa2e05c14f53efe5d0ac75a"
+    },
+    {
+      "path": "public/encyclopedia-v18/three-fireboat-v1.png",
+      "bytes": 3485459,
+      "sha256": "c225db43c3668285264db61a73bc1fb0a77e740399ad5f747c52d11662ab1a60",
+      "gitBlobSha1": "cd2058fd55d88a91fb253b889c43916f5429df66"
+    },
+    {
+      "path": "public/encyclopedia-v18/three-fireboat-v1.webp",
+      "bytes": 362150,
+      "sha256": "4468fbed36543992cd72a8ff54d431775f6f45c8b8d8bd35af249a5378008558",
+      "gitBlobSha1": "93afac47341d3e995ccb24d22d688f1651c788dc"
+    },
+    {
+      "path": "public/encyclopedia-v18/three-grain-cart-v1.png",
+      "bytes": 3696591,
+      "sha256": "a60a0f19463e603b87a43b2e45339c372beb40ca441f607e51714cf75b5829ae",
+      "gitBlobSha1": "0426863a4f6eb27050178f7ec0620e75e10d8d5a"
+    },
+    {
+      "path": "public/encyclopedia-v18/three-grain-cart-v1.webp",
+      "bytes": 402998,
+      "sha256": "3f8db461204ca540bc2915fb5ca2f64032ea00f82616c50510df58186651f4f7",
+      "gitBlobSha1": "30af2d6e94bfa547ef41ca5931623bf410bc088d"
+    },
+    {
+      "path": "public/encyclopedia-v18/three-riverboat-v2.png",
+      "bytes": 2996696,
+      "sha256": "367ea5a4d42397a71f65d0cc9aeafdf03e13b9da1efb1ae7e41821f8d044a312",
+      "gitBlobSha1": "4e85cac03fb94c4cdb4f1e88264493d53b3a5bd2"
+    },
+    {
+      "path": "public/encyclopedia-v18/three-riverboat-v2.webp",
+      "bytes": 305304,
+      "sha256": "a6bcca6e70c03a33e7cdb30a30a0186f29762aea6bb5cf866f172f51b53afbe3",
+      "gitBlobSha1": "e114b981933f1058855279cb14098e1fb0f849e2"
+    },
+    {
+      "path": "public/encyclopedia-v18/western-han-beacon-v1.png",
+      "bytes": 3441779,
+      "sha256": "dc6a6a42a85f1989415ec22935d0095ca3c0ce8d38eb69bc409aadbf4ce961f4",
+      "gitBlobSha1": "4f2528b39cb4c35dad0075efa44a07e12ea5265e"
+    },
+    {
+      "path": "public/encyclopedia-v18/western-han-beacon-v1.webp",
+      "bytes": 353290,
+      "sha256": "c5a8cbf5d4ccf274b8010e9e7bf0e526a6266e8dfc4c23dba0c90f23a925139e",
+      "gitBlobSha1": "fa8018a6a4cfb219eef1ab968533cb84362c05ca"
+    },
+    {
+      "path": "public/encyclopedia-v18/western-han-cavalry-v2.png",
+      "bytes": 3273630,
+      "sha256": "64efd2f994b3b0eac129e7ff11ff3cea1d006f02052357b0fc7a060188b9f3e6",
+      "gitBlobSha1": "92228af79a5cb7b6829e3b9c46ddd4e691cf8861"
+    },
+    {
+      "path": "public/encyclopedia-v18/western-han-cavalry-v2.webp",
+      "bytes": 338116,
+      "sha256": "5f29cb341364b1db2a4b226d08b41db81afdb348b527311acfb8b66fce5c174f",
+      "gitBlobSha1": "9a2ecf59c28cc363603483a27ab27562300d3f05"
+    },
+    {
+      "path": "public/encyclopedia-v18/western-han-crossbow-resting-v2.png",
+      "bytes": 3442375,
+      "sha256": "866aa15f41f7a3e67bdd06c7da3c53663d1d16b412bf3cbe9ac949e1f43af8fd",
+      "gitBlobSha1": "8dd8bd021c15d423a0eeaaf1173bb0b69d3aef56"
+    },
+    {
+      "path": "public/encyclopedia-v18/western-han-crossbow-resting-v2.webp",
+      "bytes": 355652,
+      "sha256": "e3fc0208e99eec90a5d89ec6c3956c24a500588cccdc479695df1067249689c8",
+      "gitBlobSha1": "9aa1111e9405a3f567b31de95236c60a7a5bba28"
+    },
+    {
+      "path": "public/encyclopedia-v18/western-han-farming-v1.png",
+      "bytes": 4209946,
+      "sha256": "9691ac506ef1c074845ac93c36dfbbcb65ea5331f7a1f262da9255c64e41360a",
+      "gitBlobSha1": "c358da6316e0e2178236936bc802169ee914484a"
+    },
+    {
+      "path": "public/encyclopedia-v18/western-han-farming-v1.webp",
+      "bytes": 497624,
+      "sha256": "d8a070406562d9398f34e8e1226275fc121c2d3068acd99e10581e4a5dee2f16",
+      "gitBlobSha1": "1117fc080434e6f51e89ebcffa49f206e88b3367"
+    },
+    {
+      "path": "public/encyclopedia-v18/western-jin-cavalry-v1.png",
+      "bytes": 3308067,
+      "sha256": "69fd12083e0a69f04f17b24003c754f43435777cc5f2d597871d92387171aa16",
+      "gitBlobSha1": "9cd44e2a312d038b0bb3cd954876fabfe7fb4d31"
+    },
+    {
+      "path": "public/encyclopedia-v18/western-jin-cavalry-v1.webp",
+      "bytes": 326238,
+      "sha256": "132accf3f4160c2ffefd83775d8aec81f89dfc93639e7ad916584bbfa0be9550",
+      "gitBlobSha1": "aff6e6b292d9e83dc2ac914b9c7d37d7447059aa"
+    },
+    {
+      "path": "public/encyclopedia-v18/western-jin-fleet-v2.png",
+      "bytes": 2699305,
+      "sha256": "5beea81c7b136624ba69fa535b4a0d41e8f018bb3d946ed8bd39d05f4247df6d",
+      "gitBlobSha1": "59c17c8604e736099bfd937a539cbedca1c2fbf1"
+    },
+    {
+      "path": "public/encyclopedia-v18/western-jin-fleet-v2.webp",
+      "bytes": 241826,
+      "sha256": "40389fc2e89c4f215d5be7c7c30c558d50de0515726254d5f53fadcfaa282852",
+      "gitBlobSha1": "0f7d5e36226323685ac7d243c648b8ec9885c977"
+    },
+    {
+      "path": "public/encyclopedia-v18/western-jin-fort-v1.png",
+      "bytes": 3710376,
+      "sha256": "cdcbde4cadc03dc7bc7d239900fd91498ce9620e3c87a634cbabfbea988f75ca",
+      "gitBlobSha1": "528bb872fb71101f8f58711694b41d7d6e8648cf"
+    },
+    {
+      "path": "public/encyclopedia-v18/western-jin-fort-v1.webp",
+      "bytes": 391422,
+      "sha256": "bc3beffd1f0e3b41cf50f983763752c4a67cb38848a5c8871859d25f8d78dc83",
+      "gitBlobSha1": "93443ffb4f1f75640fa14f0da5436c3512203e7f"
+    },
+    {
+      "path": "public/encyclopedia-v18/western-jin-infantry-v1.png",
+      "bytes": 3856485,
+      "sha256": "0b18b29bcb2fe76840613bb3d970d19cef167e42ae186d80cfa68099915cf2fa",
+      "gitBlobSha1": "a20c3f076d524c1d200920a8d0c418d47c9deaaf"
+    },
+    {
+      "path": "public/encyclopedia-v18/western-jin-infantry-v1.webp",
+      "bytes": 423120,
+      "sha256": "f456daa274f0a085566fb08cb85caca7adcb4ca8bd4ee5fa406e0fc329b53aef",
+      "gitBlobSha1": "70ff6ec6599b01669d1d72d75e9b49f274ada89d"
+    },
+    {
+      "path": "public/encyclopedia-v18/western-xia-archer-preparation-v1.png",
+      "bytes": 3346586,
+      "sha256": "fbbf4dad123883081f531f3f432ead9f87538982b38f58121edc7cda3843c1e9",
+      "gitBlobSha1": "c5d6c77aaf0846155fe1e0a265716607fa5b2a5b"
+    },
+    {
+      "path": "public/encyclopedia-v18/western-xia-archer-preparation-v1.webp",
+      "bytes": 316584,
+      "sha256": "044a472165334e55f1e8eb9c6ae7f17a27759c693fd62a356047cdf8dacd84b0",
+      "gitBlobSha1": "d4dc6702012dd1a780ef006b9819635060dc9168"
+    },
+    {
+      "path": "public/encyclopedia-v18/western-xia-camel-horse-supplies-v2.png",
+      "bytes": 3564240,
+      "sha256": "2824362792d313ac9575e102cf1606de49cd2a30bf37b04a6d06de28c9525d9a",
+      "gitBlobSha1": "7ef9e8ea1b6ffb295115fabcd74caff23b5c868a"
+    },
+    {
+      "path": "public/encyclopedia-v18/western-xia-camel-horse-supplies-v2.webp",
+      "bytes": 387846,
+      "sha256": "2bd268287fe12ac9f175db8b372374485a5dda550b2518454881fb973d818b26",
+      "gitBlobSha1": "23e53ce68f4b0426c0100e5848bba25b2defdfad"
+    },
+    {
+      "path": "public/encyclopedia-v18/western-xia-oasis-fort-v1.png",
+      "bytes": 3930781,
+      "sha256": "596220202adc9cc1b25a4151206dd8584639d244c6cdc5a1a37302636071ba01",
+      "gitBlobSha1": "db6f3cfd3508ce7415fa293ee76bd25b7d3edcbb"
+    },
+    {
+      "path": "public/encyclopedia-v18/western-xia-oasis-fort-v1.webp",
+      "bytes": 418138,
+      "sha256": "1b88ca350a5911fee0ed8f6aba71f64c0d8984a17577e3a517befc4546b5bbec",
+      "gitBlobSha1": "31dddce8477a55e7d96ceb4f2c304627e2addc2a"
+    },
+    {
+      "path": "public/encyclopedia-v18/western-xia-pass-cavalry-v1.png",
+      "bytes": 3469977,
+      "sha256": "66d6d98ef95fb45250e67299286c81e2bdf591508d99ff268f3a0eb680eec9e6",
+      "gitBlobSha1": "d821be8ce1d77acc6588823dfeaad3a8dc439c4d"
+    },
+    {
+      "path": "public/encyclopedia-v18/western-xia-pass-cavalry-v1.webp",
+      "bytes": 345100,
+      "sha256": "a9fac60203f877f8123db3c20c909ce28c19340b1251312c48da7999f3695408",
+      "gitBlobSha1": "d8f33753827207815afcfc750522d837a4df5c14"
+    },
+    {
+      "path": "public/encyclopedia-v18/xin-city-supply-v1.png",
+      "bytes": 3840977,
+      "sha256": "eba7552602d3c8aeb906579906b109d0b6a0fcfac941a97917b27e5959b0a33f",
+      "gitBlobSha1": "cdc230262ca115a26e0c2aaa4b5989e2d7cccdc4"
+    },
+    {
+      "path": "public/encyclopedia-v18/xin-city-supply-v1.webp",
+      "bytes": 422706,
+      "sha256": "4c09e8ee6a3af05fa22a0de507644e5f836a5b6415730a15680a686d09f94933",
+      "gitBlobSha1": "42b7d08e8c47110b3d5f9bb7b5ca24bba1a012f3"
+    },
+    {
+      "path": "public/encyclopedia-v18/xin-combined-v1.png",
+      "bytes": 3916577,
+      "sha256": "2629b73666e33d0dcb3166ce9df5025fe7a86f295b1baf6504b1175679d50ca3",
+      "gitBlobSha1": "9d505e34fc5cc1698f4509c4a22b6a542f890d07"
+    },
+    {
+      "path": "public/encyclopedia-v18/xin-combined-v1.webp",
+      "bytes": 422668,
+      "sha256": "dcfb37810ae0f2dc784150e53029c31bdbd1fbfbecc7d7b5f9a4ad5ebcc211c7",
+      "gitBlobSha1": "7435f248ba5911d917927d25fb296c31c58ce882"
+    },
+    {
+      "path": "public/encyclopedia-v18/xin-inventory-v2.png",
+      "bytes": 3209447,
+      "sha256": "6713c283e29c1873bdac53f1f69548150007f41ccf16a3db96ade235bbae9698",
+      "gitBlobSha1": "17e8fe7b5facea3e504d5dfc344df3ded1f84b1b"
+    },
+    {
+      "path": "public/encyclopedia-v18/xin-inventory-v2.webp",
+      "bytes": 296794,
+      "sha256": "94f2f0a303795fd89a57d7064001e0ce10f5e5e3aaf5b0c7336b1a2f385682c6",
+      "gitBlobSha1": "8f7feb5e5da2e499849ec43e4a379da435e39acc"
+    },
+    {
+      "path": "public/encyclopedia-v18/xin-mobilization-v1.png",
+      "bytes": 3828984,
+      "sha256": "1e5688db2eec2e4730f0f055689f3bcfb749eea7dc8cc08ccf341f8c3290819d",
+      "gitBlobSha1": "6d24e0d1a6b5bd1b1fec33dfb22b0e243014e1f7"
+    },
+    {
+      "path": "public/encyclopedia-v18/xin-mobilization-v1.webp",
+      "bytes": 413756,
+      "sha256": "1d54159e40257de1556793ec65684e20076c55d87a67584bdcc86d8b32b68f69",
+      "gitBlobSha1": "9a1268f6c1bebe6530355aba742afab5b7e028b9"
+    },
+    {
+      "path": "public/encyclopedia-v18/yuan-1332-bronze-cannon-v2.png",
+      "bytes": 3002192,
+      "sha256": "898d7b037441b5cc36965e10ad44bd400b0fd9572fa11c2d1365938ee9aa0e09",
+      "gitBlobSha1": "5fa50260fc8c1b11ae0567a348ee49abd870c411"
+    },
+    {
+      "path": "public/encyclopedia-v18/yuan-1332-bronze-cannon-v2.webp",
+      "bytes": 253168,
+      "sha256": "1efbf7f1c5bea418e49e6e4a050c4cd9fce05beff33827ca795ebfa94959d8ef",
+      "gitBlobSha1": "da88daec8113d90874e26d60899faea624e72414"
+    },
+    {
+      "path": "public/encyclopedia-v18/yuan-counterweight-engine-v1.png",
+      "bytes": 3334583,
+      "sha256": "e2530594d1a7765dc4cd2045b0e172c77d12b12581c6de993eb9556563347f61",
+      "gitBlobSha1": "f03d95dc3fb0936a6719e2028b3622ae04073887"
+    },
+    {
+      "path": "public/encyclopedia-v18/yuan-counterweight-engine-v1.webp",
+      "bytes": 302662,
+      "sha256": "a4e6d28c0a8521e8468fe207372dba49c0d884a3870f53c04c4a396b0ba8b0a4",
+      "gitBlobSha1": "30fe4c76a6f9e9ed3cba9c9d55b86c151d144b8c"
+    },
+    {
+      "path": "public/encyclopedia-v18/yuan-post-station-courier-v1.png",
+      "bytes": 3778675,
+      "sha256": "a9a726e9c0af159aaff1a5508f4d06bcef38cd2cdf6720283094044f27316373",
+      "gitBlobSha1": "a93e9702fdfdf6e06a9e7bf6dcfd15e0541ed46d"
+    },
+    {
+      "path": "public/encyclopedia-v18/yuan-post-station-courier-v1.webp",
+      "bytes": 410704,
+      "sha256": "8401d1a80ef815fa43f56003043154656c765c3bb44477780dbff450036112ff",
+      "gitBlobSha1": "cce7578b110b89cc419475150a94a7e09c3ea041"
+    },
+    {
+      "path": "public/encyclopedia-v18/yuan-river-horse-transport-v2.png",
+      "bytes": 3111740,
+      "sha256": "3fb5395fca2e8ed954942b84f72972437ce66955838a2eea05f0e4fec33342f9",
+      "gitBlobSha1": "2cef582412baa627d49b94c99651714d657e2a63"
+    },
+    {
+      "path": "public/encyclopedia-v18/yuan-river-horse-transport-v2.webp",
+      "bytes": 297352,
+      "sha256": "4d0a981745d5f88115b5a52e5edf0520d72c43f9978f6358f815a3994c31a3f8",
+      "gitBlobSha1": "f31f859e1dd2b4abb12f3fe5f399c2513c1e7594"
+    },
+    {
+      "path": "public/favicon.svg",
+      "bytes": 718,
+      "sha256": "3e8863288c2d43dd33d2a71de317dcf9198f09932ea8d61e0def1b846a865435",
+      "gitBlobSha1": "952c47e394ccdafdcd9cc404195abda981246fd0"
+    },
+    {
+      "path": "public/file.svg",
+      "bytes": 391,
+      "sha256": "2b67812c325c199a02536cdbeea0c593a72f707d323b72ee3e08dbab06753bd4",
+      "gitBlobSha1": "004145cddf3f9db91b57b9cb596683c8eb420862"
+    },
+    {
+      "path": "public/fire-attack-v16.png",
+      "bytes": 3150320,
+      "sha256": "c91e12dbfd484582905f6c482645e8cb6a8bc344102cea99f1d460fd9413c192",
+      "gitBlobSha1": "ea83a3fb18d89bf231c1c1ce8fbe8f717bb0eea2"
+    },
+    {
+      "path": "public/globe.svg",
+      "bytes": 1035,
+      "sha256": "b614b9bf183925957661ac851498fe1d8029fd43a62fbfed86f9e2624a57e7cf",
+      "gitBlobSha1": "567f17b0d7c7fb662c16d4357dd74830caf2dccb"
+    },
+    {
+      "path": "public/hero-qin-v3.png",
+      "bytes": 2970479,
+      "sha256": "044fa214b9ee6ab775bf867ff126a97e77103749ea7119660801f54187e89855",
+      "gitBlobSha1": "f078c3f5dce8ebae4ff3b975064d6de992731bb8"
+    },
+    {
+      "path": "public/map-riders-v2.png",
+      "bytes": 987584,
+      "sha256": "11326ad334a85b57a7bd9032328a2dbd6c4210a1bfa6eac0dd162419436df861",
+      "gitBlobSha1": "0a43f5ef6dd7f2b4c0cbaf9d5e22c57982d83bc6"
+    },
+    {
+      "path": "public/maps-v18/china-atlas-albers.webp",
+      "bytes": 207626,
+      "sha256": "65245a807d6d7302b9e5f4f255b16a183419bdef5227bdb34a1b82ff1d5df883",
+      "gitBlobSha1": "a924010d466d98ad6ea2f621fd0f75d2bf15d620"
+    },
+    {
+      "path": "public/maps-v18/china-relief.webp",
+      "bytes": 493646,
+      "sha256": "c85045afa46c67d9cdc9caa0c027abec59edbc8b420105b487bb9969f44c332a",
+      "gitBlobSha1": "4c9afa4b251aa5321d517bcab4db599137652a23"
+    },
+    {
+      "path": "public/military-support-v3.png",
+      "bytes": 3093007,
+      "sha256": "2fc9e1eba2123690305ecec5278f84c207ec0cfeccf99c21c55e17f028cd3f66",
+      "gitBlobSha1": "c7e604707d2582deb5f08f01c7c9b7df199a2a19"
+    },
+    {
+      "path": "public/og-v2.png",
+      "bytes": 2912233,
+      "sha256": "cdd060417a53fbc8e9dc65e9fe6de81d0dc1a94154acaf8d77b9ffe58da75393",
+      "gitBlobSha1": "0d82ba170372bbebc77aa78f3a5eb08a7ab33804"
+    },
+    {
+      "path": "public/opening-c-preview-v1/gate-bridge.png",
+      "bytes": 1646943,
+      "sha256": "25307d0ffefdad09efee6ee65a909b47134bb81490c6cb5ef3e07105385e8d20",
+      "gitBlobSha1": "c8a8f74548598a4bb2ec9d01886b7af1284472f2"
+    },
+    {
+      "path": "public/opening-c-preview-v1/gate-bridge.webp",
+      "bytes": 194160,
+      "sha256": "26e1c65bec4ab4e3c07c9c93618b2521c5834b9c7a821edafd8c6baa7326b50c",
+      "gitBlobSha1": "2eb68cc6bc0db72c6232109a029e49293837149b"
+    },
+    {
+      "path": "public/opening-c-preview-v1/mountains.png",
+      "bytes": 1974666,
+      "sha256": "4598c2524ddf64710cf42d801568b68676c67a4599bbbeb2097c1c731464f216",
+      "gitBlobSha1": "d31b7e60b7102370ac30dd5fc317fcdd07b29ad4"
+    },
+    {
+      "path": "public/opening-c-preview-v1/mountains.webp",
+      "bytes": 290560,
+      "sha256": "e7d0a3bfe729829e5bd42321eb7066eafc776506caa3bf1be2c752f9ca880aff",
+      "gitBlobSha1": "4c6b7004d353f2f26708b718c759de1437062391"
+    },
+    {
+      "path": "public/opening-c-preview-v1/製作紀錄.json",
+      "bytes": 7337,
+      "sha256": "97ae4905a960b1ed239b5b4c071729dffc8f42ab1d66532f75e17c54059eba96",
+      "gitBlobSha1": "4dbad7a001da59068227d918ea80d44a935fe281"
+    },
+    {
+      "path": "public/opening-c-preview-v2/book-base-ivory.png",
+      "bytes": 2232173,
+      "sha256": "d1dccad915062db93eaea338729c9780b06d428fd1f0bb17b034b9f044a8a3f9",
+      "gitBlobSha1": "8c825b16f9ad834063e021f0c6b4190ac476d4ed"
+    },
+    {
+      "path": "public/opening-c-preview-v2/book-base-ivory.webp",
+      "bytes": 233788,
+      "sha256": "98951b0aaf906c3f5ed690e1f18987cb83e7294e5c4c797d7102aa179fa2dd76",
+      "gitBlobSha1": "163168a385e35bd562859b3671f192cebfddfe09"
+    },
+    {
+      "path": "public/opening-c-preview-v2/vendor/LICENSE.txt",
+      "bytes": 1063,
+      "sha256": "88d7b609a3be5efa2abe8648ddc35d5489579db5e06299545760df45c2c32d66",
+      "gitBlobSha1": "681e1e7da3dafef9e34d6338ab03f530d3301f1c"
+    },
+    {
+      "path": "public/opening-c-preview-v2/vendor/page-flip-2.0.7.js",
+      "bytes": 44058,
+      "sha256": "bbaca0bbef57a22bb66a3fc69d67baf9a17fb9a9c89ec9ed35e2b91abe4bd1e7",
+      "gitBlobSha1": "af350966b55c33936f3c4a9165efeefd3088eee3"
+    },
+    {
+      "path": "public/opening-c-preview-v2/米白書皮紀錄.json",
+      "bytes": 2082,
+      "sha256": "b7a35f92ba62fdacfcd632dbcc78d501fc2c65f354e17ed23552b9e540db961a",
+      "gitBlobSha1": "166e16bc1fef65b5d4dc8b97c4fda139926da902"
+    },
+    {
+      "path": "public/opening-c-preview-v2/製作紀錄.json",
+      "bytes": 12724,
+      "sha256": "b46456b96ba2d2fe1657ab250aa5ce45c8242a0410bcf3b35cf3cd04d27dcd81",
+      "gitBlobSha1": "4a40093af28110bf79b76e38e2168bf897d4ba2b"
+    },
+    {
+      "path": "public/weapons-sheet-2-v2.png",
+      "bytes": 2733633,
+      "sha256": "47d3f72582b69786baef37c8682bfc318be7f9f096bfcd7d56d5d1dee6325267",
+      "gitBlobSha1": "def558b83eb763f4ffc4677dc24a1f2b718adc71"
+    },
+    {
+      "path": "public/weapons-sheet-v2.png",
+      "bytes": 2896114,
+      "sha256": "8ad9976b705eb8198d4332d4100a9b56966f5c22eed24037d3ac4dd65ea01b4c",
+      "gitBlobSha1": "53727627d4d0d39e4bb02c81b95727b698bc240c"
+    },
+    {
+      "path": "public/window.svg",
+      "bytes": 385,
+      "sha256": "644768c4aaeb4767bce293344eeb0c125fb804a94d801440424072202d85e3a1",
+      "gitBlobSha1": "b2b2a44f6ebc70c450043c05a002e7a93ba5d651"
+    },
+    {
+      "path": "tests/atlas-projection.test.mjs",
+      "bytes": 3355,
+      "sha256": "ef575f9cc0a441e141aadc7ab8588a1fc8245dbe76ca632be24b38b747bf2127",
+      "gitBlobSha1": "68a382cfc17314177cc8f50bdb8ef7b117e99e3b"
+    },
+    {
+      "path": "tests/equipment-redraws.test.mjs",
+      "bytes": 2742,
+      "sha256": "5a7746fe63139dfabdabee22facf07f2c875a1f019ca80e3c237e5ab69a53bf9",
+      "gitBlobSha1": "b1594972a7bf9f92632ded27134e5d33dc473f31"
+    },
+    {
+      "path": "tests/historical-sites.test.mjs",
+      "bytes": 2168,
+      "sha256": "fb99403fe0c188a00ad3e9a9f4492f3f205a9381fcb9fdf472da502e1b94f7b4",
+      "gitBlobSha1": "ac1532f823269386fee4f8a1be45c5073d31241d"
+    },
+    {
+      "path": "tests/map-labels.test.mjs",
+      "bytes": 1784,
+      "sha256": "eb4fd445af525edb3aee9b0704b5b26da7c8aadbcee9a03283260ab52f5bb72d",
+      "gitBlobSha1": "9193d34a40c4191fcc559e35383c3538dba699d3"
+    },
+    {
+      "path": "tests/military-redraws.test.mjs",
+      "bytes": 3251,
+      "sha256": "2f15bb664900429225d81a0cbdfd41a53003084d669e39e0cc6c9b61552d9f8d",
+      "gitBlobSha1": "f806ca0270bc9d2589b19cec046a3c63044962ea"
+    },
+    {
+      "path": "tests/qin-projection.test.mjs",
+      "bytes": 1987,
+      "sha256": "855d8aaada977fcf90eabd648c8d14301fbce396b46831b4d67f3e40ef161554",
+      "gitBlobSha1": "e9cae5b88494f095c0576ba4bb9bc8aeaa4255a1"
+    },
+    {
+      "path": "tests/rendered-html.test.mjs",
+      "bytes": 3638,
+      "sha256": "60c1480239092d91f72acea87edf42511742c738c4b6d91a8d5a20a09c66a449",
+      "gitBlobSha1": "291dfe979c32bdda2cc17936102e69f810055be0"
+    },
+    {
+      "path": "tests/three-projection.test.mjs",
+      "bytes": 3832,
+      "sha256": "6639d5ca012e29193b3d2ebd6496e604dfa7dfe61fc1697e29766ba34b249765",
+      "gitBlobSha1": "483c45257f47be17061d927cf3eacb0552bd690c"
+    },
+    {
+      "path": "tsconfig.json",
+      "bytes": 700,
+      "sha256": "fbff01604d6cb54694be707f26e7a0eb21a6ef796b888c6a1dab1839fa7c6ccc",
+      "gitBlobSha1": "c50b0da0985ce945b3ce2ce38e8f1ccdf04f702c"
+    },
+    {
+      "path": "vite.config.ts",
+      "bytes": 1756,
+      "sha256": "5d68239b2f24f42354e8a05cf69b83fd8f3ce34727f2edf2b55283e4f732c77a",
+      "gitBlobSha1": "d71bf24d9283143c25c1703e5ccad02244f15cb7"
+    },
+    {
+      "path": "worker/index.ts",
+      "bytes": 1778,
+      "sha256": "6f8983ab616309202039ad672b1a46a835bede1bb77636dc751613c664f969e5",
+      "gitBlobSha1": "8d9bb2242c5d4f9d8d16f4d60a1bdff9f690cbcf"
+    },
+    {
+      "path": "地圖資料查核紀錄.md",
+      "bytes": 22634,
+      "sha256": "ad03509b5644a25ceea9aa5cf77218c1329fcc5578e4e15a83f0bd10e507329b",
+      "gitBlobSha1": "635be7610368a736b9ce9acfaf146b903de78e95"
+    },
+    {
+      "path": "地圖重建工具/build-atlas-plate.mjs",
+      "bytes": 5098,
+      "sha256": "e29f42c7520f2cb834a0566129347b67ed0516fb7535a7da8a10dfdcb69ec88d",
+      "gitBlobSha1": "d1deec0d1d5a8c80d020e65e501c17848d0a6690"
+    },
+    {
+      "path": "地圖重建工具/build-map-assets.mjs",
+      "bytes": 5798,
+      "sha256": "0c91768f62a66d5ee8a66f990149503b07ca9c34a26341a93f8a9a7c5fc0ee1c",
+      "gitBlobSha1": "4a603eacbfdcca2bbab712c2530822c0c25aaf66"
+    },
+    {
+      "path": "地圖重建工具/qin-vector.mjs",
+      "bytes": 7391,
+      "sha256": "4a8a84d6b7142487e4cc3ac59a5616edb52c36a59343968e4d97001442450a23",
+      "gitBlobSha1": "11c2af037d2d2ff48a493e1cd6563fd139c0f55d"
+    },
+    {
+      "path": "地圖重建工具/three-raster.mjs",
+      "bytes": 11152,
+      "sha256": "df13f5f7960f87a4e909c5467d4df967d91a07dcd824e5dcc9322d2da44f8216",
+      "gitBlobSha1": "5fde48e7ed8fd9eeaf41228f5cddf064dd2fdc0f"
+    },
+    {
+      "path": "地圖重建工具/來源/ne_10m_wei_river.geojson",
+      "bytes": 22359,
+      "sha256": "88222e53d0f61152e7a776c282800fa3b3350a6dcb4d3193bc18fdb072608782",
+      "gitBlobSha1": "ecabcac3d8d9610c2fe33fa583aade35666455ea"
+    },
+    {
+      "path": "地圖重建工具/來源/ne_50m_coastline.geojson",
+      "bytes": 1640858,
+      "sha256": "271f1c4c1908312bac6b29d158ea1356544beafc129f260005300913aa5ea283",
+      "gitBlobSha1": "4ead47f5323a3a71495a12442ba936c969b6fae2"
+    },
+    {
+      "path": "地圖重建工具/來源/Qin_dynasty_territory.svg",
+      "bytes": 114030,
+      "sha256": "c37befe576d20479eb9dfde09179b562a17e918734812e256274642bde6f75d5",
+      "gitBlobSha1": "5e934a1a8e765a30fc9b2f0e5e7af6cab0741792"
+    },
+    {
+      "path": "地圖重建工具/來源/README.md",
+      "bytes": 9491,
+      "sha256": "b49db5eab19e27f9d5ce6fbdc4827b0f6a93a24a8a1b5bc57168518260028e91",
+      "gitBlobSha1": "db40dc94d338aa4cd9ab0c53413ba7f9eff5588c"
+    },
+    {
+      "path": "地圖重建工具/來源/ThreeKingdoms262-3840.png",
+      "bytes": 2044861,
+      "sha256": "7b0a82efb767f07072b57eed450bd1426b679b2c6060ff9f4af7d5da94bde6d7",
+      "gitBlobSha1": "d0a6338c66475e0c0ef372a2682ac40279be8529"
+    },
+    {
+      "path": "地圖重建工具/圖冊底板紀錄.json",
+      "bytes": 1582,
+      "sha256": "81c03ece3888697443f7eb3d00a8143e2255eb82854fd627568962344dd47fcf",
+      "gitBlobSha1": "a0acfc15b46d450e0e21e2b293f5a7bf1f5ea7fb"
+    },
+    {
+      "path": "地圖重建工具/配準紀錄.json",
+      "bytes": 6137,
+      "sha256": "f259698804c01dba54d1c652f2417cfe48c1334070657202f62f0a72b155e608",
+      "gitBlobSha1": "764c467453ea357112092782c3a59482721c2cb9"
+    },
+    {
+      "path": "百科重繪素材紀錄.json",
+      "bytes": 639833,
+      "sha256": "bf7e4c1a1579659ea45f5134b7066f4b53719319d335f3d88657fc5416fbc39d",
+      "gitBlobSha1": "550fb647b3706d61b132aec7f4e405829950645e"
+    },
+    {
+      "path": "build/sites-vite-plugin.ts",
+      "bytes": 1299,
+      "sha256": "abd6bc3a592961e978ab72fceb8ee7647824d9a2321ee5b5777b2a05d69526cc",
+      "gitBlobSha1": "3df9173a425fe1e41119351928cce076e5e6857a"
+    }
+  ]
+}

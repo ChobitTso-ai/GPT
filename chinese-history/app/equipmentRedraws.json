@@ -1,0 +1,308 @@
+{
+  "騎射": {
+    "src": "/encyclopedia-v18/equipment-han-mounted-archery-v1.webp",
+    "alt": "漢代騎射練習示意，騎者在向右緩行的馬上轉身向草靶引弓，雙足未踏馬鐙。",
+    "caption": "靜態插畫｜漢代無馬鐙騎射練習的想像復原",
+    "representativeEra": "漢・公元前2至1世紀示例",
+    "note": "選漢代作跨朝代騎射的一例，圖中馬具不加後世馬鐙。漢畫研究支持騎射活動的存在，衣帽、弓形、引弓姿勢與練習場景仍屬示意，不代表某位將領或全漢軍的定裝。",
+    "sources": [
+      {
+        "name": "崔樂泉、王曉娜：漢畫射藝文化研究",
+        "url": "https://ntxb.nipes.cn/tyxyj/njtyxyxbsk/article/abstract/20220405"
+      },
+      {
+        "name": "中國國家博物館：西漢彩繪陶兵馬俑",
+        "url": "https://www.chnmuseum.cn/zp/zpml/kgfjp/202110/t20211027_251893.shtml"
+      }
+    ]
+  },
+  "木牛流馬": {
+    "src": "/encyclopedia-v18/equipment-muniuliuma-hypothesis-v1.webp",
+    "alt": "木牛流馬的後世獨輪車解釋示意，單一中央木輪兩側分放糧筐，後方雙握柄與停車腳完整可辨。",
+    "caption": "靜態插畫｜木牛流馬的獨輪車假說想像復原",
+    "representativeEra": "三國文獻・後世獨輪車解釋",
+    "note": "三國史籍記載木牛、流馬運輸；後世文獻把流馬聯繫獨輪手推車。本圖只呈現這一解釋的功能示意，不能證明木牛與流馬同形，也不是三國實物、尺寸或機械構造的定論。",
+    "sources": [
+      {
+        "name": "《三國志》卷33：後主傳",
+        "url": "https://zh.wikisource.org/zh-hant/%E4%B8%89%E5%9C%8B%E5%BF%97/%E5%8D%B733"
+      },
+      {
+        "name": "教育部教育百科：江州車",
+        "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=%E6%B1%9F%E5%B7%9E%E8%BB%8A"
+      }
+    ]
+  },
+  "大象兵": {
+    "src": "/encyclopedia-v18/equipment-south-asian-elephant-armour-v1.webp",
+    "alt": "南亞約17世紀披象甲的亞洲象休息示意，頸前坐有象夫，旁邊照料者捧著草料。",
+    "caption": "靜態插畫｜約17世紀南亞披甲象的想像復原",
+    "representativeEra": "南亞・約17世紀象甲一例",
+    "note": "以南亞象甲與象夫為跨地域比較示意，不是三國南中戰役復原，也不能用來證實《三國演義》情節。象甲分片、衣著與營地為想像安排；館藏製作地與使用者仍有不確定性，不指定某位君主。",
+    "sources": [
+      {
+        "name": "英國皇家軍械博物館：象甲藏品介紹",
+        "url": "https://royalarmouries.org/collection"
+      },
+      {
+        "name": "大都會博物館：Elephant Soul, Indian Brush",
+        "url": "https://www.metmuseum.org/perspectives/elephant-soul-indian-brush"
+      }
+    ]
+  },
+  "水軍戰船": {
+    "src": "/encyclopedia-v18/equipment-ming-guangchuan-stern-v2.webp",
+    "alt": "明代廣船型海防船的船尾斜俯視示意，木船、扇形帆、穿孔舵與甲板整備人員可辨。",
+    "caption": "靜態插畫｜16世紀廣船型海防船的想像復原",
+    "representativeEra": "明・16世紀廣船一例",
+    "note": "選明代廣船作水軍戰船一例，以船尾、帆與舵呈現海防備航示意。船型有歷時差異，帆桅數量、炮位、人員、索具與港岸皆非定型復原；不能把圖中輪廓當作所有明代戰船或某件館藏的原樣。",
+    "sources": [
+      {
+        "name": "中國科技館：中國古代航海科普讀本",
+        "url": "https://cdn.resources.cdstm.cn/h5/jzrm/20210219hxzgzggdhh.pdf"
+      },
+      {
+        "name": "譚玉華《嶺海帆影》書目與內容介紹",
+        "url": "https://cssn.cn/kgxc/kgxc_kghs/202207/t20220728_5430705.shtml"
+      }
+    ]
+  },
+  "火藥武器": {
+    "src": "/encyclopedia-v18/equipment-song-incendiary-arrows-v1.webp",
+    "alt": "北宋燃燒箭器類的外觀示意，三支完整木箭分放麻布上，前段各有封閉包裹，沒有點火。",
+    "caption": "靜態插畫｜北宋燃燒箭器類的想像復原",
+    "representativeEra": "北宋・11世紀燃燒箭示例",
+    "note": "以北宋火藥縱火箭為示意，與利用噴氣自行飛行的火箭分開理解。包裹、箭形與收納場景為外觀概念，未復原配方、尺寸、內部或點火機構，也不據此判定最早自推火箭的年代。",
+    "sources": [
+      {
+        "name": "中國機械工程學會數位博物館：古代火箭",
+        "url": "https://museum.cmes.org/machinery/search/detail/977694609da843c8aef8fd79220920e2"
+      },
+      {
+        "name": "中國國家博物館：科技的力量",
+        "url": "https://www.chnmuseum.cn/portals/0/web/zt/202012kxyjs/"
+      }
+    ]
+  },
+  "火銃與火砲": {
+    "src": "/encyclopedia-v18/equipment-ming-yongle-handcannon-v1.webp",
+    "alt": "明永樂時期手銃器類外觀示意，長銅筒、略鼓後部與尾銎完整置於中性木托，未裝木柄。",
+    "caption": "靜態插畫｜明永樂手銃器類的想像復原",
+    "representativeEra": "明・15世紀初永樂手銃一例",
+    "note": "從火銃與火砲的大類中選永樂手銃一例作外觀示意。銅筒、後部與尾銎不是內部剖面；未補銘文、木柄或精密構造，木托只供展示，不是歷史射擊架。不同年代的碗口銃、佛郎機及清炮不混為同型。",
+    "sources": [
+      {
+        "name": "中國國家博物館：明永樂銅火銃展品文字",
+        "url": "https://www.chnmuseum.cn/portals/0/web/zt/202012kxyjs/"
+      },
+      {
+        "name": "故宮博物院：明手銃研究",
+        "url": "https://www.dpm.org.cn/Uploads/pdf/1926/T00096_00.pdf"
+      }
+    ]
+  },
+  "鐵甲戰艦": {
+    "src": "/encyclopedia-v18/equipment-qing-pingyuan-coastdefence-v1.webp",
+    "alt": "晚清平遠艦的近岸鋼甲艦外觀示意，短闊低舷船體、前部單門主炮、單桅與單煙囪可辨。",
+    "caption": "靜態插畫｜約1890至1894年平遠艦的想像復原",
+    "representativeEra": "晚清・約1890至1894年平遠艦一例",
+    "note": "以晚清平遠艦作近岸鋼甲艦一例，與定遠級大型鐵甲艦分開。圖中船體、塗裝、炮罩、甲板人員與小艇均為外觀示意，不是精密艦型線圖或某次改裝復原，也不加入未確認的魚雷設備。",
+    "sources": [
+      {
+        "name": "陳悅：福建船政「平遠」艦考",
+        "url": "https://download.s21i.co99.net/32714043/0/0/ABUIABA9GAAgyfvgtgYo5tWE5gM.pdf?f=%EF%BC%88%E5%B7%B2%E5%8E%8B%E7%BC%A9%EF%BC%8919%E6%9C%9F%E6%9D%82%E5%BF%97PDF.pdf&v=1725447625"
+      },
+      {
+        "name": "福州市地方志：船政與平遠艦背景",
+        "url": "https://fz.fjdsfzw.org.cn/wap/2016-10-11/content_10037.html"
+      }
+    ]
+  },
+  "坦克": {
+    "src": "/encyclopedia-v18/equipment-mark-i-tank-1916-v2.webp",
+    "alt": "1916年英國Mark I雄型坦克外觀示意，菱形履帶包圍車身，側炮座可辨，沒有旋轉炮塔。",
+    "caption": "靜態插畫｜1916年Mark I坦克的想像復原",
+    "representativeEra": "英國・1916年起・帝制時間軸外",
+    "note": "坦克在1916年投入作戰，已在清朝結束後，屬帝制時間軸外比較。本圖選Mark I雄型去除尾輪後的外觀示意；不把館藏後補部件當作1916年原狀，也不代表某輛具名車或完整機械構造。",
+    "sources": [
+      {
+        "name": "英國坦克博物館：Mark I",
+        "url": "https://tankmuseum.org/tank-nuts/tank-collection/mark-i"
+      },
+      {
+        "name": "英國國家陸軍博物館：Attack of the tanks",
+        "url": "https://www.nam.ac.uk/explore/attack-tanks"
+      }
+    ]
+  },
+  "四馬戰車": {
+    "src": "/encyclopedia-v18/equipment-qin-fourhorse-harness-v1.webp",
+    "alt": "秦代四馬單轅車制示意，高後側視角可數四匹並列馬，內側兩匹之間的單轅與短衡及雙輪車架可辨。",
+    "caption": "靜態插畫｜秦代四馬單轅車制的想像復原",
+    "representativeEra": "秦・公元前3世紀車駟示例",
+    "note": "四匹並駕稱車駟，圖中內側兩服馬、外側兩驂馬作功能示意。車轅、短衡、繩帶、車體與一名御手不作精密工程或軍隊員額復原；御用陪葬銅車馬可作車制參考，不能直接當作軍車實物。 圖中外側牽繫未完整呈現，不能當作完整繫駕操作圖。",
+    "sources": [
+      {
+        "name": "秦始皇帝陵博物院：銅車馬坑",
+        "url": "https://www.bmy.com.cn/pithorse.html"
+      },
+      {
+        "name": "故宮博物院：秦代陶馬",
+        "url": "https://www.dpm.org.cn/collection/sculpture/234238.html"
+      }
+    ]
+  },
+  "烽火臺": {
+    "src": "/encyclopedia-v18/equipment-han-beacon-duty-v2.webp",
+    "alt": "漢代西北邊塞烽燧勤務示意，夯土臺旁備有蘆葦薪束，守卒在臺上瞭望，地面信號煙柱與遠臺相呼應。",
+    "caption": "靜態插畫｜漢代邊塞烽燧勤務的想像復原",
+    "representativeEra": "漢・西北邊塞勤務示例",
+    "note": "漢代烽燧、郵驛與戍卒共同維持邊防，本圖作值守與備薪示意。夯土臺、梯、居舍、煙柱與遠臺配置不代表特定遺址測繪，煙色與數量也不是完整警報編碼，不把現存殘址直接補成確定原貌。",
+    "sources": [
+      {
+        "name": "中研院史語所：居延漢簡",
+        "url": "https://museum.sinica.edu.tw/collection/20/"
+      },
+      {
+        "name": "中國絲綢博物館：馬圈灣烽燧出土紡織品保護項目",
+        "url": "https://www.chinasilkmuseum.com/uploadfiles/2023/05/20230530102956153.pdf"
+      }
+    ]
+  },
+  "具裝騎兵": {
+    "src": "/encyclopedia-v18/equipment-northern-wei-armour-pair-v1.webp",
+    "alt": "北魏甲騎具裝示意，披馬鎧的戰馬與下馬站立、身著甲冑的騎者並置，完整馬蹄與人物可辨。",
+    "caption": "靜態插畫｜北魏人馬配甲的想像復原",
+    "representativeEra": "北魏・6世紀前期示例",
+    "note": "以6世紀前期北魏作甲騎具裝一例，將人甲與馬甲並置作示意。頭頸、胸、馬身及臀部防護參考器類概念，甲片、繫結、鞍鐙及整備場景不作精密復原；陶俑不能直接證明全軍定裝或每種材質。",
+    "sources": [
+      {
+        "name": "中國國家博物館：重裝騎兵",
+        "url": "https://www.chnmuseum.cn/yj/xscg/xslw/201812/t20181224_33118.shtml"
+      },
+      {
+        "name": "大都會博物館：北魏人馬披甲俑20.39.3",
+        "url": "https://www.metmuseum.org/art/collection/search/52556"
+      }
+    ]
+  },
+  "唐代騎兵": {
+    "src": "/encyclopedia-v18/equipment-tang-cavalry-watering-v1.webp",
+    "alt": "唐代騎兵休整的想像示意，一名披甲騎者持韁坐在低頭飲水的馬上，近側足踏馬鐙，人物與戰馬四蹄完整可辨。",
+    "caption": "靜態插畫｜唐代騎兵休整的想像復原",
+    "representativeEra": "唐・8世紀騎兵休整示例",
+    "note": "唐代騎馬武士俑與墓葬馬鐙支持騎乘、甲冑與騎具背景。本圖以8世紀作代表，單騎飲水的姿勢、衣甲配色、鞍形與繫法屬想像示意，不代表某位將領、全唐軍定裝或文物原貌。",
+    "sources": [
+      {
+        "name": "國立歷史博物館：素馬人h0000065",
+        "url": "https://collections.culture.tw/Object?RNO=aDAwMDAwNjU%3D&SYSUID=14"
+      },
+      {
+        "name": "北京市文物局：趙福生談史思明墓發掘",
+        "url": "https://wwj.beijing.gov.cn/bjww/362760/362765/652806/index.html"
+      }
+    ]
+  },
+  "牽引式投石機": {
+    "src": "/encyclopedia-v18/equipment-song-traction-store-v1.webp",
+    "alt": "北宋人力牽引式投石機的外觀示意，直梢跨過樞軸，短端垂拽索、長端垂空皮兜，沒有配重箱。",
+    "caption": "靜態插畫｜北宋人力牽引投石機的想像復原",
+    "representativeEra": "北宋・11世紀器類示例",
+    "note": "北宋《武經總要》記拽索與皮窩等人力投石器。本圖靜置展示短端拽索與長端吊兜，沒有配重箱；繩數、支架、比例、吊兜釋放繫法與固定方式均屬外觀示意，不能當完整工程或操作復原。",
+    "sources": [
+      {
+        "name": "《武經總要》前集卷十二：單梢炮",
+        "url": "https://zh.wikisource.org/wiki/武經總要/前集/卷十二"
+      },
+      {
+        "name": "Michael Basista：Hybrid or Counterpoise?",
+        "url": "https://www.cambridge.org/core/books/abs/journal-of-medieval-military-history/hybrid-or-counterpoise-a-study-of-transitional-trebuchets/C0C7B696549B0D972CA09E6D0715F5B2"
+      }
+    ]
+  },
+  "車船": {
+    "src": "/encyclopedia-v18/equipment-southern-song-paddle-bow-v1.webp",
+    "alt": "南宋人力車船的船首斜視想像示意，木船中央有篷舍，近側槳輪連接船體並部分入水，船尾舟人持舵槳。",
+    "caption": "靜態插畫｜南宋人力車船的想像復原",
+    "representativeEra": "南宋・12世紀車船外觀示例",
+    "note": "《宋史》記1161年京口踏車船試航，研究說明車船以人力踏車、輪擊水。本圖僅畫外觀；輪徑、葉片數、舷外支架、篷舍、船型與舵槳皆屬示意，沒有復原艙內踏車傳動或特定戰船，也不能由圖推定人員配置。",
+    "sources": [
+      {
+        "name": "《宋史》卷383：虞允文",
+        "url": "https://zh.wikisource.org/wiki/宋史/卷383"
+      },
+      {
+        "name": "黃純艷：宋代社會的造船業大觀",
+        "url": "https://www.nopss.gov.cn/BIG5/n1/2018/0315/c219468-29869043.html"
+      }
+    ]
+  },
+  "回回砲": {
+    "src": "/encyclopedia-v18/equipment-yuan-counterweight-front-v3.webp",
+    "alt": "元代配重式回回砲的正面想像示意，前方中央配重箱垂在短臂下，兩側木架與底木完整，向後延伸的長臂頂端只有一個空皮兜。",
+    "caption": "靜態插畫｜元代回回砲的想像復原",
+    "representativeEra": "元・13世紀後期器類示例",
+    "note": "《元史》記砲匠及1273年襄陽用砲，沒有留下本圖的精確結構。本圖以短臂重物、長臂吊兜表現配重器類，並非火藥砲；機架、吊箱、比例及繫法均屬想像示意，不代表某件考古實物或完整可運轉器械。",
+    "sources": [
+      {
+        "name": "《元史》卷203：阿老瓦丁、亦思馬因",
+        "url": "https://zh.wikisource.org/wiki/元史/卷203"
+      },
+      {
+        "name": "PBS NOVA：Counterweight",
+        "url": "https://www.pbs.org/wgbh/nova/lostempires/trebuchet/counterweight.html"
+      }
+    ]
+  },
+  "狼筅與藤牌": {
+    "src": "/encyclopedia-v18/equipment-ming-rattan-langxian-still-v1.webp",
+    "alt": "明代狼筅與藤牌的器物靜置示意，完整圓形編藤盾立在木托上，旁置保留枝梢並在頂端加刃的長竹筅。",
+    "caption": "靜態插畫｜明代狼筅與藤牌的想像復原",
+    "representativeEra": "明・16世紀器類示例",
+    "note": "《紀效新書》分別記編藤牌與節密枝堅、梢端加刃的狼筅，並強調器械配合。本圖只示兩類器物，編織、枝梢密度、比例、綁紮及展示木托均屬想像示意；不是完整鴛鴦陣、武藝動作或某件文物的精密復原。",
+    "sources": [
+      {
+        "name": "《紀效新書》卷十一：藤牌與狼筅",
+        "url": "https://zh.wikisource.org/wiki/紀效新書/卷十一"
+      },
+      {
+        "name": "《紀效新書》卷一：原授器",
+        "url": "https://zh.wikisource.org/wiki/紀效新書/卷一"
+      }
+    ]
+  },
+  "秦弩": {
+    "src": "/encyclopedia-v18/equipment-qin-crossbow-bearer-v3.webp",
+    "alt": "秦代人物在夯土院前雙手平持完整木弩，長木臂與橫向弓身清楚可辨，未掛弦且未置箭，頭足和弓梢均在畫內。",
+    "caption": "靜態插畫｜秦代持弩者的想像復原",
+    "note": "選秦代木弩作器類示意，畫中未掛弦也未置箭。國博所述秦弩機無郭；本圖不畫包覆木臂的盒狀金屬郭，表面小銅件、弓梢裝飾、衣甲、握姿及器物比例仍是想像，並非出土弩機或構造圖的精確復原。",
+    "sources": [
+      {
+        "name": "秦始皇帝陵博物院：秦兵馬俑坑首次發現最完整弓弩",
+        "url": "https://www.bmy.com.cn/news/news/2352.html"
+      },
+      {
+        "name": "中國國家博物館：銅弩機（秦）",
+        "url": "https://www.chnmuseum.cn/zp/zpml/kgfjp/202110/t20211027_251877.shtml"
+      }
+    ],
+    "representativeEra": "秦・公元前3世紀末器類示例"
+  },
+  "晚清近代槍械": {
+    "src": "/encyclopedia-v18/equipment-qing-mauser1871-carbine-v1.webp",
+    "alt": "晚清近代槍械代表示意，一支1871式毛瑟卡賓槍斜置木架，木托、槍管、槍栓外形與自然垂下的皮背帶完整可辨。",
+    "caption": "靜態插畫｜晚清毛瑟卡賓槍一例的想像復原",
+    "note": "選有1900年中國軍隊使用紀錄的1871式毛瑟卡賓槍作示意，不再以未採用漢陽造稿充數。木托、金屬外形、背帶及室內陳列為想像安排，不逐件複製館藏標記；不能代表全清軍制式、精確年款、內部構造或操作方法。",
+    "sources": [
+      {
+        "name": "澳洲戰爭紀念館：中國軍隊1871式毛瑟卡賓槍",
+        "url": "https://www.awm.gov.au/collection/C135469"
+      },
+      {
+        "name": "英國議會1900年7月9日：輸華軍需品答詢",
+        "url": "https://api.parliament.uk/historic-hansard/commons/1900/jul/09/war-material-supplied-to-china-from"
+      }
+    ],
+    "representativeEra": "晚清・1900年前後使用的1871式毛瑟卡賓槍一例"
+  }
+}

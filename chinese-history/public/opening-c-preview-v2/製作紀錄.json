@@ -1,0 +1,362 @@
+{
+  "version": "2.1",
+  "date": "2026-11-12",
+  "copyright": "© 2026 Tso KY - All Rights Reserved",
+  "protection": "Protected against reverse engineering and unauthorized modification",
+  "feedback": "使用者：「翻頁的方式不對，這完全錯誤」；進一步指出「根本不是翻頁，是直接切換」。",
+  "status": "米白書皮動態樣板完成，主首頁尚未替換；翻頁動作已獲使用者接受。",
+  "implementation": "從左下頁角帶起、向右翻；使用soft page模式、四頁順序2→0、頁角捲曲、正反面與局部陰影。保留C水彩，移除先收合紙景段落，先專注紙張動作；不再用v1全頁升起網格。",
+  "direction": "沿用原開場左向右；使用者本輪針對直接切換，未另確認方向偏好。",
+  "art": "沿用已保存的C圖層與既有hero-qin-v3.png，沒有新生圖或付費API；原102百科未變。",
+  "library": {
+    "name": "StPageFlip / page-flip",
+    "version": "2.0.7",
+    "author": "Nodlik",
+    "license": "MIT",
+    "source": "https://github.com/Nodlik/StPageFlip",
+    "distribution": "https://registry.npmjs.org/page-flip/2.0.7",
+    "checksum": "BBACA0BBEF57A22BB66A3FC69D67BAF9A17FB9A9C89EC9ED35E2B91ABE4BD1E7",
+    "integrity": "下載套件已核對官方dist.integrity SHA512；JS未修改；MIT全文留vendor/LICENSE.txt。",
+    "scope": "僅獨立樣板vendor，未改根package.json或lockfile。"
+  },
+  "recording": {
+    "method": "Chrome DevTools Protocol Page.startScreencast逐格取得瀏覽器合成畫面及時間戳，再以FFmpeg編碼；不是前後兩張拼接。",
+    "officialProtocol": "https://chromedevtools.github.io/devtools-protocol/tot/Page/#method-startScreencast",
+    "capturedFrames": 338,
+    "videoFrames": 173,
+    "fps": 30,
+    "durationSeconds": 5.766667,
+    "format": "H2641440×960及循環GIF900×600",
+    "checks": "直接解碼成片，在1.1、1.8、3.8、5.3秒核對捲角／越脊／落頁。原成片逐格MD5為173影格、149不同畫面；最後只裁除底部按鈕邊，時間軸及173影格不變。",
+    "limitations": "上一版只做網頁階段與末段圖片檢查，沒有足夠驗證成片連續動作；本輪保留該檢查缺口。Playwright隨附ffmpeg缺失及兩次離屏MediaRecorder無有效影格，未安裝新依賴，診斷留中央。"
+  },
+  "validation": {
+    "results": [
+      {
+        "viewport": "desktop",
+        "frames": 6,
+        "pageSequence": [
+          2,
+          0
+        ],
+        "events": [
+          {
+            "type": "flip",
+            "value": 0,
+            "time": 373.19999998807907
+          },
+          {
+            "type": "flip",
+            "value": 2,
+            "time": 373.19999998807907
+          },
+          {
+            "type": "flip",
+            "value": 2,
+            "time": 410.40000000596046
+          },
+          {
+            "type": "state",
+            "value": "flipping",
+            "time": 834.8000000119209
+          },
+          {
+            "type": "flip",
+            "value": 0,
+            "time": 2639
+          },
+          {
+            "type": "state",
+            "value": "read",
+            "time": 2639.0999999940395
+          },
+          {
+            "type": "flip",
+            "value": 2,
+            "time": 4258.9000000059605
+          },
+          {
+            "type": "state",
+            "value": "flipping",
+            "time": 4259.199999988079
+          },
+          {
+            "type": "flip",
+            "value": 0,
+            "time": 6061.9000000059605
+          },
+          {
+            "type": "state",
+            "value": "read",
+            "time": 6061.9000000059605
+          }
+        ],
+        "keyboard": true,
+        "replay": true
+      },
+      {
+        "viewport": "mobile",
+        "frames": 6,
+        "pageSequence": [
+          2,
+          0
+        ],
+        "events": [
+          {
+            "type": "flip",
+            "value": 0,
+            "time": 289.39999997615814
+          },
+          {
+            "type": "flip",
+            "value": 2,
+            "time": 289.39999997615814
+          },
+          {
+            "type": "flip",
+            "value": 2,
+            "time": 321.09999999403954
+          },
+          {
+            "type": "state",
+            "value": "flipping",
+            "time": 781
+          },
+          {
+            "type": "flip",
+            "value": 0,
+            "time": 1403.5999999940395
+          },
+          {
+            "type": "state",
+            "value": "read",
+            "time": 1403.5999999940395
+          },
+          {
+            "type": "flip",
+            "value": 2,
+            "time": 3118.399999976158
+          },
+          {
+            "type": "state",
+            "value": "flipping",
+            "time": 3118.699999988079
+          },
+          {
+            "type": "flip",
+            "value": 0,
+            "time": 3738.7999999821186
+          },
+          {
+            "type": "state",
+            "value": "read",
+            "time": 3738.7999999821186
+          }
+        ],
+        "keyboard": true,
+        "replay": true
+      }
+    ],
+    "pageErrors": [],
+    "reducedMotion": true,
+    "syntax": "node --check preview.js通過",
+    "mainSourceShaUnchanged": 6,
+    "starterDebts": 2,
+    "build": "獨立靜態樣板，主App未改，不重跑主站既有型別與建置，不稱全測試通過。"
+  },
+  "files": [
+    {
+      "file": "C_連續翻頁_v2.mp4",
+      "bytes": 1104782,
+      "sha256": "70B72A07E36DE1B7CAE3A09AD75BDC006D9D3AD8033E0E485011F4BCD41E99B1"
+    },
+    {
+      "file": "C_連續翻頁_v2.gif",
+      "bytes": 4235545,
+      "sha256": "F40AE853AF1061C05E4578D33C371856459B3D344AD3BC219BC1E950A60A586D"
+    }
+  ],
+  "previousVersion": "2.0",
+  "acceptedMotion": "v2軟紙翻頁動作已接受；只修改外皮色彩。",
+  "coverRevision": {
+    "version": "2.1",
+    "date": "2026-11-12",
+    "copyright": "© 2026 Tso KY - All Rights Reserved",
+    "protection": "Protected against reverse engineering and unauthorized modification",
+    "userFeedback": "翻頁可以，但是不要綠色書皮",
+    "accepted": "v2軟紙翻頁動作已接受；只修改外皮色彩。",
+    "colorChoice": "使用者只指定不要綠色，暖米白／淺亞麻色為本輪採用的替代候選，不記為使用者指定色。",
+    "cover": {
+      "version": "2.1",
+      "date": "2026-11-12",
+      "tool": "內建imagegen局部編輯；Sharp只作WebP格式轉換",
+      "source": "public/opening-c-preview-v1/book-base.png",
+      "original": "public/opening-c-preview-v2/book-base-ivory.png",
+      "web": "public/opening-c-preview-v2/book-base-ivory.webp",
+      "size": [
+        1536,
+        1024
+      ],
+      "bytes": 2232173,
+      "webBytes": 233788,
+      "sha256": "D1DCCAD915062DB93EAEA338729C9780B06D428FD1F0BB17B034B9F044A8A3F9",
+      "webSha256": "98951B0AAF906C3F5ED690E1F18987CB83E7294E5C4C797D7102AA179FA2DD76",
+      "prompt": "Edit the attached book background plate. Make exactly ONE localized material/color change: replace ALL of the teal/green cloth book cover, including the thin outer rim, exposed spine/gutter cloth at top and bottom, and every teal edge around the book, with elegant WARM IVORY / LIGHT NATURAL FLAX linen. It must contain NO green, teal, turquoise or blue tint in the cover or binding. Use a subtly darker light-beige stitching/cloth weave so the ivory cover remains distinguishable from the cream paper and peach-ivory background. Preserve the precise original book shape, dimensions, all page edges, centered gutter, page positions, overhead orthographic camera, blank paper fibres, rounded corners, subtle shadows, lighting, background, full framing and resolution. Keep the existing warm cream paper exactly the same. Do not add or remove any book, page, stitch, trim or object. No text, pattern, drawing, symbol, gold ornament, hands, cropping, rotation or new scene. The only edited region is the currently green/teal cloth cover and binding; all surrounding areas stay unchanged. This plate must remain geometrically registered for the already-approved page-turn animation.",
+      "change": "綠色／青綠色書皮與書脊改暖米白亞麻布；未全圖濾色，保留內頁水彩綠色。",
+      "review": "已實看原圖，全圈外皮與書脊為米白／淺亞麻色，無青綠殘邊；開本、中央書脊、紙頁邊緣及背景構圖保持同尺度，可沿用既有紙頁定位。",
+      "mechanicsUnchanged": true
+    },
+    "mechanics": "index.html及preview.js各只換一個底圖引用；比對修改前原文，還原該路徑後完全相同。未改PageFlip設定、頁序、方向、時間或繪圖內容。",
+    "validation": {
+      "results": [
+        {
+          "viewport": "desktop",
+          "frames": 6,
+          "pageSequence": [
+            2,
+            0
+          ],
+          "events": [
+            {
+              "type": "flip",
+              "value": 0,
+              "time": 418.09999999403954
+            },
+            {
+              "type": "flip",
+              "value": 2,
+              "time": 418.09999999403954
+            },
+            {
+              "type": "flip",
+              "value": 2,
+              "time": 452.59999999403954
+            },
+            {
+              "type": "state",
+              "value": "flipping",
+              "time": 849.5
+            },
+            {
+              "type": "flip",
+              "value": 0,
+              "time": 2651.199999988079
+            },
+            {
+              "type": "state",
+              "value": "read",
+              "time": 2651.199999988079
+            },
+            {
+              "type": "flip",
+              "value": 2,
+              "time": 4201.199999988079
+            },
+            {
+              "type": "state",
+              "value": "flipping",
+              "time": 4201.4000000059605
+            },
+            {
+              "type": "flip",
+              "value": 0,
+              "time": 6006.4000000059605
+            },
+            {
+              "type": "state",
+              "value": "read",
+              "time": 6006.5
+            }
+          ],
+          "keyboard": true,
+          "replay": true
+        },
+        {
+          "viewport": "mobile",
+          "frames": 6,
+          "pageSequence": [
+            2,
+            0
+          ],
+          "events": [
+            {
+              "type": "flip",
+              "value": 0,
+              "time": 240.2999999821186
+            },
+            {
+              "type": "flip",
+              "value": 2,
+              "time": 240.2999999821186
+            },
+            {
+              "type": "flip",
+              "value": 2,
+              "time": 275
+            },
+            {
+              "type": "state",
+              "value": "flipping",
+              "time": 723.5
+            },
+            {
+              "type": "flip",
+              "value": 0,
+              "time": 1345.5
+            },
+            {
+              "type": "state",
+              "value": "read",
+              "time": 1345.5
+            },
+            {
+              "type": "flip",
+              "value": 2,
+              "time": 2910.0999999940395
+            },
+            {
+              "type": "state",
+              "value": "flipping",
+              "time": 2910.199999988079
+            },
+            {
+              "type": "flip",
+              "value": 0,
+              "time": 3529.899999976158
+            },
+            {
+              "type": "state",
+              "value": "read",
+              "time": 3529.899999976158
+            }
+          ],
+          "keyboard": true,
+          "replay": true
+        }
+      ],
+      "pageErrors": [],
+      "reducedMotion": true,
+      "mainWebsiteUnchanged": 6,
+      "syntax": "node --check通過",
+      "visual": "已目視米白底圖、桌機起始／捲角／中段、手機及重新編碼成片1.1秒／2.1秒；外圈及書脊無青綠色，內頁綠色水彩保留。",
+      "capturedFrames": 345,
+      "videoFrames": 170,
+      "durationSeconds": 5.666667,
+      "video": "H2641440×960/30fps；GIF900×600循環",
+      "starterDebt": 2
+    },
+    "files": [
+      {
+        "file": "C_米白書皮_連續翻頁.mp4",
+        "bytes": 1084173,
+        "sha256": "8F5F9363E000BDB44C1662D49996D976060860519F372DF89E8339AAC0320C6F"
+      },
+      {
+        "file": "C_米白書皮_連續翻頁.gif",
+        "bytes": 4210742,
+        "sha256": "93F8240458B6C685EBF32608D166D9E391780477BA74CF6F590FE89A6976F71E"
+      }
+    ],
+    "status": "米白書皮動態樣板完成，主首頁尚未替換；翻頁動作已獲使用者接受。"
+  }
+}

@@ -1,0 +1,1388 @@
+{
+  "qin": {
+    "四馬戰車": {
+      "src": "/encyclopedia-v18/qin-chariot-v4.webp",
+      "alt": "秦代四馬戰車的高視角想像復原：四匹馬並排，中央單轅連接內側兩匹馬的短衡，外側馬以繩帶協助，三名乘員站在雙輪木車上",
+      "caption": "想像復原 · 靜態插畫",
+      "note": "單轅、雙輪及兩服兩驂參考秦銅車馬；軍用車體、乘員、繩帶與場景為想像示意，不是御用車的等比例複製或精密構造圖。",
+      "sources": [
+        {
+          "name": "秦始皇帝陵博物院：銅車馬與四馬繫駕",
+          "url": "https://www.bmy.com.cn/pithorse.html"
+        },
+        {
+          "name": "故宮博物院：秦陶馬與車駟",
+          "url": "https://www.dpm.org.cn/collection/sculpture/234238.html"
+        }
+      ]
+    },
+    "秦弩與齊射": {
+      "src": "/encyclopedia-v18/qin-crossbow-v2.webp",
+      "alt": "秦軍弩兵準備齊射的想像復原：前景跪姿士兵手持木臂弩，後方同伴保持隊形",
+      "caption": "想像復原 · 靜態插畫",
+      "note": "參考出土秦俑服飾與弩機構造；隊列、木件及場景為示意，不是精密復原。",
+      "sources": [
+        {
+          "name": "秦始皇帝陵博物院：秦跪射俑",
+          "url": "https://www.bmy.com.cn/impor_collections/438.html"
+        },
+        {
+          "name": "中國國家博物館：銅弩機",
+          "url": "https://www.chnmuseum.cn/zp/zpml/kgfjp/202110/t20211027_251877.shtml"
+        }
+      ]
+    },
+    "道路與烽燧": {
+      "src": "/encyclopedia-v18/qin-road-beacon-v1.webp",
+      "alt": "秦代道路補給與烽燧傳訊的想像插畫：四名搬運者沿土路運送物資，遠近土臺升起煙訊，並非特定遺址復原",
+      "caption": "想像復原 · 靜態插畫",
+      "note": "參考直道與沿線烽燧遺存；土臺、木欄、煙訊、道路線形及搬運隊伍皆為概念示意，不是某座秦代烽火臺的確定形制。",
+      "sources": [
+        {
+          "name": "甘肅文旅：秦直道遺址與研究",
+          "url": "https://www.gswbj.gov.cn/a/2024/11/12/23170.html"
+        },
+        {
+          "name": "蘭州理工大學：秦直道遺址實地考察",
+          "url": "https://www.lut.edu.cn/info/1063/120039.htm"
+        }
+      ]
+    },
+    "步兵軍陣": {
+      "src": "/encyclopedia-v18/qin-infantry-v1.webp",
+      "alt": "秦代步兵整隊操練的想像復原：多列穿甲士兵手持長矛，前排全身與兵器完整可見，後排依序延伸",
+      "caption": "想像復原 · 靜態插畫",
+      "note": "矛頭與甲衣參考秦代出土文物；隊列間距、服色、營地及姿態為示意，不代表已考定的特定戰陣。",
+      "sources": [
+        {
+          "name": "秦始皇帝陵博物院：秦青銅矛",
+          "url": "https://www.bmy.com.cn/impor_collections/445.html"
+        },
+        {
+          "name": "秦始皇帝陵博物院：秦跪射俑（服飾參考）",
+          "url": "https://www.bmy.com.cn/impor_collections/438.html"
+        }
+      ]
+    }
+  },
+  "chu-han": {
+    "騎兵追擊": {
+      "src": "/encyclopedia-v18/chu-han-cavalry-v1.webp",
+      "alt": "楚漢騎兵追擊與偵察的想像插畫：兩名輕裝騎手沿河岸前進，使用低鞍墊而沒有馬鐙，前景騎手持長矛並觀察渡口",
+      "caption": "想像復原 · 靜態插畫",
+      "note": "參考較晚的楊家灣漢代騎兵俑與馬鎧發展研究；衣色、騎具細節、姿態與河岸為想像示意，不是楚漢某場戰役或出土騎具的精密復原。",
+      "sources": [
+        {
+          "name": "中國國家博物館：楊家灣彩繪陶兵馬俑",
+          "url": "https://www.chnmuseum.cn/zp/zpml/kgfjp/202110/t20211027_251893.shtml"
+        },
+        {
+          "name": "中國國家博物館：重裝騎兵研究",
+          "url": "https://www.chnmuseum.cn/yj/xscg/xslw/201812/t20181224_33118.shtml"
+        }
+      ]
+    },
+    "弓弩部隊": {
+      "src": "/encyclopedia-v18/chu-han-archers-v1.webp",
+      "alt": "楚漢弓弩部隊的想像插畫：左側士兵持立弓練習，右側跪姿士兵檢視木臂弩，後方同伴攜帶箭束，三人的兵器與身體分開可辨",
+      "caption": "想像復原 · 靜態插畫",
+      "note": "秦銅弩機與較晚漢代俑提供器械及衣裝參考；木件、弓形、銅件外觀、隊列及場景皆為想像示意，不是楚漢弩的精密結構圖。",
+      "sources": [
+        {
+          "name": "中國國家博物館：秦銅弩機",
+          "url": "https://www.chnmuseum.cn/zp/zpml/kgfjp/202110/t20211027_251877.shtml"
+        },
+        {
+          "name": "中國國家博物館：漢代彩繪陶兵馬俑",
+          "url": "https://www.chnmuseum.cn/zp/zpml/kgfjp/202110/t20211027_251893.shtml"
+        }
+      ]
+    },
+    "攻城與守城": {
+      "src": "/encyclopedia-v18/chu-han-siege-v1.webp",
+      "alt": "楚漢攻城與守城的想像插畫：四名士兵抬木梯接近夯土城牆，牆上三名守軍觀察，木城門、土層與城外淺壕可辨",
+      "caption": "想像復原 · 靜態插畫",
+      "note": "《史記》記述楚漢滎陽城與圍困；土城參考早期帝制土築傳統，漢長安城為較晚例證。牆高、門樓、木梯與人員位置皆屬示意，不是滎陽或長安城原貌。",
+      "sources": [
+        {
+          "name": "《史記》高祖本紀：滎陽與圍困",
+          "url": "https://ctext.org/shiji/gao-zu-ben-ji/zhs"
+        },
+        {
+          "name": "文化部刊載：漢長安城土臺與城牆遺存",
+          "url": "https://www.mct.gov.cn/whzx/whyw/201112/t20111201_707598.htm"
+        }
+      ]
+    },
+    "糧道調度": {
+      "src": "/encyclopedia-v18/chu-han-supply-v1.webp",
+      "alt": "楚漢糧道調度的想像插畫：河船卸下糧袋，搬運者沿河岸運糧，一名管理者持竹簡指引方向，遠處土築甬道通往城池",
+      "caption": "想像復原 · 靜態插畫",
+      "note": "《史記》記載滎陽甬道連河取敖倉糧；船型、碼頭、糧袋、竹簡與路線均為想像示意，不是敖倉遺址或甬道走向的確定復原。",
+      "sources": [
+        {
+          "name": "《史記》高祖本紀：甬道與敖倉糧運",
+          "url": "https://ctext.org/shiji/gao-zu-ben-ji/zhs"
+        },
+        {
+          "name": "中國國家博物館：陶倉與漢代糧食",
+          "url": "https://www.chnmuseum.cn/zp/zpml/kgfjp/202110/t20211027_251900.shtml"
+        }
+      ]
+    }
+  },
+  "western-han": {
+    "漢代騎兵": {
+      "src": "/encyclopedia-v18/western-han-cavalry-v2.webp",
+      "alt": "西漢騎兵長距離行軍的想像插畫：兩名穿甲騎手以低鞍墊騎乘灰馬與栗色馬，後方縱隊沿礫石山口前進，沒有馬鐙或全身馬鎧",
+      "caption": "想像復原 · 靜態插畫",
+      "note": "參考西漢楊家灣騎兵俑與漢武帝以後邊塞人口、騎士背景；服色、列隊、甲片、鞍墊與山口為想像示意，並非特定將領、路線或軍服的確定復原。",
+      "sources": [
+        {
+          "name": "中國國家博物館：西漢彩繪陶兵馬俑",
+          "url": "https://www.chnmuseum.cn/zp/zpml/kgfjp/202110/t20211027_251893.shtml"
+        },
+        {
+          "name": "中研院史語所：居延漢簡與邊塞騎士",
+          "url": "https://museum.sinica.edu.tw/collection/20/"
+        }
+      ]
+    },
+    "邊塞烽火": {
+      "src": "/encyclopedia-v18/western-han-beacon-v1.webp",
+      "alt": "西漢邊塞烽燧通訊的想像插畫：瞭望者站在土築臺上，院內人員搬入薪束並讀取木牘，遠處一連串烽燧中升起細煙",
+      "caption": "想像復原 · 靜態插畫",
+      "note": "居延漢簡支持烽燧與屯戍網絡；土臺、木梯、圍院、薪棚與信號間距皆屬示意，燃料簡只支持邊塞日常用薪，不證明特定烽煙用料或規程。",
+      "sources": [
+        {
+          "name": "中研院史語所：居延漢簡與烽燧網絡",
+          "url": "https://museum.sinica.edu.tw/collection/20/"
+        },
+        {
+          "name": "中研院史語所：燃料簡",
+          "url": "https://museum.sinica.edu.tw/collection/20/item/1023/"
+        }
+      ]
+    },
+    "屯田與運糧": {
+      "src": "/encyclopedia-v18/western-han-farming-v1.webp",
+      "alt": "西漢屯田與運糧的想像插畫：農作人員收攏粟穗，背簍與糧袋沿田間水渠旁搬往小倉棚，棚內人員持木簡核對糧食",
+      "caption": "想像復原 · 靜態插畫",
+      "note": "西漢屯田研究與居延糧食簿籍提供制度背景；田區、水渠、穀穗、倉棚、搬運方式及服色為想像示意，不是某處漢代屯田遺址或精確作業復原。",
+      "sources": [
+        {
+          "name": "四川大學期刊社：居延漢簡所見西漢屯田",
+          "url": "https://journal.scu.edu.cn/info/1109/12241.htm"
+        },
+        {
+          "name": "中研院史語所：穀物出入殘簿兩組",
+          "url": "https://museum.sinica.edu.tw/collection/20/item/1017/"
+        }
+      ]
+    },
+    "漢弩": {
+      "src": "/encyclopedia-v18/western-han-crossbow-resting-v2.webp",
+      "alt": "西漢弩手在庫房前坐下休整，完整木弩橫放膝上，弓未掛弦，另有鬆弛繩線放在旁邊的布面上。",
+      "caption": "靜態插畫｜西漢弩手庫房休整的想像復原",
+      "note": "以西漢銅弩機與漢代軍械勤務資料作背景，圖中弩為未掛弦、未置箭的休整示意。人物衣甲、木弩比例、銅件外觀、庫房、布面繩線與姿勢屬想像安排；不能當成劉勝墓文物原樣、弩弦規格或操作圖。",
+      "sources": [
+        {
+          "name": "中國國家博物館：劉勝墓銅弩機",
+          "url": "https://www.chnmuseum.cn/Portals/0/web/exhibition/exhibitions/201812han/14.html"
+        },
+        {
+          "name": "劉軍：漢代軍械勤務考述",
+          "url": "https://www.chnmuseum.cn/yj/xscg/xslw/201812/t20181224_36339.shtml"
+        }
+      ]
+    }
+  },
+  "xin": {
+    "延續漢代弓弩": {
+      "src": "/encyclopedia-v18/xin-inventory-v2.webp",
+      "alt": "新朝延續漢代弓弩的想像插畫：士兵手持立弓，庫吏抱兩件尚未安裝弓與弩機的木弩臂，後方人員用木牘記錄庫存",
+      "caption": "想像復原 · 弓與弩臂 · 靜態插畫",
+      "note": "始建國二年器簿記有弩臂構件；圖中兩木件是庫存弩臂，並非整弩。人物、弓形、木槽與門廊皆為想像示意，不是精密構造或出土器物複製。",
+      "sources": [
+        {
+          "name": "清華出土文獻中心：肩水金關簡冊研究",
+          "url": "https://www.ctwx.tsinghua.edu.cn/__local/F/60/A7/76CC3AFB1BFA07D25D68DB5371C_FBA0F79A_ABC226.pdf?e=.pdf"
+        },
+        {
+          "name": "中國國家博物館：滿城漢墓銅弩機",
+          "url": "https://www.chnmuseum.cn/Portals/0/web/exhibition/exhibitions/201812han/14.html"
+        }
+      ]
+    },
+    "徵兵與動員": {
+      "src": "/encyclopedia-v18/xin-mobilization-v1.webp",
+      "alt": "新朝徵兵與動員的想像插畫：成年男子帶著行裝依序登記，官吏接收木牌並用簡牘記錄，呈現集結與準備行程的概念",
+      "caption": "想像復原 · 靜態插畫",
+      "note": "《漢書》與兵制研究提供新朝徵發背景；登記方式、行裝、服色、桌案與院落為示意，不代表某次徵兵場面，也不表示徵發皆自願或平和。",
+      "sources": [
+        {
+          "name": "《漢書》王莽傳下：徵發與動員",
+          "url": "https://ctext.org/han-shu/wang-mang-zhuan-xia/zhs"
+        },
+        {
+          "name": "中研院史語所：漢代兵制及漢簡中的兵制",
+          "url": "https://www1.ihp.sinica.edu.tw/Publications/Bulletin/858/Article/1584"
+        }
+      ]
+    },
+    "騎兵與步兵": {
+      "src": "/encyclopedia-v18/xin-combined-v1.webp",
+      "alt": "新朝騎兵與步兵分工的想像插畫：一名低鞍墊騎手在岔路指向前方，三名步兵分持長矛、木盾與行囊，商議接下來的路線",
+      "caption": "想像復原 · 靜態插畫",
+      "note": "《漢書》軍馬記載及較早漢代步騎文物提供概念背景；新朝服裝、騎具、橋路與指路動作為示意，不是特定戰役、戰術或軍服定稿。",
+      "sources": [
+        {
+          "name": "《漢書》王莽傳下：軍馬背景",
+          "url": "https://ctext.org/han-shu/wang-mang-zhuan-xia/zhs"
+        },
+        {
+          "name": "中國國家博物館：漢代彩繪陶兵馬俑",
+          "url": "https://www.chnmuseum.cn/zp/zpml/kgfjp/202110/t20211027_251893.shtml"
+        }
+      ]
+    },
+    "城池與糧運": {
+      "src": "/encyclopedia-v18/xin-city-supply-v1.webp",
+      "alt": "新朝城池與糧運的想像插畫：糧袋由敞開的木城門搬入，倉棚下人員傾倒穀物、持木簡核對，旁邊整理上架糧袋",
+      "caption": "想像復原 · 靜態插畫",
+      "note": "早期新朝器簿有糧食庫存項，土城門另參考漢代城建背景；門樓、木桶、量具、倉棚、搬運與服色均為示意，不是常安或某座漢倉復原。",
+      "sources": [
+        {
+          "name": "清華出土文獻中心：新朝守衙器簿釋文",
+          "url": "https://www.ctwx.tsinghua.edu.cn/__local/F/60/A7/76CC3AFB1BFA07D25D68DB5371C_FBA0F79A_ABC226.pdf?e=.pdf"
+        },
+        {
+          "name": "山東大學：漢長安城考古研究",
+          "url": "https://klast.sdu.edu.cn/info/1031/1705.htm"
+        }
+      ]
+    }
+  },
+  "eastern-han": {
+    "邊軍騎兵": {
+      "src": "/encyclopedia-v18/eastern-han-cavalry-v1.webp",
+      "alt": "東漢邊軍騎兵巡邏停歇的想像插畫：一名騎手下馬持弓與韁繩，旁邊戰馬配低鞍墊，人物、弓和馬匹全身可辨",
+      "caption": "想像復原 · 靜態插畫",
+      "note": "東漢騎射俑與馬鎧發展研究提供時代背景；下馬巡視、服飾、鞍具與驛舍均為示意，不是西北邊軍精確制式，也不代表整個東漢都沒有馬鎧。",
+      "sources": [
+        {
+          "name": "南越王博物院：東漢青銅騎射俑",
+          "url": "https://www.nywmuseum.org.cn/Collection/Details/zyzb?nid=59"
+        },
+        {
+          "name": "中國國家博物館：重裝騎兵研究",
+          "url": "https://www.chnmuseum.cn/yj/xscg/xslw/201812/t20181224_33118.shtml"
+        }
+      ]
+    },
+    "弓弩與步兵": {
+      "src": "/encyclopedia-v18/eastern-han-infantry-v1.webp",
+      "alt": "東漢弓弩與步兵的想像插畫：一名立弓兵、一名持盾長兵與一名坐姿弩兵待命，弩弦位在前端弓梢之間，木臂上沒有箭",
+      "caption": "想像復原 · 靜態插畫",
+      "note": "永元五至七年器物簿與軍械研究支持東漢弩箭裝備背景；三人配置、弓、木臂、機件及甲衣為示意，不是出土整弩或固定戰陣的精密復原。",
+      "sources": [
+        {
+          "name": "中研院史語所：永元器物簿（中）",
+          "url": "https://museum.sinica.edu.tw/knowledge-base/item/159/"
+        },
+        {
+          "name": "中國國家博物館：漢代軍械勤務考述",
+          "url": "https://www.chnmuseum.cn/yj/xscg/xslw/201812/t20181224_36339.shtml"
+        }
+      ]
+    },
+    "堡塞烽燧": {
+      "src": "/encyclopedia-v18/eastern-han-fort-v1.webp",
+      "alt": "東漢堡塞烽燧傳報的想像插畫：兩名傳報者在土築堡門前交接綁起的木牘，臺上有人瞭望，遠處站點升起細煙",
+      "caption": "想像復原 · 靜態插畫",
+      "note": "永元器物簿與居延漢簡支持堡燧、郵驛和文書背景；土臺、院落、交接方式、木牘、煙臺與間距皆為示意，不是遺址平面或已考定的烽火規程。",
+      "sources": [
+        {
+          "name": "中研院史語所：永元器物簿（上）",
+          "url": "https://museum.sinica.edu.tw/knowledge-base/item/158/"
+        },
+        {
+          "name": "中研院史語所：居延漢簡",
+          "url": "https://museum.sinica.edu.tw/collection/20/"
+        }
+      ]
+    },
+    "地方武裝興起": {
+      "src": "/encyclopedia-v18/eastern-han-militia-v1.webp",
+      "alt": "東漢末年田莊部曲的想像插畫：農作者持鋤並佩鞘中環首刀，莊園組織者與持長桿、木盾的守衛交談，角樓有人瞭望",
+      "caption": "想像復原 · 靜態插畫",
+      "note": "東漢建築明器與部曲研究提供地方武裝背景；農莊、人物、守備、服色與鞘刀為示意，不是特定豪族莊園實景，也不能由單一明器推定所有田莊樣貌。",
+      "sources": [
+        {
+          "name": "中國國家博物館：尾大不掉私家兵",
+          "url": "https://www.chnmuseum.cn/yj/xscg/xslw/201812/t20181224_33128.shtml"
+        },
+        {
+          "name": "中國國家博物館：綠釉陶水亭",
+          "url": "https://www.chnmuseum.cn/zp/zpml/kgfjp/202110/t20211028_251949.shtml"
+        }
+      ]
+    }
+  },
+  "three-kingdoms": {
+    "江河戰船": {
+      "src": "/encyclopedia-v18/three-riverboat-v2.webp",
+      "alt": "三國江河水軍的想像插畫：低舷木船由槳手推進，船上有瞭望者與小棚，完整船身、槳葉及遠岸山色可辨",
+      "caption": "想像復原 · 靜態插畫",
+      "note": "以史書水軍記載及早期陶船的一般結構作示意；船體、槳位、棚艙、船員與比例皆為想像，不是特定艨艟／鬥艦的考古定型。",
+      "sources": [
+        {
+          "name": "《三國志》卷54：周瑜傳與江表傳引文",
+          "url": "https://ctext.org/sanguozhi/54"
+        },
+        {
+          "name": "中國國家博物館：陶船",
+          "url": "https://www.chnmuseum.cn/zp/zpml/kgfjp/202110/t20211028_251952.shtml"
+        }
+      ]
+    },
+    "火攻": {
+      "src": "/encyclopedia-v18/three-fireboat-v1.webp",
+      "alt": "赤壁208年火攻背景的想像插畫：無人火船載乾薪冒煙燃燒，兩人另乘接應小舟離開，遠處為船影，沒有火藥爆炸",
+      "caption": "想像復原 · 赤壁208年 · 靜態",
+      "note": "赤壁208年屬三國形成前的漢末背景；空船載薪、風與接應小舟為文獻概念示意，船型、距離、燃燒與撤離配置非精密復原，不使用火藥爆炸。",
+      "sources": [
+        {
+          "name": "《三國志》卷54：周瑜傳與江表傳引文",
+          "url": "https://ctext.org/sanguozhi/54"
+        },
+        {
+          "name": "陸軍學術雙月刊：從晉滅吳之役論外線作戰與啟示（2021）",
+          "url": "https://www.mnd.gov.tw/File/39393"
+        }
+      ]
+    },
+    "連弩與弓弩": {
+      "src": "/encyclopedia-v18/three-archery-v1.webp",
+      "alt": "三國一般弓弩的想像插畫：木臺上一名站立士兵持未張弩，短弦接前端兩弓梢，同伴持立弓，沒有後世箱式連弩",
+      "caption": "想像復原 · 一般弓弩 · 靜態",
+      "note": "圖中是一般弓弩示意；241年曹魏弩機支持裝備背景，史書雖記諸葛亮改進連弩，其外觀與機構仍未定，不能把後世箱式連弩套入。衣甲與木件非精密復原。",
+      "sources": [
+        {
+          "name": "中國國家博物館：正始二年青銅弩機",
+          "url": "https://www.chnmuseum.cn/zp/zpml/csp/202008/t20200826_247436.shtml"
+        },
+        {
+          "name": "《三國志》諸葛亮傳：連弩與木牛流馬",
+          "url": "https://ctext.org/text.pl?if=gb&node=603517&remap=gb&show=parallel"
+        }
+      ]
+    },
+    "木牛流馬": {
+      "src": "/encyclopedia-v18/three-grain-cart-v1.webp",
+      "alt": "木牛流馬獨輪解釋的想像插畫：山路上一名搬運者推單輪木車載糧袋，前方同伴背籃回望，並非已證實的三國器械形制",
+      "caption": "想像復原 · 獨輪假說 · 靜態",
+      "note": "史書支持運糧用途；獨輪手推車是後世《事物紀原》對流馬的一種解釋，本圖僅作假說示意，木牛與流馬確切構造未定，不能視為三國出土器械或兩者共通定型。",
+      "sources": [
+        {
+          "name": "《三國志》卷33：後主傳",
+          "url": "https://ctext.org/sanguozhi/33/zh"
+        },
+        {
+          "name": "教育部教育百科：江州車",
+          "url": "https://pedia.cloud.edu.tw/Entry/Detail?title=%E6%B1%9F%E5%B7%9E%E8%BB%8A"
+        }
+      ]
+    }
+  },
+  "western-jin": {
+    "重裝騎兵": {
+      "src": "/encyclopedia-v18/western-jin-cavalry-v1.webp",
+      "alt": "西晉早期重裝騎兵的想像插畫：一名戴盔披袖甲的騎者騎棕馬停在圍欄前，四蹄完整、雙足自然垂下，馬身未披整套馬鎧",
+      "caption": "想像復原 · 騎者護甲 · 靜態",
+      "note": "本圖強調騎者護甲示意；早期馬鎧仍珍貴，未把較晚北魏整套具裝套為西晉定型，也未畫後世成對馬鐙。甲衣、鞍具與繫帶為想像，不表示西晉所有騎兵同制。",
+      "sources": [
+        {
+          "name": "中國國家博物館：重裝騎兵",
+          "url": "https://www.chnmuseum.cn/yj/xscg/xslw/201812/t20181224_33118.shtml"
+        },
+        {
+          "name": "中國國家博物館：中國靴子",
+          "url": "https://www.chnmuseum.cn/yj/xscg/xslw/201812/t20181224_33108.shtml"
+        }
+      ]
+    },
+    "弓弩步兵": {
+      "src": "/encyclopedia-v18/western-jin-infantry-v1.webp",
+      "alt": "西晉弓弩步兵的想像插畫：三名成年士兵沿河岸行軍，前方持立弓、中間攜未張弩、後方持盾與矛，兵種與器械各自可辨",
+      "caption": "想像復原 · 靜態插畫",
+      "note": "西晉敦煌庫弩機與跨期武士俑提供裝備背景；河岸三人行軍、弓、整弩木件、盾與衣甲皆為示意，不是既定行軍編組或由殘弩機證出的整弩復原。",
+      "sources": [
+        {
+          "name": "敦煌市博物館：晉敦煌庫銅弩機",
+          "url": "https://www.dhbwg.org.cn/guancangwenwu/31"
+        },
+        {
+          "name": "日本文化廳文化遺產：加彩持盾武人",
+          "url": "https://online.bunka.go.jp/index.php/heritages/detail/426601"
+        }
+      ]
+    },
+    "滅吳水軍": {
+      "src": "/encyclopedia-v18/western-jin-fleet-v2.webp",
+      "alt": "280年西晉滅吳舟師的想像插畫：大木船有低木護欄及兩層瞭望棚，三名划手握槳，遠處另有兩船，沒有火船或火砲",
+      "caption": "想像復原 · 280年舟師 · 靜態",
+      "note": "依280年舟師與史書木製防禦樓櫓作功能示意；船體、槳架、橫握柄、樓高與人員配置皆未定，不能當成王濬名艦、連舫構造、尺寸或承載量的精密復原。",
+      "sources": [
+        {
+          "name": "陸軍學術雙月刊：從晉滅吳之役論外線作戰與啟示",
+          "url": "https://www.mnd.gov.tw/NewUpload/202110/p4-20_065743.pdf"
+        },
+        {
+          "name": "《晉書》武帝紀：太康元年",
+          "url": "https://www.shidianguji.com/zh/book/LS0005/chapter/LS0005_26"
+        }
+      ]
+    },
+    "城防與內亂": {
+      "src": "/encyclopedia-v18/western-jin-fort-v1.webp",
+      "alt": "西晉內亂守城的想像插畫：兩名守衛在土築城牆轉角瞭望，遠方兩處營地分立，牆內有人背包搬運，沒有燃燒攻城場面",
+      "caption": "想像復原 · 內亂守城 · 靜態",
+      "note": "以魏晉城防與惠帝政爭作背景示意；土牆、轉角、階梯、人物及兩營皆為想像，並非洛陽或金墉實景，也未套用可能較晚的三城格局、北魏佛塔或明清磚城。",
+      "sources": [
+        {
+          "name": "徐龍國：漢魏兩晉南北朝都城模式及其演變",
+          "url": "https://www.cssn.cn/lsx/lsx_kgx/202210/t20221024_5552600.shtml"
+        },
+        {
+          "name": "《晉書》卷四：惠帝紀",
+          "url": "https://zh.wikisource.org/zh-hant/%E6%99%89%E6%9B%B8/%E5%8D%B7004"
+        }
+      ]
+    }
+  },
+  "east-jin-sixteen": {
+    "具裝騎兵": {
+      "src": "/encyclopedia-v18/east-jin-armored-v1.webp",
+      "alt": "三燕文化具裝騎兵的想像插畫：披甲騎者騎著頭頸、胸身與後軀有甲的馬緩行，四蹄、馬尾與近側騎鐙可辨",
+      "caption": "想像復原 · 三燕具裝 · 靜態",
+      "note": "以三燕文化考古材料作綜合示意；頭胄、馬鎧、鐙與鞍具細節不代表某墓完整定裝，也不能把北方各政權或東晉軍隊都畫成同一制式。文化分期與國號起訖須分開。",
+      "sources": [
+        {
+          "name": "遼寧省文旅廳：喇嘛洞三燕文化墓地",
+          "url": "https://whly.ln.gov.cn/whly/wlzt/lnww/qgsdkg/716CF0C4B2E845688DAF1CF936A0803C/index.shtml"
+        },
+        {
+          "name": "深圳博物館三燕百年展：鐵馬胄與雙馬鐙",
+          "url": "https://www.sz.gov.cn/szzt2010/szwtt/wthd/content/post_12756145.html"
+        }
+      ]
+    },
+    "長江防線": {
+      "src": "/encyclopedia-v18/east-jin-river-defense-v1.webp",
+      "alt": "東晉長江水陸守備的想像插畫：臨江高地上有土垣與瞭望臺，下方泊舟繫於木碼頭，岸上守衛與運糧者聯繫河運",
+      "caption": "想像復原 · 水陸守備 · 靜態",
+      "note": "參考石頭城臨江高地、城垣與港口聯繫作江防示意；岸線、崖高、望臺、木棧與舟型皆為想像，不是石頭城實測復原，也不表示長江防線連成一道不可突破的城牆。",
+      "sources": [
+        {
+          "name": "南京大學：石頭城考古與古長江岸",
+          "url": "https://www.nju.edu.cn/info/1056/336061.htm"
+        },
+        {
+          "name": "趙志剛：六朝石頭津與石頭城",
+          "url": "https://www.nju.edu.cn/info/3191/227811.htm"
+        }
+      ]
+    },
+    "淝水調度": {
+      "src": "/encyclopedia-v18/east-jin-fei-coordination-v1.webp",
+      "alt": "383年淝水戰事調度的想像插畫：河岸指揮者聽使者回報，後方步兵列隊待命，對岸人群離水而去，沒有戰鬥或神怪場景",
+      "caption": "想像復原 · 淝水383年 · 靜態",
+      "note": "依史書遣使與卻陣過程作調度示意；回報動作、軍服、兩岸距離、兵數與隊列為想像，並非謝玄肖像、地形測量或一個確知的單一瞬間；先後過程不能只靠此圖取代文字。",
+      "sources": [
+        {
+          "name": "《晉書》苻堅載記下：淝水交涉與卻陣",
+          "url": "https://www.shidianguji.com/book/HY2499/chapter/1mb9kwmhn6p86"
+        },
+        {
+          "name": "《晉書》卷九：孝武帝太元八年",
+          "url": "https://zh.wikisource.org/zh-hant/%E6%99%89%E6%9B%B8/%E5%8D%B7009"
+        }
+      ]
+    },
+    "多國城塞": {
+      "src": "/encyclopedia-v18/east-jin-xia-fort-v1.webp",
+      "alt": "十六國城塞以夏國統萬城為例的想像插畫：白土城垣與突出墩臺守住木門，草地溪流旁三名搬籃者走近，並非整座都城平面",
+      "caption": "想像復原 · 夏國城塞 · 靜態",
+      "note": "以夏國413年起築統萬城為一例作城塞示意；白土、馬面與水草有研究背景，城門、牆高、墩臺配置與民居皆為想像，不是精確統萬城復原，也不把不同國家的城塞合成同年一座。",
+      "sources": [
+        {
+          "name": "侯甬堅：修築統萬城",
+          "url": "https://www.cssn.cn/dfpd/djbd/202506/t20250619_5880187.shtml"
+        },
+        {
+          "name": "故宮博物院：十六國",
+          "url": "https://www.dpm.org.cn/lemmas/244349.html"
+        }
+      ]
+    }
+  },
+  "north-south": {
+    "具裝騎兵": {
+      "src": "/encyclopedia-v18/north-south-cavalry-v1.webp",
+      "alt": "北魏具裝騎者騎著披甲馬，兩名持盾步卒沿土路伴行，呈現六世紀人馬披甲的想像復原",
+      "caption": "想像復原｜北魏六世紀具裝騎兵・靜態插畫",
+      "note": "以北魏人馬披甲俑及相關研究為背景的行軍示意；甲片編綴、鞍具、服色與步騎隊形皆非精密復原，也不代表所有南北朝軍隊同一裝束。",
+      "sources": [
+        {
+          "name": "大都會藝術博物館：北魏重鎧騎兵俑20.39.3",
+          "url": "https://www.metmuseum.org/art/collection/search/52556"
+        },
+        {
+          "name": "中國國家博物館：重裝騎兵",
+          "url": "https://www.chnmuseum.cn/yj/xscg/xslw/201812/t20181224_33118.shtml"
+        }
+      ]
+    },
+    "馬鎧與騎具": {
+      "src": "/encyclopedia-v18/north-south-tack-v1.webp",
+      "alt": "北朝馬匹站立接受馬具檢查，馬伕查看襯墊，旁置木鞍、成對馬鐙與布質馬面帘的想像復原",
+      "caption": "想像復原｜北朝馬鎧、襯墊與騎具・靜態插畫",
+      "note": "以北朝馬具研究為背景的裝備整理示意；布質馬面帘與鐵製防護分開呈現，不把儀衛織物當成鐵甲。鞍形、繫帶、襯墊與裝配方式未定，不是可依圖製作的結構圖。",
+      "sources": [
+        {
+          "name": "徐錚：馬上錦彩——北朝絲質馬面帘研究",
+          "url": "https://www.cnacs.net.cn/14/202507/7299.html"
+        },
+        {
+          "name": "大都會藝術博物館：北魏重鎧騎兵俑20.39.3",
+          "url": "https://www.metmuseum.org/art/collection/search/52556"
+        }
+      ]
+    },
+    "南朝水軍": {
+      "src": "/encyclopedia-v18/north-south-liang-boats-v1.webp",
+      "alt": "梁代江岸木船停泊，士卒經跳板登船並搬運補給，槳具收置船內的水軍後勤想像復原",
+      "caption": "想像復原｜梁代舟師登船與補給・靜態插畫",
+      "note": "以《梁書》王僧辯舟師及糧運記載為背景的岸邊登船示意；不把侯景攻城器混入王僧辯水軍。船殼、槳位、甲板與載量皆未定，不宣稱為某艘史實名艦。",
+      "sources": [
+        {
+          "name": "《梁書》卷四十五：王僧辯",
+          "url": "https://zh.wikisource.org/wiki/%E6%A2%81%E6%9B%B8/%E5%8D%B745"
+        },
+        {
+          "name": "趙志剛：六朝南京港口研究介紹",
+          "url": "https://www.nju.edu.cn/info/3191/227811.htm"
+        }
+      ]
+    },
+    "山城與江防": {
+      "src": "/encyclopedia-v18/north-south-river-fort-v1.webp",
+      "alt": "梁代山城依丘陵臨江設防，土垣、木門、岸邊小舟與少量守卒呈現山地與水路聯繫的示意",
+      "caption": "想像復原｜梁代山城與江防・靜態插畫",
+      "note": "以《梁書》魯山城、郢城及渡江記載為背景的山城江防示意；不是魯山遺址精確復原。城線、高程、岸線與碼頭皆未定，不套明代磚石城或宋代山城。",
+      "sources": [
+        {
+          "name": "《梁書》卷四十五：王僧辯",
+          "url": "https://zh.wikisource.org/wiki/%E6%A2%81%E6%9B%B8/%E5%8D%B745"
+        },
+        {
+          "name": "漢陽區檔案館：歷史沿革",
+          "url": "https://www.hanyang.gov.cn/mlhy/lsyg/202102/t20210205_1630319.shtml"
+        }
+      ]
+    }
+  },
+  "sui": {
+    "府兵與步騎": {
+      "src": "/encyclopedia-v18/sui-muster-v1.webp",
+      "alt": "隋代營門前兩名步卒與一名騎者會合，步卒持盾及長兵器，呈現步騎協同的想像復原",
+      "caption": "想像復原｜隋代步騎會合・靜態插畫",
+      "note": "以開皇十年軍戶與地方籍帳改革為背景的步騎示意；詔令仍保留軍府統領，不等於全體軍人同一服役方式。人物、營門、裝束及隊形並非確定制度圖。",
+      "sources": [
+        {
+          "name": "《隋書》卷二：開皇十年軍人詔令",
+          "url": "https://zh.wikisource.org/wiki/%E9%9A%8B%E6%9B%B8/%E5%8D%B702"
+        },
+        {
+          "name": "濟寧博物館：隋彩繪執盾武士站俑",
+          "url": "https://www.jiningmuseum.com/list/article_details.do?articleId=3562"
+        }
+      ]
+    },
+    "騎兵長槍": {
+      "src": "/encyclopedia-v18/sui-lance-v2.webp",
+      "alt": "隋代騎者騎灰馬緩行，雙手帶控長槍與韁繩，長槍首尾完整可見，呈現攜行姿態的示意",
+      "caption": "想像復原｜隋代長槍騎者・靜態插畫",
+      "note": "以隋代騎馬俑及騎陣記載為背景的攜槍示意；館藏原持物已佚，不能證明此槍長度、接合方式或握持戰術。只表現一般長兵器攜行，不是特定名將肖像或精密裝備復原。",
+      "sources": [
+        {
+          "name": "濟寧博物館：隋彩繪武士騎馬陶俑",
+          "url": "https://www.jiningmuseum.com/list/article_details.do?articleId=3561"
+        },
+        {
+          "name": "《隋書》卷四十八：楊素",
+          "url": "https://zh.wikisource.org/wiki/%E9%9A%8B%E6%9B%B8/%E5%8D%B748"
+        }
+      ]
+    },
+    "大型戰船": {
+      "src": "/encyclopedia-v18/sui-large-ship-v1.webp",
+      "alt": "隋代造船場旁停泊多層木製大型樓船，前景兩名工匠查看木料，呈現造艦尺度的想像復原",
+      "caption": "想像復原｜隋代大型樓船概念・靜態插畫",
+      "note": "以楊素造五牙等船的記載為背景的樓船示意；文獻層數與載員不可直接當工程尺寸。本圖不精確重建五牙船型、拍竿或結構受力，也不以此證明船隊皆採同式。",
+      "sources": [
+        {
+          "name": "《隋書》卷四十八：楊素造艦",
+          "url": "https://zh.wikisource.org/wiki/%E9%9A%8B%E6%9B%B8/%E5%8D%B748"
+        },
+        {
+          "name": "《隋書》卷二：伐陳部署",
+          "url": "https://zh.wikisource.org/wiki/%E9%9A%8B%E6%9B%B8/%E5%8D%B702"
+        }
+      ]
+    },
+    "攻城器械": {
+      "src": "/encyclopedia-v18/sui-scaling-ladder-v1.webp",
+      "alt": "隋代三名軍士在土牆旁準備登城梯，兩條梯柱、橫檔、梯腳及叉形支桿可辨的概念插畫",
+      "caption": "想像復原｜登城梯概念・靜態插畫",
+      "note": "以《隋書》沈光傳沖梯記載為背景的登高概念示意；不是沈光事蹟畫面，也未按文獻十五丈換算。梯式、叉桿、牆高及準備方式均未定，不冒充隋代沖梯精密復原。",
+      "sources": [
+        {
+          "name": "《隋書》卷六十四：沈光",
+          "url": "https://zh.wikisource.org/wiki/%E9%9A%8B%E6%9B%B8/%E5%8D%B764"
+        },
+        {
+          "name": "《隋書》卷四：煬帝下",
+          "url": "https://zh.wikisource.org/wiki/%E9%9A%8B%E6%9B%B8/%E5%8D%B704"
+        }
+      ]
+    }
+  },
+  "tang": {
+    "唐代騎兵": {
+      "src": "/encyclopedia-v18/tang-patrol-v1.webp",
+      "alt": "唐代兩名騎者在低丘上巡察，近景與遠景馬匹角度不同，服飾與馬具為七至八世紀想像復原",
+      "caption": "想像復原｜唐代騎兵巡察・靜態插畫",
+      "note": "以唐代騎馬明器與軍事文獻為背景的雙騎巡察示意；不是特定將領或戰役。護甲組合、馬具、服色與巡察隊形均非確定制式，也不代表整個唐代騎兵同樣裝束。",
+      "sources": [
+        {
+          "name": "國立歷史博物館：唐代素馬人h0000065",
+          "url": "https://collections.culture.tw/Object?RNO=aDAwMDAwNjU%3D&SYSUID=14"
+        },
+        {
+          "name": "《唐六典》卷五：兵部",
+          "url": "https://zh.wikisource.org/wiki/%E5%94%90%E5%85%AD%E5%85%B8/%E5%8D%B705"
+        }
+      ]
+    },
+    "弓騎與複合弓": {
+      "src": "/encyclopedia-v18/tang-mounted-bow-v1.webp",
+      "alt": "唐代藍衣騎者持未拉開的長弰複合弓在馬上待命，弦連接兩梢，箭袋與馬具清楚可見",
+      "caption": "想像復原｜唐代弓騎待命・靜態插畫",
+      "note": "依角弓及長弰弓研究背景繪製的待命示意；弓沒有搭箭。弓材比例、長度、弰角與騎者裝束未定，不是製弓或騎射操作圖，也不把後世清弓套作唐制。",
+      "sources": [
+        {
+          "name": "《唐六典》卷十六：武庫器械",
+          "url": "https://www.shidianguji.com/book/SK1116/chapter/1jzwu02dg5y5i"
+        },
+        {
+          "name": "中國體育博物館：中國角弓介紹",
+          "url": "https://www.olympic.cn/museum/tyjypt/2021/0128/373911.html"
+        }
+      ]
+    },
+    "步兵長兵器": {
+      "src": "/encyclopedia-v18/tang-infantry-spears-v1.webp",
+      "alt": "唐代兩名步卒持完整長槍練習間距，一名教習站在旁邊示意，槍尖與槍尾均保留在畫面內",
+      "caption": "想像復原｜唐代長槍隊列・靜態插畫",
+      "note": "以唐代槍類與武士資料為背景的隊列示意，先呈現一般長槍；沒有把陌刀未定形制畫成定論。槍長、握距、步距與甲片組合皆非考古定型或實際操典復原。",
+      "sources": [
+        {
+          "name": "《唐六典》卷十六：槍與刀的類別",
+          "url": "https://www.shidianguji.com/book/SK1116/chapter/1jzwu02dg5y5i"
+        },
+        {
+          "name": "故宮博物院：唐代武士圖磚",
+          "url": "https://www.dpm.org.cn/collection/sculpture/233919.html"
+        }
+      ]
+    },
+    "驛路與軍糧": {
+      "src": "/encyclopedia-v18/tang-relay-grain-v1.webp",
+      "alt": "唐代驛站門口交接文書，路外馱騾與牽引者運送糧袋，以分開場景呈現道路通信和軍需後勤",
+      "caption": "想像復原｜驛傳與道路補給・靜態插畫",
+      "note": "文書驛傳與馱糧運輸是兩項功能的並置示意，不表示軍糧皆由郵驛馬匹運送。驛舍、道路、糧袋、馱具及人物均為概念，未還原特定驛站或實際里程。",
+      "sources": [
+        {
+          "name": "《唐六典》卷五：駕部與軍行供給",
+          "url": "https://zh.wikisource.org/wiki/%E5%94%90%E5%85%AD%E5%85%B8/%E5%8D%B705"
+        },
+        {
+          "name": "吳承翰：五到八世紀財政物流的形成",
+          "url": "https://ah.lib.nccu.edu.tw/item?item_id=107401&locale=zh_TW"
+        }
+      ]
+    }
+  },
+  "five-ten": {
+    "北方騎兵": {
+      "src": "/encyclopedia-v18/five-ten-zhou-cavalry-v1.webp",
+      "alt": "後周騎卒牽著已備鞍的軍馬飲水，遠處騎者在營邊等候，呈現十世紀中期騎兵備行的想像復原",
+      "caption": "想像復原｜後周軍馬備行・靜態插畫",
+      "note": "以956年後周輕騎活動為背景的軍馬飲水示意，不是王審琦夜襲實景。甲具、馬鞍、營地與飲水設備未定；五代墓門護法像不是軍隊標準制服，不照搬其神怪裝飾。",
+      "sources": [
+        {
+          "name": "《資治通鑑》卷二九三：後周顯德三年",
+          "url": "https://zh.wikisource.org/wiki/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7293"
+        },
+        {
+          "name": "中國國家博物館：王處直墓彩繪浮雕武士",
+          "url": "https://www.chnmuseum.cn/zp/zpml/csp/202008/t20200825_247287.shtml"
+        }
+      ]
+    },
+    "南方水軍": {
+      "src": "/encyclopedia-v18/five-ten-wuyue-scout-boat-v1.webp",
+      "alt": "吳越河湖巡舟三人分工探水、瞭望與操櫓，淺船首尾與篙櫓可辨，為十世紀初水軍的概念插畫",
+      "caption": "想像復原｜吳越河湖巡舟・靜態插畫",
+      "note": "以10世紀初吳越水軍活動為背景的巡舟示意；船型、探篙、櫓架與制服未定。史料中蘇州水網障礙屬淮南軍，不混成吳越標準配備，也不虛構火油或火藥武器。",
+      "sources": [
+        {
+          "name": "《新五代史》卷六十七：吳越世家",
+          "url": "https://zh.wikisource.org/wiki/%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B767"
+        },
+        {
+          "name": "《資治通鑑》卷二六七：蘇州水陸軍事",
+          "url": "https://zh.wikisource.org/wiki/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7267"
+        }
+      ]
+    },
+    "城鎮軍事化": {
+      "src": "/encyclopedia-v18/five-ten-former-shu-city-v1.webp",
+      "alt": "前蜀時期成都羅城概念圖，城內民居、門禁與守卒並置，表現早十世紀城鎮生活和軍事守備的關係",
+      "caption": "想像復原｜前蜀成都城防概念・靜態插畫",
+      "note": "以成都沿用晚唐羅城的背景繪製城內門禁示意，城牆不是前蜀才開始修築。磚包土芯有研究依據，但門樓、街道、守備與民居布局未定，不是古成都測繪復原，也不代表各國城牆皆包磚。",
+      "sources": [
+        {
+          "name": "李明斌：唐末成都羅城城垣的考古學觀察",
+          "url": "https://www.chnmuseum.cn/yj/xscg/xslw/201812/t20181224_36626.shtml"
+        },
+        {
+          "name": "《新五代史》卷六十三：前蜀世家",
+          "url": "https://zh.wikisource.org/wiki/%E6%96%B0%E4%BA%94%E4%BB%A3%E5%8F%B2/%E5%8D%B763"
+        }
+      ]
+    },
+    "弓弩步兵": {
+      "src": "/encyclopedia-v18/five-ten-southern-tang-archer-v1.webp",
+      "alt": "南唐城防步卒在木棚下待命，一人坐持未搭箭的弓，另一人持箭囊，代表十世紀中期弓兵的一例",
+      "caption": "想像復原｜南唐守城弓兵一例・靜態插畫",
+      "note": "以956年南唐守城遠射兵背景呈現一般弓兵示意。史書提到連弩，本圖沒有冒充其構造或巨矢復原；弓形僅取長弰傳統的一般背景，並無該城出土整弓或制服定型證據。",
+      "sources": [
+        {
+          "name": "《資治通鑑》卷二九三：壽春城防",
+          "url": "https://zh.wikisource.org/wiki/%E8%B3%87%E6%B2%BB%E9%80%9A%E9%91%91/%E5%8D%B7293"
+        },
+        {
+          "name": "中國體育博物館：中國角弓介紹",
+          "url": "https://www.olympic.cn/museum/tyjypt/2021/0128/373911.html"
+        }
+      ]
+    }
+  },
+  "liao": {
+    "契丹騎兵": {
+      "src": "/encyclopedia-v18/liao-scout-cavalry-v1.webp",
+      "alt": "遼代契丹斥候騎深棕馬沿草坡緩行，從背側觀看騎者、鞍具與遠方兩名散開的騎卒。",
+      "caption": "11世紀遼代契丹斥候｜靜態插畫・想像復原",
+      "note": "騎兵偵察與沿地形分散前行的示意；服裝、鞍飾與隊形不是某支部隊的精密復原，未照搬傳稱遼代但年代有爭議的畫作。",
+      "sources": [
+        {
+          "name": "《遼史》卷三十四：兵衛志上",
+          "url": "https://zh.wikisource.org/wiki/遼史/卷34"
+        },
+        {
+          "name": "中國國家博物館：天下第一契丹鞍",
+          "url": "https://www.chnmuseum.cn/yj/xscg/xslw/201812/t20181224_33224.shtml"
+        }
+      ]
+    },
+    "馬群與備用馬": {
+      "src": "/encyclopedia-v18/liao-remount-herd-v1.webp",
+      "alt": "遼代牧馬者照看三匹毛色不同的馬，一匹已備鞍，另外兩匹在溪畔飲水與吃草。",
+      "caption": "遼代馬匹牧養與備用馬｜靜態插畫・想像復原",
+      "note": "一匹備鞍、兩匹休養是備用馬觀念的示意。《遼史》每正軍馬三匹屬制度記載，不表示每人任何時候都剛好配足三匹，也不是換馬程序的實錄。",
+      "sources": [
+        {
+          "name": "《遼史》卷三十四：兵衛志上",
+          "url": "https://zh.wikisource.org/wiki/遼史/卷34"
+        },
+        {
+          "name": "中國國家博物館：天下第一契丹鞍",
+          "url": "https://www.chnmuseum.cn/yj/xscg/xslw/201812/t20181224_33224.shtml"
+        }
+      ]
+    },
+    "南北面軍事體制": {
+      "src": "/encyclopedia-v18/liao-military-offices-v1.webp",
+      "alt": "遼代軍營帳棚下兩名官吏和一名傳信者在木桌前交接封袋，旁邊擺有卷紙和文書。",
+      "caption": "遼代軍事文書與組織協作｜靜態插畫・想像復原",
+      "note": "用文書協作示意制度，不是特定會議或兩套族群制服。南北面官分類與北面體系內的南北院並不相同；不能簡化為地圖南北兩半或兩支固定族群軍隊。",
+      "sources": [
+        {
+          "name": "《遼史》卷四十五：百官志一",
+          "url": "https://zh.wikisource.org/wiki/遼史/卷45"
+        },
+        {
+          "name": "《遼史》卷四十八：南面軍官",
+          "url": "https://zh.wikisource.org/wiki/遼史/卷48"
+        }
+      ]
+    },
+    "複合弓": {
+      "src": "/encyclopedia-v18/liao-unstrung-bow-tent-v2.webp",
+      "alt": "遼代角弓器類示意，一張未掛弦的反曲長弰弓直立在低木架上，旁有封閉皮囊、摺毯與氈帳，後方為草原。",
+      "caption": "靜態插畫｜遼代角弓器類的想像復原",
+      "note": "依契丹用弓記載及角弓材料知識呈現未掛弦的弓形示意。彎曲程度、長度、纏束、木架、皮囊與氈帳均非遼代出土器物的精確復原；不主張皮囊能容納此弓，也不以畫作歸屬證明唯一遼弓形制。",
+      "sources": [
+        {
+          "name": "《遼史》卷34：兵衛志上",
+          "url": "https://zh.wikisource.org/wiki/遼史/卷34"
+        },
+        {
+          "name": "中國體育博物館：中國角弓介紹",
+          "url": "https://www.olympic.cn/museum/tyjypt/2021/0128/373911.html"
+        }
+      ]
+    }
+  },
+  "northern-song": {
+    "強弩與床弩": {
+      "src": "/encyclopedia-v18/northern-song-crossbow-inspection-v1.webp",
+      "alt": "北宋後期軍士在木桌旁查看一具未上膛的步兵弩，弩臂、木身、前鐙和兩支另置短箭可辨。",
+      "caption": "1068年後神臂弓概念一例｜靜態插畫・想像復原",
+      "note": "以強弩中的神臂弓為例的示意，名為弓而屬弩類；未搭箭。床弩是另一種大型器械，本圖沒有冒充其多弓結構。器形與機件非精密復原，也不把1068年神臂弓倒置進仁宗時期兵書。",
+      "sources": [
+        {
+          "name": "《宋史》卷一九七：器甲之制",
+          "url": "https://zh.wikisource.org/wiki/宋史/卷197"
+        },
+        {
+          "name": "《武經總要》前集卷十三：器圖",
+          "url": "https://zh.wikisource.org/wiki/武經總要/前集/卷十三"
+        }
+      ]
+    },
+    "牽引式投石機": {
+      "src": "/encyclopedia-v18/northern-song-traction-trebuchet-v2.webp",
+      "alt": "北宋營地中一具人力牽引投石機架起長梢與空皮兜，右側軍士持拽索準備，旁有教習示意。",
+      "caption": "北宋人力牽引投石概念｜靜態插畫・想像復原",
+      "note": "短端拽索、長端皮兜的原理示意；少數人物只提示分工，不是史載完整操作人數。未採後世回回炮配重箱，梢、軸、繫索與比例不當工程定型，古稱炮也不等於火藥砲。皮兜釋放繫法與樞軸細部也未定，不是可依圖搭建的操作圖。",
+      "sources": [
+        {
+          "name": "《武經總要》前集卷十二：守城",
+          "url": "https://zh.wikisource.org/wiki/武經總要/前集/卷十二"
+        },
+        {
+          "name": "《武經總要》前集卷十三：器圖",
+          "url": "https://zh.wikisource.org/wiki/武經總要/前集/卷十三"
+        }
+      ]
+    },
+    "早期火藥武器": {
+      "src": "/encyclopedia-v18/northern-song-incendiary-arrows-v1.webp",
+      "alt": "木托盤放著兩支箭首附近帶有包裹的未點燃火箭，旁邊一支普通羽箭作外觀比較。",
+      "caption": "北宋弓弩發射的火箭概念｜靜態插畫・想像復原",
+      "note": "箭首附近附引火物的外觀示意，非自帶推進力的噴射火箭；沒有配方、內部結構或製作程序。970年相關記載與仁宗時期兵書只支持時代和類型，未證明本圖包裹形狀與尺寸。",
+      "sources": [
+        {
+          "name": "《武經總要》前集卷十三：器圖",
+          "url": "https://zh.wikisource.org/wiki/武經總要/前集/卷十三"
+        },
+        {
+          "name": "《宋史》卷一九七：器甲之制",
+          "url": "https://zh.wikisource.org/wiki/宋史/卷197"
+        }
+      ]
+    },
+    "城防與軍需": {
+      "src": "/encyclopedia-v18/northern-song-garrison-supplies-v1.webp",
+      "alt": "北宋城內糧倉前軍民分工搬糧、量穀與查看水缸，手推車、架高糧袋和守備土牆構成後勤場景。",
+      "caption": "北宋守城物資與備水｜靜態插畫・想像復原",
+      "note": "糧食、軍用布帛與備水的並置示意，不是某城倉庫實景。城牆、瓦棚、糧袋、手車與量具均未定型，運入倉內也不表示宋代軍糧全靠這種手車運送。",
+      "sources": [
+        {
+          "name": "《武經總要》前集卷十二：守城",
+          "url": "https://zh.wikisource.org/wiki/武經總要/前集/卷十二"
+        },
+        {
+          "name": "《宋史》卷一七五：食貨上三",
+          "url": "https://zh.wikisource.org/wiki/宋史/卷175"
+        }
+      ]
+    }
+  },
+  "western-xia": {
+    "党項騎兵": {
+      "src": "/encyclopedia-v18/western-xia-pass-cavalry-v1.webp",
+      "alt": "西夏披甲騎者騎著淺棕黑鬃馬沿石質山道緩行，遠方兩名騎者跟進，呈現山路機動的概念。",
+      "caption": "11至12世紀西夏騎兵山行｜靜態插畫・想像復原",
+      "note": "以西夏騎兵與出土甲片為背景的山道巡行示意；盔甲組合、馬具、服色與隊形未定，不把墓葬武士俑當固定軍服，也未指認為某支鐵鷂子部隊。",
+      "sources": [
+        {
+          "name": "《宋史》卷四八六：夏國下",
+          "url": "https://zh.wikisource.org/wiki/宋史/卷486"
+        },
+        {
+          "name": "揚州中國大運河博物館：鐵馬與天書",
+          "url": "https://www.grandcanalmuseum.cn/yunboxinwen/1132.html"
+        }
+      ]
+    },
+    "弓騎兵": {
+      "src": "/encyclopedia-v18/western-xia-archer-preparation-v1.webp",
+      "alt": "西夏弓騎在灰馬旁準備出發，手持未拉開的立弓並查看箭囊，馬鞍與裝具清楚可辨。",
+      "caption": "西夏弓騎出發準備｜靜態插畫・想像復原",
+      "note": "騎乘前查看弓與箭囊的示意，沒有搭箭。史料支持弓矢與騎兵，不證明本圖整弓、箭囊、衣帽或訓練姿態；不沿用契丹或蒙古騎者，不宣稱完整西夏弓出土定型。",
+      "sources": [
+        {
+          "name": "《宋史》卷四八六：夏國下",
+          "url": "https://zh.wikisource.org/wiki/宋史/卷486"
+        },
+        {
+          "name": "左長纓、祁偉：論西夏時期的對外貿易",
+          "url": "https://www.nxkg.org.cn/xueshuyanjiu/609.html"
+        }
+      ]
+    },
+    "山地與沙漠堡寨": {
+      "src": "/encyclopedia-v18/western-xia-oasis-fort-v1.webp",
+      "alt": "西夏綠洲邊的小型夯土堡寨臨近山道和水渠，土屋、守卒與稀疏耕地呈現水源及通路的關係。",
+      "caption": "西夏綠洲堡寨空間概念｜靜態插畫・想像復原",
+      "note": "山地、綠洲、道路與土堡的關係示意，不是黑水城測繪復原。現存城牆有多期增修，不能整體套成西夏原貌；本圖不借佛塔或帝陵塔作軍事瞭望塔。",
+      "sources": [
+        {
+          "name": "《宋史》卷四八六：夏國下",
+          "url": "https://zh.wikisource.org/wiki/宋史/卷486"
+        },
+        {
+          "name": "故宮研究院：寧夏、內蒙古考察報告",
+          "url": "https://www.dpm.org.cn/learing_detail/237825.html"
+        }
+      ]
+    },
+    "駱駝與馬匹補給": {
+      "src": "/encyclopedia-v18/western-xia-camel-horse-supplies-v2.webp",
+      "alt": "西夏補給隊在綠洲邊停歇，雙峰駱駝和馱馬分別載著適量布包，兩名牽引者照看牲畜與水囊。",
+      "caption": "西夏馬駝補給與照料｜靜態插畫・想像復原",
+      "note": "用馬與雙峰駱駝的分工示意長途運輸；馱具、載量、路線與人畜配比未定。《宋史》的馬駝規定不是每名軍人實配紀錄，輔助兵員的名稱與職掌另有研究討論。",
+      "sources": [
+        {
+          "name": "《宋史》卷四八六：夏國下",
+          "url": "https://zh.wikisource.org/wiki/宋史/卷486"
+        },
+        {
+          "name": "陳瑞青：略論西夏軍隊中的負擔",
+          "url": "https://www.sinoss.net/c/2023-04-10/630132.shtml"
+        }
+      ]
+    }
+  },
+  "jin": {
+    "女真騎兵": {
+      "src": "/encyclopedia-v18/jin-woodland-scouts-v1.webp",
+      "alt": "金初林地兩名輕裝騎者停馬會合，近景黑馬與遠處灰馬角度不同，弓袋、箭囊及馬具可辨。",
+      "caption": "金初女真騎兵林地會合｜靜態插畫・想像復原",
+      "note": "以金初騎乘與射獵背景作會合示意，並非某戰役或固定斥候操典。衣帽與馬具參考只支持一般背景，不把傳稱舊畫的女真貴族狩獵裝束當全軍制服。",
+      "sources": [
+        {
+          "name": "《金史》卷四十四：兵志",
+          "url": "https://zh.wikisource.org/wiki/金史/卷44"
+        },
+        {
+          "name": "故宮博物院：胡瓌卓歇圖卷",
+          "url": "https://www.dpm.org.cn/collection/paint/234629.html"
+        }
+      ]
+    },
+    "重裝騎兵": {
+      "src": "/encyclopedia-v18/jin-armored-guard-care-v2.webp",
+      "alt": "金代儀衛甲騎在馬廄院內整備，騎者與馬都披甲，馬伕查看側面繫帶，馬腿與口鼻保持外露。",
+      "caption": "金代儀衛甲騎整備概念｜靜態插畫・想像復原",
+      "note": "以儀衛文獻的人馬披甲為一例的示意，不是全軍野戰制服或甲具精密復原。沒有連環馬，也不把人綁在馬鞍；護甲分片、繫帶與照料方式仍未定。",
+      "sources": [
+        {
+          "name": "《金史》卷四十二：儀衛下",
+          "url": "https://zh.wikisource.org/wiki/金史/卷42"
+        },
+        {
+          "name": "《宋史》卷三六六：吳璘",
+          "url": "https://zh.wikisource.org/wiki/宋史/卷366"
+        }
+      ]
+    },
+    "弓箭與長兵器": {
+      "src": "/encyclopedia-v18/jin-bow-spear-roles-v1.webp",
+      "alt": "金代兩名步卒在營地分別攜帶未搭箭的弓及直立長槍，完整弓弦、槍尖和槍尾保留在畫面內。",
+      "caption": "金代弓槍分工概念｜靜態插畫・想像復原",
+      "note": "把弓箭與長槍並置說明器類的示意，並非固定配比或戰術操典。宗弼傳的矢盡改持槍是個別事蹟，未照搬為本圖人物、動作或全軍規則；衣帽與兵器形制未定。",
+      "sources": [
+        {
+          "name": "《金史》卷四十二：儀衛下",
+          "url": "https://zh.wikisource.org/wiki/金史/卷42"
+        },
+        {
+          "name": "《金史》卷七十七：宗弼",
+          "url": "https://zh.wikisource.org/wiki/金史/卷77"
+        }
+      ]
+    },
+    "攻城與火器": {
+      "src": "/encyclopedia-v18/jin-iron-fire-pot-v1.webp",
+      "alt": "金末城防背景的一只封閉鐵罐火器外觀概念，放在木座上，旁置鐵索，沒有燃燒或爆炸。",
+      "caption": "1232年汴京守城火器概念｜靜態插畫・想像復原",
+      "note": "以震天雷記載的鐵罐作外觀示意，不是實物或可使用的復原。罐形、蓋、引線與尺寸未定；不把金初騎兵與金末火器當同年同軍，也不套後世火砲或現代手榴彈。",
+      "sources": [
+        {
+          "name": "《金史》卷一一三：赤盞合喜",
+          "url": "https://zh.wikisource.org/wiki/金史/卷113"
+        },
+        {
+          "name": "《金史》卷十七：哀宗上",
+          "url": "https://zh.wikisource.org/wiki/金史/卷17"
+        }
+      ]
+    }
+  },
+  "southern-song": {
+    "江海水軍": {
+      "src": "/encyclopedia-v18/southern-song-coastal-muster-v1.webp",
+      "alt": "南宋江海水軍備航概念：海灣中一艘木帆船及遠處小艇，船員整理繩索與物資，完整船殼與桅帆均在畫面內。",
+      "caption": "南宋江海水軍備航概念｜靜態插畫・想像復原",
+      "note": "取12世紀海舟守備背景，不是唐島海戰瞬間、李寶旗艦或出土海船復原。船殼、帆裝、船員衣帽與數量皆示意；泉州出土商船不能直接等同制式戰船。",
+      "sources": [
+        {
+          "name": "《宋史》卷三七〇：李寶",
+          "url": "https://zh.wikisource.org/wiki/宋史/卷370"
+        },
+        {
+          "name": "黃純艷：宋代社會的造船業大觀",
+          "url": "https://www.nopss.gov.cn/BIG5/n1/2018/0315/c219468-29869043.html"
+        }
+      ]
+    },
+    "車船與槳輪": {
+      "src": "/encyclopedia-v18/southern-song-paddle-vessel-v1.webp",
+      "alt": "南宋車船的外觀概念：低矮木船靠岸，船身中段外側可見連到船殼的木槳輪，下部葉片入水，兩名船員查看繫纜。",
+      "caption": "12世紀人力車船概念｜靜態插畫・想像復原",
+      "note": "本圖為歷史概念示意。文獻記載人力踏車使輪擊水；本圖只示外觀，艙內人力與傳動未展開。槳輪數量、葉片數、比例與船型未定，不是蒸汽船或可依圖製作的復原。",
+      "sources": [
+        {
+          "name": "《宋史》卷三八三：虞允文",
+          "url": "https://zh.wikisource.org/wiki/宋史/卷383"
+        },
+        {
+          "name": "黃純艷：宋代社會的造船業大觀",
+          "url": "https://www.nopss.gov.cn/BIG5/n1/2018/0315/c219468-29869043.html"
+        }
+      ]
+    },
+    "火槍與火藥彈": {
+      "src": "/encyclopedia-v18/southern-song-bamboo-firelance-v1.webp",
+      "alt": "1259年竹筒突火槍的外觀想像：一根完整粗竹筒斜放在兩個木托上，旁置布套，沒有燃燒、彈藥或操作人物。",
+      "caption": "1259年竹筒突火槍一例｜靜態插畫・想像復原",
+      "note": "本圖為歷史概念示意。本圖選竹筒火槍一例，不同時復原所有火藥彈，也不把後世金屬火銃倒套1259年。子窠材料、封底、尺寸與細部構造未定；後來援襄舟載火槍的記載不證明兩者同型。",
+      "sources": [
+        {
+          "name": "《宋史》卷一九七：器甲之制",
+          "url": "https://zh.wikisource.org/wiki/宋史/卷197"
+        },
+        {
+          "name": "《宋史》卷四五〇：張順、張貴",
+          "url": "https://zh.wikisource.org/wiki/宋史/卷450"
+        }
+      ]
+    },
+    "襄陽城防": {
+      "src": "/encyclopedia-v18/southern-song-xiangfan-river-defense-v1.webp",
+      "alt": "襄樊江防關係想像：由南向北望，近景南岸襄陽與遠景北岸樊城隔著漢水，水面浮梁與小舟表示相援交通。",
+      "caption": "南宋末期襄樊江防關係｜靜態插畫・想像復原",
+      "note": "本圖為歷史概念示意。只示襄陽南岸、樊城北岸與浮梁相援，不是某日戰況或測繪地圖。兩城輪廓、河岸、橋位、門樓及比例未定，未照搬現存明清城牆，也不把元軍回回砲畫成宋軍裝備。",
+      "sources": [
+        {
+          "name": "《元史》卷一二八：阿朮、阿里海牙",
+          "url": "https://zh.wikisource.org/wiki/元史/卷128"
+        },
+        {
+          "name": "南京市文旅局：襄陽城牆",
+          "url": "https://wlj.nanjing.gov.cn/ztzl/mcq/syjj/201710/t20171026_794974.html"
+        }
+      ]
+    }
+  },
+  "mongol": {
+    "蒙古騎射": {
+      "src": "/encyclopedia-v18/mongol-mounted-practice-v1.webp",
+      "alt": "13世紀蒙古騎射練習示意，一名騎者在栗色草原馬上向遠處草靶張弓，馬身與四肢保持完整可辨。",
+      "caption": "13世紀蒙古騎射練習｜靜態插畫・想像復原",
+      "note": "本圖為騎乘與射術結合的練習示意，不是某戰役或成吉思汗肖像。姿勢、衣帽、弓形與馬具細部未定，不用後世清式弓或現代蒙古服當標準。",
+      "sources": [
+        {
+          "name": "《黑韃事略》：彭大雅、徐霆",
+          "url": "https://zh.wikisource.org/wiki/黑韃事略"
+        },
+        {
+          "name": "Royal Armouries：Arms and Armour of the Mongol Empire",
+          "url": "https://royalarmouries.org/objects-and-stories/stories/the-mongols/arms-and-armour-of-the-mongol-empire"
+        }
+      ]
+    },
+    "複合弓": {
+      "src": "/encyclopedia-v18/mongol-unstrung-composite-bow-v1.webp",
+      "alt": "蒙古複合弓的未上弦外觀概念，反曲弓身置於氈墊上，弦線另外鬆放，旁有箭囊與兩支完整箭。",
+      "caption": "13世紀複合弓未上弦概念｜靜態插畫・想像復原",
+      "note": "本圖為未上弦外觀示意，弦線另放，不表示可直接射用。角、木、筋的材料原理有來源，弓身曲率、包覆、弰梢與箭囊形制未定；未照搬館藏清代或19世紀弓。",
+      "sources": [
+        {
+          "name": "《黑韃事略》：彭大雅、徐霆",
+          "url": "https://zh.wikisource.org/wiki/黑韃事略"
+        },
+        {
+          "name": "Royal Armouries：Arms and Armour of the Mongol Empire",
+          "url": "https://royalarmouries.org/objects-and-stories/stories/the-mongols/arms-and-armour-of-the-mongol-empire"
+        }
+      ]
+    },
+    "多馬輪換": {
+      "src": "/encyclopedia-v18/mongol-remount-saddle-transfer-v1.webp",
+      "alt": "蒙古備馬輪換示意：旅人將一副輕木鞍放向灰馬的氈墊，栗馬在旁休息，後方另一匹備馬吃草，助手持繫馬繩。",
+      "caption": "蒙古備馬與換乘概念｜靜態插畫・想像復原",
+      "note": "本圖為備馬休息與換乘示意，不是每人固定三馬的配額或驛站制度。文獻記載數量不同，旅行者換乘也不能直接等同戰鬥輪換；鞍具及交接動作仍為想像。",
+      "sources": [
+        {
+          "name": "《黑韃事略》：彭大雅、徐霆",
+          "url": "https://zh.wikisource.org/wiki/黑韃事略"
+        },
+        {
+          "name": "William of Rubruck：1253–1255旅行記",
+          "url": "https://depts.washington.edu/silkroad/texts/rubruck.html"
+        }
+      ]
+    },
+    "攻城工程隊": {
+      "src": "/encyclopedia-v18/mongol-siege-protection-workshop-v1.webp",
+      "alt": "13世紀蒙古軍攻城工程支援的準備示意，三名工匠在營地整備有後撐的木質遮蔽板，旁放木料與牽引繩。",
+      "caption": "1230年代工程支援與遮蔽概念｜靜態插畫・想像復原",
+      "note": "本圖為工匠協作、木牌遮蔽與牽引器材整備的示意，不是特定城戰或工程定型。文獻的外部概括有侷限，不把某族工匠視為唯一來源，也不提前套用1273年回回砲。",
+      "sources": [
+        {
+          "name": "《黑韃事略》：彭大雅、徐霆",
+          "url": "https://zh.wikisource.org/wiki/黑韃事略"
+        },
+        {
+          "name": "Royal Armouries：Arms and Armour of the Mongol Empire",
+          "url": "https://royalarmouries.org/objects-and-stories/stories/the-mongols/arms-and-armour-of-the-mongol-empire"
+        }
+      ]
+    }
+  },
+  "yuan": {
+    "回回砲": {
+      "src": "/encyclopedia-v18/yuan-counterweight-engine-v1.webp",
+      "alt": "回回砲的配重原理示意：支架橫軸上是一根連續長短臂，短端下掛木質配重箱，長端垂空皮兜，全機靜止。",
+      "caption": "1273年回回砲・配重概念｜靜態插畫・想像復原",
+      "note": "本圖為配重式投石器的原理示意，不是1273年確定形制或可製作圖。文獻支持年代與砲匠，機架、箱體、樞軸、吊兜及比例未定；不可把它當成人力拽索式或火藥火砲。",
+      "sources": [
+        {
+          "name": "《元史》卷二〇三：阿老瓦丁、亦思馬因",
+          "url": "https://zh.wikisource.org/wiki/元史/卷203"
+        },
+        {
+          "name": "PBS NOVA：Counterweight",
+          "url": "https://www.pbs.org/wgbh/nova/lostempires/trebuchet/counterweight.html"
+        }
+      ]
+    },
+    "騎兵與驛站": {
+      "src": "/encyclopedia-v18/yuan-post-station-courier-v1.webp",
+      "alt": "元代驛站傳遞文書示意：騎在灰馬上的使者把封閉文書袋交給站務人員查看，馬廄中另有一匹待用馬。",
+      "caption": "元代站赤文書與馬匹供給｜靜態插畫・想像復原",
+      "note": "本圖為驛站驗看與供給的示意，不把傳遞使者直接等同戰場騎兵。文書袋、交接動作、衣帽、站舍格局與馬數未定，也不由此推定全元驛站固定間距。",
+      "sources": [
+        {
+          "name": "《元史》卷一〇一：站赤",
+          "url": "https://zh.wikisource.org/wiki/元史/卷101"
+        },
+        {
+          "name": "《元史》卷一〇〇：馬政",
+          "url": "https://zh.wikisource.org/wiki/元史/卷100"
+        }
+      ]
+    },
+    "火銃": {
+      "src": "/encyclopedia-v18/yuan-1332-bronze-cannon-v2.webp",
+      "alt": "1332年紀年類型的元代青銅碗口火器外觀示意，碗狀銃口、較窄管身、後段外隆及尾部置於木托，沒有彈藥或引燃。",
+      "caption": "元代1332年碗口火器一例｜靜態插畫・想像復原",
+      "note": "本圖為紀年器類的外觀示意，未描摹館藏照片或複製銘文。細部和支托方式未定，不混入1298器的尺寸或1356木柄手銃；不作世界最早定論，也不是操作復原。",
+      "sources": [
+        {
+          "name": "中國國家博物館：青銅火炮",
+          "url": "https://www.chnmuseum.cn/zp/zpml/kgfjp/202111/t20211116_252348.shtml"
+        },
+        {
+          "name": "中國機械工程數字博物館：火銃",
+          "url": "https://museum.cmes.org/machinery/search/detail/c7d773bceb9f449ba278f3a327a680f5"
+        }
+      ]
+    },
+    "水軍與渡江": {
+      "src": "/encyclopedia-v18/yuan-river-horse-transport-v2.webp",
+      "alt": "元軍渡江後勤的想像示意：一匹未配鞍的馬由人牽著站在寬木船甲板上，艄公在船尾持長櫓，旁有沙洲與遠處物資小艇。",
+      "caption": "1274年舟載馬與渡江後勤｜靜態插畫・想像復原",
+      "note": "本圖為舟載馬與水陸協同的示意，不是陽邏某刻戰況或渡口地圖。運馬船形、護欄、韁具、單船容量與登岸流程未定；不將南宋海船、現代渡輪或別朝戰艦直接代用。",
+      "sources": [
+        {
+          "name": "《元史》卷一二八：阿朮",
+          "url": "https://zh.wikisource.org/wiki/元史/卷128"
+        },
+        {
+          "name": "《元史》卷一二七：伯顏",
+          "url": "https://zh.wikisource.org/wiki/元史/卷127"
+        }
+      ]
+    }
+  },
+  "ming": {
+    "火銃與火砲": {
+      "src": "/encyclopedia-v18/ming-frankish-cannon-stilllife-v1.webp",
+      "alt": "明代佛郎機火器一例的外觀示意，細長銅管與後部子銃座由展示支架承托，旁置封閉備用子銃，沒有裝填或引燃。",
+      "caption": "16世紀佛郎機一例｜靜態插畫・想像復原",
+      "note": "本圖為明代火器中的一例示意，不囊括鳥銃、虎蹲砲或晚明紅夷大砲。長頸、子銃器類有文獻支持，接合、孔位與比例未定；支托只作展示，不宣稱明代制式安座，不是1529年標準器或可製作圖。",
+      "sources": [
+        {
+          "name": "《明史》卷九十二：火器",
+          "url": "https://zh.wikisource.org/wiki/明史/卷92"
+        },
+        {
+          "name": "《紀效新書》卷十八：治水兵篇",
+          "url": "https://zh.wikisource.org/wiki/紀效新書/卷十八"
+        }
+      ]
+    },
+    "狼筅與藤牌": {
+      "src": "/encyclopedia-v18/ming-rattan-shield-langxian-v1.webp",
+      "alt": "明代兩種步兵器械角色並置示意，一人持編藤圓牌，另一人雙手持上段保留密枝、梢端有小刃的長竹狼筅。",
+      "caption": "狼筅與藤牌配合概念｜靜態插畫・想像復原",
+      "note": "本圖為器械與分工示意，兩人不是完整鴛鴦陣，也不示實戰招式。藤牌編織、狼筅枝梢及利刃有原典支持，服裝、長度、角度與細部接合仍未定。",
+      "sources": [
+        {
+          "name": "《紀效新書》卷十一：藤牌、狼筅",
+          "url": "https://zh.wikisource.org/wiki/紀效新書/卷十一"
+        },
+        {
+          "name": "《紀效新書》卷一：授器與隊伍",
+          "url": "https://zh.wikisource.org/wiki/紀效新書/卷一"
+        }
+      ]
+    },
+    "長城與九邊": {
+      "src": "/encyclopedia-v18/ming-wall-garrison-landscape-v2.webp",
+      "alt": "明代北方邊牆網絡的景觀示意，磚石牆沿山脊串連敵臺，內側有小型營堡、糧倉與供給山徑，沒有現代設施。",
+      "caption": "明代邊牆・敵臺與營堡｜靜態插畫・想像復原",
+      "note": "本圖為北方磚石段防禦關係的示意，不是某段實景測繪或完整九邊地圖。九邊逐步形成，牆體、敵臺、營堡與材料各地各期不同，不能把此圖套成全明一致。",
+      "sources": [
+        {
+          "name": "《明史》卷九十一：邊防",
+          "url": "https://zh.wikisource.org/wiki/明史/卷91"
+        },
+        {
+          "name": "UNESCO：The Great Wall",
+          "url": "https://whc.unesco.org/en/list/438/"
+        }
+      ]
+    },
+    "戰船與海防": {
+      "src": "/encyclopedia-v18/ming-fuchuan-coastal-patrol-v1.webp",
+      "alt": "16世紀福船型海防船的外觀示意，雙桅帆、較高船艏船艉與分層艉樓完整可見，旁有獨立小型伴船和遠岸瞭望點。",
+      "caption": "16世紀福船型海防概念｜靜態插畫・想像復原",
+      "note": "本圖為福船型外觀與海防活動的示意，不是鄭和寶船或現代復原船。原典與館方支持器類、層次用途及編組背景，水下尖底、甲板數、桅帆、軍服和火器配置未據圖定型。",
+      "sources": [
+        {
+          "name": "《紀效新書》卷十八：治水兵篇",
+          "url": "https://zh.wikisource.org/wiki/紀效新書/卷十八"
+        },
+        {
+          "name": "中國科學技術館：明代福船構造",
+          "url": "https://www.cdstm.cn/museum/zphc/hxzg2017x/art/2017/art_1d2e2641dd47422eb85975d6d00b9769.html"
+        }
+      ]
+    }
+  },
+  "qing": {
+    "八旗騎射": {
+      "src": "/encyclopedia-v18/qing-banner-mounted-training-v1.webp",
+      "alt": "清代騎射訓練間歇，一名穿靛藍騎袍的騎者策馬緩行，弓袋與箭囊分置鞍旁。",
+      "caption": "靜態插畫｜18世紀清代騎射訓練間歇的想像復原",
+      "note": "清代重視弓馬訓練，本圖以18世紀騎者備行示意八旗騎射，沒有呈現張弓射擊。服飾、鞍具、旗色與弓袋皆為概念安排，不能據此判定某一旗或全軍定裝；御用弓矢也不等於一般兵丁裝備。 圖中弓身由弓袋包覆，並不展示清弓細部構造。",
+      "sources": [
+        {
+          "name": "瀋陽故宮：弓馬凝輝展",
+          "url": "https://www.sypm.org.cn/zhanlan_3/50.html"
+        },
+        {
+          "name": "故宮博物院：清代弓矢",
+          "url": "https://www.dpm.org.cn/defenses/talk/203212.html"
+        }
+      ]
+    },
+    "火槍與火砲": {
+      "src": "/encyclopedia-v18/qing-matchlock-cannon-store-v1.webp",
+      "alt": "清代兵器庫庭院裡，前裝銅炮安置在雙輪木炮車上，後方槍架分放兩支傳統火繩槍。",
+      "caption": "靜態插畫｜清前中期鳥槍與前裝火砲的想像復原",
+      "note": "以17世紀末至18世紀的傳統火器器類作示意，鳥槍與炮分別呈現，並非某營同年裝備清單。炮身、槍托與炮架為概念外觀，不定名為特定神威炮，也不提供裝填、配藥或內部構造復原。",
+      "sources": [
+        {
+          "name": "故宮博物院：清代火槍研究",
+          "url": "https://www.dpm.org.cn/Uploads/pdf/1622/T00021_00.pdf"
+        },
+        {
+          "name": "故宮博物院：清代火炮",
+          "url": "https://www.dpm.org.cn/Uploads/pdf/1533/T00027_00.pdf"
+        }
+      ]
+    },
+    "北洋水師鐵甲艦": {
+      "src": "/encyclopedia-v18/qing-dingyuan-ironclad-v1.webp",
+      "alt": "晚清北洋水師定遠級鐵甲艦停泊港灣，黑色低舷船體、雙煙囪與斜置雙聯主炮可辨。",
+      "caption": "靜態插畫｜19世紀末定遠級鐵甲艦外觀想像復原",
+      "note": "以19世紀末定遠級為北洋鐵甲艦一例，雙聯主炮採斜對稱配置的外觀示意，不畫成後世中線前後炮塔。船體塗裝、上層建築、炮罩、索具與小艇配置仍屬想像復原，不限定具體改裝年份，不是原艦或現代紀念艦的測繪圖。",
+      "sources": [
+        {
+          "name": "中國航海博物館：定遠號鐵甲艦",
+          "url": "https://www.shmmc.com.cn/mup/pdf/20210310124756_9146.pdf"
+        },
+        {
+          "name": "香港歷史博物館：經歷的風雨",
+          "url": "https://hk.history.museum/documents/Collections-and-Services/Museum-Collection/%E7%BB%8F%E5%8E%86%E7%9A%84%E9%A3%8E%E9%9B%A8.pdf"
+        }
+      ]
+    },
+    "後膛槍與機關槍": {
+      "src": "/encyclopedia-v18/qing-breechloader-gatling-display-v2.webp",
+      "alt": "晚清近代兵器示意，前景完整後膛長步槍置於木托，後方分開陳列手搖多管加特林式機關槍。",
+      "caption": "靜態插畫｜約1890至1900年後膛步槍與手搖機關槍的想像復原",
+      "note": "後膛槍以毛瑟1871式器類作外觀示意，並列晚清已見的加特林式手搖多管槍；手搖槍不等於馬克沁自動機槍。英國國會紀錄只證實毛瑟槍與機關槍輸華，沒有指定圖中1871型；加特林參考致遠出水研究的器類，不復原桅盤安座、鼓匣或內部傳動，木座僅為展示用途。",
+      "sources": [
+        {
+          "name": "英國國會Hansard：1900年輸華軍備答詢",
+          "url": "https://api.parliament.uk/historic-hansard/commons/1900/jul/09/war-material-supplied-to-china-from"
+        },
+        {
+          "name": "劉彥琪、周春水：致遠艦出水加特林機槍研究",
+          "url": "https://fh.pku.edu.cn/docs/2018-11/20181114224853572892.pdf"
+        }
+      ]
+    }
+  }
+}
