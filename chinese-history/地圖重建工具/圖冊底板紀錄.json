@@ -1,0 +1,42 @@
+{
+  "version": "1.0",
+  "projection": {
+    "version": "1.0",
+    "width": 1000,
+    "height": 700,
+    "centralMeridian": 105,
+    "originLatitude": 35,
+    "standardParallels": [
+      25,
+      47
+    ],
+    "ellipsoid": "WGS84",
+    "reference": "https://proj.org/en/stable/operations/projections/aea.html"
+  },
+  "output": "public/maps-v18/china-atlas-albers.webp",
+  "width": 2400,
+  "height": 1680,
+  "bytes": 207626,
+  "sha256": "65245A807D6D7302B9E5F4F255B16A183419BDEF5227BDB34A1B82FF1D5DF883",
+  "source": "https://www.naturalearthdata.com/downloads/50m-raster-data/50m-natural-earth-2/",
+  "license": "公開領域",
+  "sourceFile": "public/maps-v18/china-relief.webp",
+  "sourceSha256": "C85045AFA46C67D9CDC9CAA0C027ABEC59EDBC8B420105B487BB9969F44C332A",
+  "sourceBounds": {
+    "west": 70,
+    "east": 145,
+    "north": 57,
+    "south": 16
+  },
+  "sampledPixels": 2962743,
+  "coast": {
+    "source": "https://github.com/nvkelso/natural-earth-vector/blob/master/geojson/ne_50m_coastline.geojson",
+    "sourceSha256": "271F1C4C1908312BAC6B29D158EA1356544BEAFC129F260005300913AA5EA283",
+    "featureClass": "Coastline",
+    "lines": 95,
+    "points": 3567,
+    "note": "使用真正海岸線，不描邊相鄰陸地環，避免顯示現代行政邊線；圖幅外斷線，不沿裁切框封口。"
+  },
+  "method": "WGS84 Albers反投影取樣、雙線性內插、暖色明暗；網站依同投影海岸遮罩去除海底紋理。",
+  "limitation": "理想化現代地形陰影，不是古代地貌、高程模型或歷史疆界證據；來源之外不補畫地形。"
+}
