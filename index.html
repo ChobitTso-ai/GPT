@@ -1,0 +1,54 @@
+<!doctype html>
+<!-- © 2026 Tso KY - All Rights Reserved
+Protected against reverse engineering and unauthorized modification
+知識冒險島 v1.0：首頁 -->
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#a9e0e5">
+  <title>知識冒險島 v1.0</title>
+  <link rel="stylesheet" href="./homepage/island.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="知識冒險島首頁"><span class="brand-mark" aria-hidden="true">島</span><span><strong>知識冒險島</strong><small>每一份好奇，都有地方可以去</small></span></a>
+    <button id="list-toggle" class="list-toggle" aria-controls="place-list" aria-expanded="false"><span aria-hidden="true">☷</span> 探索清單</button>
+  </header>
+
+  <main id="island" aria-label="知識島互動地圖">
+    <div id="scene" role="img" aria-label="有歷史館、科學工坊、AI研究所、探險港口與閱讀樹屋的立體知識島"></div>
+    <div class="intro"><span class="eyebrow">準備好出發了嗎？</span><h1>今天，想去哪裡探險？</h1><p>走近一座建築，或直接點它開始探索。</p></div>
+    <div id="labels" aria-label="直接選擇建築"></div>
+    <div id="loading" role="status"><span class="loading-island" aria-hidden="true">島</span><p>小島正在醒來…</p></div>
+    <div id="scene-error" class="scene-error" hidden><h2>先從清單出發吧</h2><p>這個瀏覽器目前無法顯示立體小島，仍可使用探索清單。</p></div>
+
+    <aside id="place-list" class="place-list" aria-label="探索清單" hidden>
+      <div class="panel-heading"><div><small>選一個感興趣的主題</small><h2>想探索什麼？</h2></div><button id="list-close" class="icon-button" aria-label="關閉探索清單">×</button></div>
+      <div id="list-items"></div>
+      <p class="list-footnote">點清單和點建築，都能到同一個地方。</p>
+    </aside>
+
+    <div class="walk-tip" id="walk-tip" aria-live="polite"><span class="walk-dot" aria-hidden="true"></span><span>你的小探險家已經準備好了</span></div>
+    <button id="nearby-enter" class="nearby-enter" hidden></button>
+    <nav class="dpad" aria-label="控制角色方向">
+      <button data-move="up" class="up" aria-label="向上走">▲</button>
+      <button data-move="left" class="left" aria-label="向左走">◀</button>
+      <span class="pad-center" aria-hidden="true">步</span>
+      <button data-move="right" class="right" aria-label="向右走">▶</button>
+      <button data-move="down" class="down" aria-label="向下走">▼</button>
+    </nav>
+    <div class="keyboard-hint"><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd><span>或方向鍵走動</span><span class="hint-separator">·</span><kbd>Enter</kbd><span>進入附近建築</span></div>
+    <span class="version">v1.0</span>
+  </main>
+
+  <dialog id="place-dialog" aria-labelledby="dialog-title">
+    <div class="dialog-top"><span id="dialog-icon" aria-hidden="true"></span><button id="dialog-close" class="icon-button" aria-label="關閉主題介紹">×</button></div>
+    <p class="dialog-eyebrow">好奇心的新目的地</p>
+    <h2 id="dialog-title"></h2><p id="dialog-description"></p>
+    <div id="course-card" class="course-card"></div>
+    <button id="back-to-island" class="primary-button">回到小島，繼續探索</button>
+  </dialog>
+  <script type="module" src="./homepage/island.js"></script>
+</body>
+</html>
