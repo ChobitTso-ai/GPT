@@ -43,3 +43,5 @@ next-env.d.ts
 /_待刪除/
 /.dev-out.log
 /.dev-err.log
+/pages-dist/
+/.pages-cache/
