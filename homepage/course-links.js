@@ -5,5 +5,5 @@
  * 歷史書對話可修改 history；其他首頁檔案由首頁對話負責。
  */
 export const courseLinks = {
-  history: null,
+  history: './chinese-history/',
 };
