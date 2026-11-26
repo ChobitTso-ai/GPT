@@ -1,10 +1,10 @@
 /**
  * © 2026 Tso KY - All Rights Reserved
  * Protected against reverse engineering and unauthorized modification
- * 知識冒險島 v1.0：角色、建築與清單共用同一份入口資料。
+ * 知識冒險島 v1.1：角色、建築與清單共用同一份入口資料。
  */
 import { courseLinks } from './course-links.js';
-const VERSION = 'v1.0';
+const VERSION = 'v1.1';
 const places = [
   { id: 'history', name: '歷史館', icon: '🏯', short: '翻開歷史，遇見不同時代', description: '走進古老的故事，看看不同時代的人怎麼生活、發明與改變世界。', course: '穿越中國帝制時代', detail: '互動古書、朝代探索與軍事百科，將從這裡進入。', tint: '#f9e3cc', x: -6, z: 1, color: 0xc96845, kind: 'history' },
   { id: 'science', name: '科學工坊', icon: '🔬', short: '動手試試，找到為什麼', description: '從一個小問題開始，透過觀察、實驗與比較，發現生活中的科學。', course: '自然與科學探索', detail: '未來放入實驗活動、自然知識與互動模擬。', tint: '#dfedfa', x: 1, z: -6, color: 0x668fbd, kind: 'science' },
@@ -74,7 +74,9 @@ for (const place of places) {
   info.append(title, description); item.append(icon, info); item.addEventListener('click', () => openPlace(place.id));
   $('list-items').append(item);
   const label = document.createElement('button'); label.className = 'place-label'; label.dataset.place = place.id; label.setAttribute('aria-label', '進入' + place.name);
-  const symbol = document.createElement('span'); symbol.textContent = place.icon; symbol.setAttribute('aria-hidden', 'true'); label.append(symbol, document.createTextNode(place.name));
+  const symbol = document.createElement('span'); symbol.className = 'pin-symbol'; symbol.textContent = place.icon; symbol.setAttribute('aria-hidden', 'true');
+  const name = document.createElement('span'); name.className = 'pin-name'; name.textContent = place.name; name.setAttribute('aria-hidden', 'true');
+  label.append(symbol, name);
   label.addEventListener('click', () => openPlace(place.id)); label.hidden = true; $('labels').append(label); labels.set(place.id, label);
 }
 
@@ -106,7 +108,19 @@ function initScene() {
   const host = $('scene');
   scene = new THREE.Scene();
   camera = new THREE.OrthographicCamera(-15, 15, 10, -10, .1, 150);
-  camera.position.set(21, 24, 21); camera.lookAt(0, .8, 0);
+  const initialYaw = Math.PI / 4, initialElevation = Math.atan2(23.2, Math.hypot(21,21));
+  let viewYaw = initialYaw, viewElevation = initialElevation;
+  const orbitRadius = Math.hypot(21,23.2,21);
+  // 相機繞小島中心旋轉；角色、建築碰撞與課程座標保持一致。
+  function updateCamera() {
+    const horizontal = orbitRadius * Math.cos(viewElevation);
+    camera.position.set(Math.sin(viewYaw)*horizontal, .8+Math.sin(viewElevation)*orbitRadius, Math.cos(viewYaw)*horizontal);
+    camera.lookAt(0,.8,0); camera.updateMatrixWorld(true); updateLabels();
+    $('island').dataset.viewYaw = viewYaw.toFixed(4);
+    $('island').dataset.viewElevation = viewElevation.toFixed(4);
+  }
+  $('view-reset').addEventListener('click', () => { input.clear(); viewYaw=initialYaw; viewElevation=initialElevation; updateCamera(); });
+  $('view-reset').disabled = false;
   renderer = new THREE.WebGLRenderer({ alpha: true, antialias: true });
   renderer.setPixelRatio(Math.min(devicePixelRatio, 1.6));
   renderer.shadowMap.enabled = true; renderer.shadowMap.type = THREE.PCFSoftShadowMap;
@@ -232,23 +246,54 @@ function initScene() {
     const width=host.clientWidth, height=host.clientHeight;
     const aspect=width/height;
     const compact=width<700&&width/height>.7;
-    const span=width<700?(compact?31:24.5):39;
+    const span=width<700?(compact?28:24.5):37;
     camera.left=-span/2;camera.right=span/2;camera.top=span/aspect/2;camera.bottom=-span/aspect/2;
-    camera.setViewOffset(width,height,0,width<700?(compact?-height*.16:-height*.045):-height*.07,width,height);
-    camera.updateProjectionMatrix();camera.updateMatrixWorld(true);renderer.setSize(width,height);updateLabels();
+    camera.setViewOffset(width,height,0,width<700?(compact?-height*.13:-height*.02):-height*.045,width,height);
+    camera.updateProjectionMatrix();renderer.setSize(width,height);updateCamera();
   }
   function updateLabels() {
     const width=host.clientWidth,height=host.clientHeight;
-    for(const place of places){const point=new THREE.Vector3(place.x,4.4,place.z).project(camera);const label=labels.get(place.id);const offsetX=width<360?(place.id==='history'||place.id==='ai'?-7:place.id==='science'||place.id==='world'?7:0):0;const offsetY=width<700&&place.id==='reading'?24:0;label.style.left=((point.x*.5+.5)*width+offsetX)+'px';label.style.top=((-point.y*.5+.5)*height+offsetY)+'px';label.hidden=false;}
+    for (const place of places) {
+      // 小標記放在建築朝向鏡頭的一側地面，避免把名稱牌壓在屋頂。
+      const point=new THREE.Vector3(place.x+Math.sin(viewYaw)*2,1.1,place.z+Math.cos(viewYaw)*2).project(camera);
+      const label=labels.get(place.id);
+      label.style.left=((point.x*.5+.5)*width)+'px';
+      label.style.top=((-point.y*.5+.5)*height)+'px'; label.hidden=false;
+    }
   }
   window.addEventListener('resize',resize);resize();
-  const raycaster=new THREE.Raycaster(), pointer=new THREE.Vector2();let pointerStart=null;
-  renderer.domElement.addEventListener('pointerdown',event=>{pointerStart={x:event.clientX,y:event.clientY};});
-  renderer.domElement.addEventListener('pointerup',event=>{
-    if(!pointerStart||Math.hypot(event.clientX-pointerStart.x,event.clientY-pointerStart.y)>12||dialog.open||!list.hidden)return;
-    const rect=renderer.domElement.getBoundingClientRect();pointer.set((event.clientX-rect.left)/rect.width*2-1,-(event.clientY-rect.top)/rect.height*2+1);
-    raycaster.setFromCamera(pointer,camera);const hits=raycaster.intersectObjects(buildings,true);if(hits.length)openPlace(hits[0].object.userData.placeId);pointerStart=null;
+  const raycaster=new THREE.Raycaster(), pointer=new THREE.Vector2();
+  const canvas=renderer.domElement; let gesture=null;
+  canvas.addEventListener('pointerdown',event=>{
+    if (gesture||!event.isPrimary||event.button!==0||dialog.open||!list.hidden) return;
+    input.clear(); event.preventDefault(); canvas.setPointerCapture(event.pointerId);
+    gesture={id:event.pointerId,startX:event.clientX,startY:event.clientY,x:event.clientX,y:event.clientY,dragged:false};
   });
+  canvas.addEventListener('pointermove',event=>{
+    if (!gesture||event.pointerId!==gesture.id) return;
+    const dx=event.clientX-gesture.x,dy=event.clientY-gesture.y;
+    gesture.x=event.clientX;gesture.y=event.clientY;
+    if (Math.hypot(event.clientX-gesture.startX,event.clientY-gesture.startY)>6) gesture.dragged=true;
+    if (!gesture.dragged) return;
+    event.preventDefault(); $('island').classList.add('rotating');
+    viewYaw-=dx*.007;
+    viewElevation=Math.max(Math.PI*.16,Math.min(Math.PI*.36,viewElevation+dy*.005));
+    updateCamera();
+  });
+  function finishGesture(event,cancelled=false) {
+    if (!gesture||event.pointerId!==gesture.id) return;
+    const completed=gesture;gesture=null;$('island').classList.remove('rotating');
+    if(canvas.hasPointerCapture(event.pointerId))canvas.releasePointerCapture(event.pointerId);
+    if(cancelled||completed.dragged||Math.hypot(event.clientX-completed.startX,event.clientY-completed.startY)>6||dialog.open||!list.hidden)return;
+    const rect=canvas.getBoundingClientRect();
+    pointer.set((event.clientX-rect.left)/rect.width*2-1,-(event.clientY-rect.top)/rect.height*2+1);
+    raycaster.setFromCamera(pointer,camera);
+    const hits=raycaster.intersectObjects(buildings,true);
+    if(hits.length)openPlace(hits[0].object.userData.placeId);
+  }
+  canvas.addEventListener('pointerup',event=>finishGesture(event));
+  canvas.addEventListener('pointercancel',event=>finishGesture(event,true));
+  canvas.addEventListener('lostpointercapture',event=>finishGesture(event,true));
   function canStand(x,z){if(!land.has(Math.round(x)+','+Math.round(z)))return false;return !places.some(p=>Math.abs(x-p.x)<1.85&&Math.abs(z-p.z)<1.6);}
   let previous=performance.now(), walkTime=0;
   function tick(now){
@@ -256,13 +301,13 @@ function initScene() {
     let sx=(input.has('right')?1:0)-(input.has('left')?1:0),sy=(input.has('down')?1:0)-(input.has('up')?1:0);
     if(dialog.open||!list.hidden){sx=0;sy=0;}
     const moving=sx!==0||sy!==0;
-    if(moving){const norm=Math.hypot(sx,sy);sx/=norm;sy/=norm;const dx=(sx+sy)*Math.SQRT1_2,dz=(-sx+sy)*Math.SQRT1_2;const nx=character.position.x+dx*3.5*dt,nz=character.position.z+dz*3.5*dt;
+    if(moving){const norm=Math.hypot(sx,sy);sx/=norm;sy/=norm;const dx=sx*Math.cos(viewYaw)+sy*Math.sin(viewYaw),dz=-sx*Math.sin(viewYaw)+sy*Math.cos(viewYaw);const nx=character.position.x+dx*3.5*dt,nz=character.position.z+dz*3.5*dt;
       if(canStand(nx,character.position.z))character.position.x=nx;if(canStand(character.position.x,nz))character.position.z=nz;
       character.rotation.y=Math.atan2(dx,dz);walkTime+=dt*10;
     }
     const swing=moving?Math.sin(walkTime)*.48:0;leftArm.rotation.x=swing;rightArm.rotation.x=-swing;leftLeg.rotation.x=-swing;rightLeg.rotation.x=swing;body.position.y=moving?Math.abs(Math.sin(walkTime))*.055:0;
     let nearest=null,min=3.35;for(const place of places){const d=Math.hypot(character.position.x-place.x,character.position.z-place.z);if(d<min){min=d;nearest=place;}}
-    if(nearby?.id!==nearest?.id){nearby=nearest;for(const place of places)labels.get(place.id).classList.toggle('near',place.id===nearby?.id);$('nearby-enter').hidden=!nearby;$('walk-tip').hidden=Boolean(nearby);if(nearby)$('nearby-enter').textContent='進入'+nearby.name;}
+    if(nearby?.id!==nearest?.id){nearby=nearest;for(const place of places)labels.get(place.id).classList.toggle('near',place.id===nearby?.id);$('nearby-enter').hidden=!nearby;if(nearby)$('nearby-enter').textContent='進入'+nearby.name;}
     if(!matchMedia('(prefers-reduced-motion: reduce)').matches)ripples.forEach((r,i)=>{r.position.y=-1.39+Math.sin(now*.00065+i)*.018;});
     $('island').dataset.playerX=character.position.x.toFixed(3);$('island').dataset.playerZ=character.position.z.toFixed(3);$('island').dataset.nearby=nearby?.id||'';
     renderer.render(scene,camera);requestAnimationFrame(tick);

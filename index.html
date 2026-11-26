@@ -1,14 +1,14 @@
 <!doctype html>
 <!-- © 2026 Tso KY - All Rights Reserved
 Protected against reverse engineering and unauthorized modification
-知識冒險島 v1.0：首頁 -->
+知識冒險島 v1.1：首頁 -->
 <html lang="zh-Hant">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#a9e0e5">
-  <title>知識冒險島 v1.0</title>
-  <link rel="stylesheet" href="./homepage/island.css">
+  <title>知識冒險島 v1.1</title>
+  <link rel="stylesheet" href="./homepage/island.css?v=1.1">
 </head>
 <body>
   <header class="topbar">
@@ -18,7 +18,7 @@ Protected against reverse engineering and unauthorized modification
 
   <main id="island" aria-label="知識島互動地圖">
     <div id="scene" role="img" aria-label="有歷史館、科學工坊、AI研究所、探險港口與閱讀樹屋的立體知識島"></div>
-    <div class="intro"><span class="eyebrow">準備好出發了嗎？</span><h1>今天，想去哪裡探險？</h1><p>走近一座建築，或直接點它開始探索。</p></div>
+    <div class="map-toolbar"><p>拖曳轉動小島，點建築探索</p><button id="view-reset" disabled>轉回正面</button></div>
     <div id="labels" aria-label="直接選擇建築"></div>
     <div id="loading" role="status"><span class="loading-island" aria-hidden="true">島</span><p>小島正在醒來…</p></div>
     <div id="scene-error" class="scene-error" hidden><h2>先從清單出發吧</h2><p>這個瀏覽器目前無法顯示立體小島，仍可使用探索清單。</p></div>
@@ -29,7 +29,6 @@ Protected against reverse engineering and unauthorized modification
       <p class="list-footnote">點清單和點建築，都能到同一個地方。</p>
     </aside>
 
-    <div class="walk-tip" id="walk-tip" aria-live="polite"><span class="walk-dot" aria-hidden="true"></span><span>你的小探險家已經準備好了</span></div>
     <button id="nearby-enter" class="nearby-enter" hidden></button>
     <nav class="dpad" aria-label="控制角色方向">
       <button data-move="up" class="up" aria-label="向上走">▲</button>
@@ -38,8 +37,8 @@ Protected against reverse engineering and unauthorized modification
       <button data-move="right" class="right" aria-label="向右走">▶</button>
       <button data-move="down" class="down" aria-label="向下走">▼</button>
     </nav>
-    <div class="keyboard-hint"><kbd>W</kbd><kbd>A</kbd><kbd>S</kbd><kbd>D</kbd><span>或方向鍵走動</span><span class="hint-separator">·</span><kbd>Enter</kbd><span>進入附近建築</span></div>
-    <span class="version">v1.0</span>
+    <div class="keyboard-hint">WASD／方向鍵走動 · 走近後按 Enter 進入</div>
+    <span class="version">v1.1</span>
   </main>
 
   <dialog id="place-dialog" aria-labelledby="dialog-title">
@@ -49,6 +48,6 @@ Protected against reverse engineering and unauthorized modification
     <div id="course-card" class="course-card"></div>
     <button id="back-to-island" class="primary-button">回到小島，繼續探索</button>
   </dialog>
-  <script type="module" src="./homepage/island.js"></script>
+  <script type="module" src="./homepage/island.js?v=1.1"></script>
 </body>
 </html>
