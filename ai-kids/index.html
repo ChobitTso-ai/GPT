@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#153c39">
+  <meta name="description" content="AI 遊戲實驗室：用規則找證據。親子一起操作的動態課程樣板。">
+  <title>AI 遊戲實驗室｜動態課程 v0.1</title>
+  <link rel="preload" href="assets/cover.webp" as="image">
+  <link rel="stylesheet" href="course.css">
+  <script src="course.js" defer></script>
+</head>
+<body>
+  <!-- © 2026 Tso KY - All Rights Reserved
+       Protected against reverse engineering and unauthorized modification · v0.1 -->
+  <header class="topbar">
+    <a href="../" class="home">知識冒險島</a>
+    <span class="brand">AI 遊戲實驗室</span>
+    <button id="teacher" aria-haspopup="dialog">帶課提示</button>
+  </header>
+  <main id="presentation" aria-label="第 03 堂動態課程核心樣板">
+    <div id="slide"></div>
+  </main>
+  <nav class="controls" aria-label="簡報控制">
+    <div class="page-controls"><button id="prev">上一步</button><span id="position"></span></div>
+    <div class="motion-controls"><button id="replay" disabled>重播動作</button><button id="pause" disabled>暫停動作</button></div>
+    <button id="next" class="primary">開始找證據</button>
+  </nav>
+  <div class="underbar"><span id="help">按空白鍵、方向鍵，或點按鈕推進</span><span>核心樣板 v0.1 · 第 03 堂節選</span></div>
+  <footer>© 2026 Tso KY - All Rights Reserved<br>Protected against reverse engineering and unauthorized modification</footer>
+  <dialog id="notes" aria-labelledby="notes-title"><div class="dialog-head"><h2 id="notes-title">帶課提示</h2><button id="close-notes" autofocus>關閉</button></div><div id="notes-body"></div></dialog>
+  <noscript>請啟用 JavaScript 才能操作動態簡報。</noscript>
+</body>
+</html>
+
