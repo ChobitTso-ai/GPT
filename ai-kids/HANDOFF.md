@@ -1,10 +1,10 @@
 # AI 遊戲實驗室動態網頁 v0.1
 
-更新：2026-11-27
+更新：2026-11-28
 
 ## 範圍與寫入者
 
-- 唯一寫入者：Codex「AI兒童課程動態網頁」專用對話，分支codex/ai-kids-dynamic-sample。
+- 唯一寫入者：Codex「AI兒童課程動態網頁」專用對話，課程樣板分支codex/ai-kids-dynamic-sample；首頁連結分支codex/ai-kids-island-link-20261128。
 - 正式程式為本repo的ai-kids/，本機Github控制端只留治理紀錄；沒有persistent clone。
 - 原教材為獨立共同Local project「兒童AI與防詐系列課程」，本次唯讀取用，原PPT、影片、素材及原交接正本不回寫。
 - 使用者已於2026-11-27明確同意把7張必要插畫上傳至本公開repo的ai-kids/assets/，以及發布這份樣板。
@@ -25,5 +25,7 @@
 - 三段動作驗證起點、中段、暫停transform保持一致、繼續到結束，以及重播；驗證三題、鍵盤、回上一頁、帶課提示及減少動態模式。
 - 已目視桌面封面、規則、軍師核對與手機畫面。修正手機控制列遮內容及兩個機器人姿勢高度不一致。
 - 背景檢查採獨立暫存設定檔，不操作使用者的Chrome視窗、分頁、登入或設定。此測試不是實體手機、電視／投影機、親子試教或人眼完整動畫驗收。
-- 本回合先提交樣板，待Pages與實際網址／素材確認後才接首頁ai欄位；發布紀錄另補。
+- 課程樣板由PR #7合併；Pages run 45935283502成功，部署commit e7b37e5f08a47cd8f07efbad5aba9d0641893930。
+- 正式入口：https://chobittso-ai.github.io/GPT/ai-kids/ 。已在正式URL完成上述背景全流程與兩種手機尺寸檢查，HTTP及所用素材無失敗回應、無JavaScript錯誤。
+- 本批在homepage/course-links.js僅新增ai: './ai-kids/'，保留history。首頁三種入口共用openPlace與此課程表；合併後另核對Pages及真實首頁進入路徑。
 - 待使用者操作確認動態風格與帶課節奏後，才擴至其他頁與八堂；三段原課程影片及完整AI操作尚未搬上網頁。
